@@ -21,8 +21,9 @@
   background-image: url('img/16px-baseline.png');
 }
 .t18 {
-  line-height: 18px;
+/*  line-height: 18px;
   font-size: 12px;
+*/
   background-image: url('img/18px-baseline.png');
 }
 .t20 {
