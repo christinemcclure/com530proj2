@@ -40,9 +40,9 @@
 -->
 
   <!--Load the latest version of 1. jQuery library-->
-  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
   <!--Load site-wide JavaScript-->
-  <script type="text/javascript" src="/js/site.js"></script>
+  <script type="text/javascript" src="js/site.js"></script>
 
 </head>
 
@@ -78,8 +78,8 @@
 
   <div id="content">
 
-    <h2 id="experience">Experience</h2>
-
+    <h2 id="experience" class="headerToggle">Experience</h2>
+      <div class="contentToggle">
       <h3>Digital Services Librarian</h3>
       <p>Illinois Institute of Technology</p>
    	  <h4>Web Design/Development</h4>
@@ -204,10 +204,10 @@
           <ul>
             <li>Designed marketing materials such as <strong>logos, business cards and brochures</strong>.</li>
           </ul>
+      </div>
 
-
-    <h2 id="skills">Technical Skills</h2>
-
+    <h2 id="skills" class="headerToggle">Technical Skills</h2>
+      <div class="contentToggle">
     	<h3>Software</h3>
 
       	<h4>Library Systems</h4>
@@ -239,9 +239,9 @@
         <ul>
           <li>HTML, PHP, <strong>JavaScript/jQuery, Ruby on Rails,</strong> MySQL, Perl</li>
         </ul>
-
-	  <h2 id="education">Education</h2>
-   
+      </div>
+	  <h2 id="education" class="headerToggle">Education</h2>
+      <div class="contentToggle">   
     	<ul>
       	<li>Master Certificate in <strong>Web Design &amp; Application Development</strong> (2012)</li>
       	<li>Master of <strong>Library and Information Science</strong>, Dominican University, River Forest, IL. 
@@ -251,15 +251,16 @@
         </li>
         <li>Bachelor of Science, Eastern Michigan University, Ypsilanti, MI</li>
       </ul>
+      </div>
 
-
-	  <h2 id="activities">Activities / Interests</h2>
+	  <h2 id="activities" class="headerToggle">Activities / Interests</h2>
+      <div class="contentToggle">
     	<ul>
 			  <li>Active member of ALA, RUSA, and LITA</li>
 			  <li><strong>Photography</strong> (fine art, portraiture and event photography)</li>
 			  <li>Graphic design</li>
       </ul>
-
+     </div>
 
   </div>
 
@@ -279,6 +280,12 @@
 
 </div>
 
+<script type="text/javascript">
+$(document).ready(function() {
+  alert ('here');
+  $('.contentToggle').hide();
+}
+</script>
 </body>
 
 </html>
