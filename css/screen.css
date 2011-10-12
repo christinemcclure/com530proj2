@@ -1,9 +1,7 @@
 /* Mobile Styles (apply to non-mobile also) */
 
 html { /* initial grid system: line-height:18 font-size: 14 */
-  line-height: 12px;
-  font-size: 8px;
-  background-image: url('/css/img/12px-baseline.png');
+
   font-family: 'Quattrocento Sans', sans-serif;
 }
 
@@ -20,14 +18,12 @@ div#footer {}
 h1,h2,h3,h4,h5,h6 { font-family: 'Lato', sans-serif; } /* Google font */
 
 h1 {
-  font-size: 24px;
-  letter-spacing:2px;
-  margin: 10px 0 14px 0;
+
 }
 
 
 h2 {
-  font-size: 8px;
+;
 }
 /*
 h3{
@@ -37,8 +33,7 @@ h3{
 */
 /* Paragraphs */
 p.tagline {
-  font-size: 10px;
-  margin: 0 0 2px 0;
+
 }
 p{
 
