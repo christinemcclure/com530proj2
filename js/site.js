@@ -1,7 +1,7 @@
  $(document).ready(function() {
 
    /* Initial page states*/
-  $('.contentToggle').hide();    
+/*  $('.contentToggle').hide();    */
 
    $(".headerToggle").click(function() {
      $(this).next('.contentToggle').slideToggle(500);
