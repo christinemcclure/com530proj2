@@ -1,10 +1,9 @@
 /* Mobile Styles (apply to non-mobile also) */
 
 html { /* initial grid system: line-height:18 font-size: 14 */
-  line-height: 18px;
-  font-size: 14px;
-  background-image: url('img/18px-baseline.png');
-  
+  line-height: 12px;
+  font-size: 8px;
+  background-image: url('/css/img/12px-baseline.png');
   font-family: 'Quattrocento Sans', sans-serif;
 }
 
@@ -21,26 +20,23 @@ div#footer {}
 h1,h2,h3,h4,h5,h6 { font-family: 'Lato', sans-serif; } /* Google font */
 
 h1 {
-  font-size: 24px;
+  font-size: 8px;
   letter-spacing:2px;
-  margin:9px 0;
 }
 
-/*
+
 h2 {
-  font-size: 20px;
-  margin: 8px 0;
+  font-size: 8px;
 }
-
+/*
 h3{
-  font-size: 16px;
-  margin: 2px 0;
+  font-size: 8px;
 }
 
 */
 /* Paragraphs */
 p.tagline {
-
+  font-size: 8px;
 }
 p{
 
@@ -56,7 +52,7 @@ div#content ul > li {}
 
 /* Hide Stuff */
 ul.accessibility { display: none; }
-
+a {text-decoration: none;}
 
 
 /* Basic Media Query for Screens wider than 1010 pixels */
