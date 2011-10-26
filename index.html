@@ -52,28 +52,54 @@
 
   <div id="header">
     <h1><a href="http://example.com/" rel="home">Christine McClure</a></h1>
+    <p>Librarian. Web developer. Photographer. Geek.</p>
   </div>
 
   <div id="content">
-      <h2> Photography <img src="/img/temp.png" alt="photo of 1960s Rolliflex camera" /></h2>
+      <h2> Photography <img src="/img/Xtemp.png" alt="photo of 1960s Rolliflex camera" /></h2>
         <div id="galleries" class="nav">
           <h3>Galleries</h3>
           <p>View fine art, portraiture and event photography</p>
         </div>
         <div id="about" class="nav">
           <h3>About</h3>
-          <p>Artist biography and background</p>
+          <p>I remember setting up a makeshift studio at twelve years old, using my velour bathrobe as a backdrop 
+              and trying to take macro shots of ceramic dog figurines with my little 110mm Kodak camera. I was hoping to convince my parents to get me a real, live German Shepherd or Labrodor</p>
+          <p>That particular campaign wasn't successful, but it did kickstart my interest in photography that continues today. I've used techniques over the years such as been using techniques from Polaroid transfers to silver gelatin prints to high-dynamic range digital images.</p>
+          <h4>Artist Biography</h4>
+        
         </div>
         <div id="pricing" class="nav">
           <h3>Pricing</h3>
-          <p>Pricing information and links to completed events</p>
+          <h4>Event Photography</h4>
+            <p>From children's birthday parties to book signings to corporate functions, you'll receive an accurate record of the occasion. Pricing is by a per-hour shooting fee, with a minimum agreed-upon amount. Additional shooting time can be arranged on the day of the event if necessary.</p>
+             <p>After the event, you will receive a CD of web-quality images (600x400 pixels at 150ppi). Print-quality images can be <a href="http://christinemcclure.smugmug.com/" target="_blank">ordered online</a> at an additional cost.</p>
+          <h4>Portraiture</h4>
+            <p>Whether you want a professional portrait, a casual outdoor photo, or something inbetween, I can work with you to capture the image you want to present to the world. With travel lights and a tripod, I can transfer the image in your mind to reality.</p>
+             <p>Pricing is based on a flat-rate sitting fee for one hour of shooting. Additional time can be purchased for location and wardrobe changes.</p>
+             <p>After the event, you will receive a CD of web-quality images (600x400 pixels at 150ppi). Print-quality images can be <a href="http://christinemcclure.smugmug.com/" target="_blank">ordered online</a> at an additional cost.</p>
         </div>
         <div id="contact" class="nav">
           <h3>Contact</h3>
-          <p>Availability and additional information</p>
+            <p>Access <a href="http://christinemcclure.smugmug.com/" target="_blank">online galleries</a> for printing.</p>
+          <div class="contact">
+               <form method="post" action="contact.php" id="contactForm">
+                <label for="name">Name:</label>
+                <input type="text" name="name" id="name">
+                <label for="email">E-mail:</label>
+                <input type="text" name="email" id="email">
+                <label for="phone">Phone:</label>
+                <input type="text" name="phone" id="phone">
+                <label for="message">Message:</label>
+                <textarea name="message" id="message"></textarea>
+                    <input class="button" type="submit" name="submit" value="Send" id="submitButton" />
+                    <input type="hidden" name="submitted" value="TRUE" />
+                </form>
+          </div>
         </div>
 
-      <h2><img src="/img/temp.png" alt="photo of librarian action gifure" /> Librarianship </h2>
+      <h2><img src="/img/Xtemp.png" alt="photo of librarian action figure" />Librarianship</h2>
+        <p>I'm enjoying the disparity of being both an old hand and a newbie. I wandered around the IT consultant environment for many years as a quality assurance geek, writing code to test code. A work-related epiphany in 2004 (Do this for another 30 years? No way!) sent me to library school. I'm now happily ensconced as a Digital Services Librarian at a private university in Chicago. My goal is to provide a rich online experience for students that doesn’t take a library degree to navigate.</p>
         <div id="resume" class="nav">
           <p>Work experience, skills, the usual stuff</p>
           <h3>Resume</h3>
@@ -95,15 +121,8 @@
 
   <div id="footer">
     <p class="credits">
-      Site information, credits, license.
+      &copy;2011 Christine McClure (design and content)
     </p>
-
-    <ul class="validators">
-      <li><a href="http://validator.w3.org/check?uri=referer"
-        title="Validate this page's XHTML">XHTML</a></li>
-      <li><a href="http://jigsaw.w3.org/css-validator/check/referer"
-        title="Validate this page's CSS">CSS</a></li>
-    </ul>
   </div>
 
 </div>
