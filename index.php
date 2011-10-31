@@ -9,7 +9,7 @@
   -->
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
 
-  <title>Christine McClure test</title>
+  <title>Christine McClure</title>
   <link href='http://fonts.googleapis.com/css?family=Quattrocento+Sans' rel='stylesheet' type='text/css' /> <!-- paragraph Google font -->
   <link href='http://fonts.googleapis.com/css?family=Lato:700,900' rel='stylesheet' type='text/css' /> <!-- headings Google font -->
   <link rel="stylesheet" type="text/css" href="/css/reset.css" />
@@ -54,41 +54,28 @@
 
   <div id="content">
       <h2> Photography <img src="/img/Xtemp.png" alt="photo of 1960s Rolliflex camera" /></h2>
-        <div id="galleries" class="nav">
-          <h3>Galleries</h3>
-          <p>View fine art, portraiture and event photography</p>
-        </div>
         <div id="about" class="nav">
           <h3>About</h3>
-          <p>I've been fascinated with photography ever since my childhood in the seventies, where I staged a photo shoot using a velour bathrobe as a backdrop, ceramic dog figurines as models, and my trusty little 110 plastic camera.          </p>
-          <h4>Exhibitions</h4>
-            	<p><strong>Portals</strong> Looptopia, Chicago IL. May 2007 – Looptopia</p>
-              <p>This exhibit explored how people experience art. The images were encased in self-lit 6 x 6" boxes, with a large plastic loupe (magnifying glass) mounted to the top. Rather than discretely passing by the images, viewers had to walk directly up to them and peer inside. The images were arranged in groups of three, and let users explore alternate worlds of religion, nature and mythology.</p>
-            	<p><strong>Retrospective</strong> Gallery 302, Chicago IL. August 2004</p>
-              <p>This exhibit showcased my favorite digital and silver gelatin prints, including the new piece "Persephone's Garden."</p>
-            	<p><strong>Untitled</strong> Around the Coyote Festival, Chicago IL. September 2003</p>
-              <p>Various silver gelatin prints</p>
-            	<p><strong>180 Minutes</strong> Residency Program Exhibition, Vital Projects gallery, Chicago IL. February 2003</p>
-            	<p><strong>Untitled</strong> Around the Coyote Festival, Chicago IL. August 2002</p>
-          <h4>Education</h4>
-						<h6>Residency Program, Vital Projects Studio, Chicago, IL:</h6>
-							<p>A three month residency designed for advanced photographers who wanted to explore creating a cohesive body of work for exhibition. 2002-2003</p>
-							<h6>Courses:</h6>
-              	<p>Basic exposure and printing, advanced printing, color printing, digital imaging, portraiture lighting. 1994 - present</p>
+          <p>I've been fascinated with photography ever since my childhood in the seventies, where I staged a photo shoot using a velour bathrobe as a backdrop, ceramic dog figurines as models, and my trusty little 110 plastic camera.</p>
+          <h4><a href="/artist-biography.php">Exhibitions and Education</a></h4>
+		    </div>
+        <div id="galleries" class="nav">
+          <h3>Galleries</h3>
+          <p>View <a href="/fine-art.php">fine art</a>, <a href="/portraits.php">portraiture</a> and <a href="/events.php">event</a> photography</p>
         </div>
         <div id="pricing" class="nav">
           <h3>Pricing</h3>
           <h4>Event Photography</h4>
             <p>From children's birthday parties to book signings to corporate functions, you'll receive an accurate record of the occasion. Pricing is by a per-hour shooting fee, with a minimum agreed-upon amount. Additional shooting time can be arranged on the day of the event if necessary.</p>
-             <p>After the event, you will receive a CD of web-quality images (600x400 pixels at 150ppi). Print-quality images can be <a href="http://christinemcclure.smugmug.com/">ordered online</a> at an additional cost.</p>
+             <p>After the event, you will receive a CD of web-quality images (600x400 pixels at 150ppi). Print-quality images can be ordered onlineat an additional cost.</p>
           <h4>Portraiture</h4>
             <p>Whether you want a professional portrait, a casual outdoor photo, or something inbetween, I can work with you to capture the image you want to present to the world. With travel lights and a tripod, I can transfer the image in your mind to reality.</p>
              <p>Pricing is based on a flat-rate sitting fee for one hour of shooting. Additional time can be purchased for location and wardrobe changes.</p>
-             <p>After the event, you will receive a CD of web-quality images (600x400 pixels at 150ppi). Print-quality images can be <a href="http://christinemcclure.smugmug.com/">ordered online</a> at an additional cost.</p>
+             <p>After the event, you will receive a CD of web-quality images (600x400 pixels at 150ppi). Print-quality images can be ordered online at an additional cost.</p>
         </div>
         <div id="contact" class="nav">
           <h3>Contact</h3>
-            <p>Access <a href="http://christinemcclure.smugmug.com/">online galleries</a> for printing.</p>
+            <p>Need to order prints? You can do that <a href="http://christinemcclure.smugmug.com/">online at Smugmug</a>, where they use a professional photo lab for expert color correction.</p>
           <div class="contact">
             <form method="post" action="contact.php" id="contactForm">
             </form>
@@ -101,7 +88,7 @@
         </div>
 
       <h2><img src="/img/Xtemp.png" alt="photo of librarian action figure" />Librarianship</h2>
-        <p>I'm enjoying the disparity of being both an old hand and a newbie. I wandered around the IT consultant environment for many years as a quality assurance geek, writing code to test code. A work-related epiphany in 2004 (Do this for another 30 years? No way!) sent me to library school. I'm now happily ensconced as a Digital Services Librarian at a private university in Chicago. My goal is to provide a rich online experience for students that doesn’t take a library degree to navigate.</p>
+        <p>I'm currently the Digital Services Librarian at a private university in Chicago, where I design and develop websites and make all of our various technologies talk to each other. My goal is to provide a rich online experience for students that doesn't take a library degree to navigate.</p>
         <div id="resume" class="nav">
           <p>Work experience, skills, the usual stuff</p>
           <h3>Resume</h3>
