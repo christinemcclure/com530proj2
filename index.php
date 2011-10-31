@@ -50,10 +50,7 @@
 
 <div id="page">
 
-  <div id="header">
-    <h1><a href="http://christinemcclure.com/" rel="home">Christine McClure</a></h1>
-    <p>Librarian. Web developer. Photographer. Geek.</p>
-  </div>
+  <?php include '/includes/header.php' ?>
 
   <div id="content">
       <h2> Photography <img src="/img/Xtemp.png" alt="photo of 1960s Rolliflex camera" /></h2>
@@ -124,11 +121,7 @@
   </div>
 
 
-  <div id="footer">
-    <p class="credits">
-      &copy;2011 Christine McClure (design and content)
-    </p>
-  </div>
+  <?php include '/includes/footer.php' ?>
 
 </div>
 

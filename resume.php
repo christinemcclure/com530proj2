@@ -50,20 +50,7 @@
 
 <div id="page">
 
-  <div id="header">
-
-    <h1><a href="http://example.com/" rel="home">Christine McClure</a></h1>
-
-    <ul class="accessibility">
-      <li><a href="#navigation">Jump to Navigation</a></li>
-      <li><a href="#content">Jump to Content</a></li>
-
-    </ul>
-    <p class="tagline">
-     I'm a librarian who specializes in web development and other technical endeavors. My goal is to provide a rich online experience for students that doesn’t take a library degree to navigate.
-    </p>
-
-  </div>
+<?php include '/includes/header.php' ?>
 
   <div id="content">
 
@@ -254,18 +241,8 @@
   </div>
 
 
-  <div id="footer">
-    <p class="credits">
-      Site information, credits, license.
-    </p>
+<?php include '/includes/header.php' ?>
 
-    <ul class="validators">
-      <li><a href="http://validator.w3.org/check?uri=referer"
-        title="Validate this page's XHTML">XHTML</a></li>
-      <li><a href="http://jigsaw.w3.org/css-validator/check/referer"
-        title="Validate this page's CSS">CSS</a></li>
-    </ul>
-  </div>
 
 </div>
 
@@ -273,7 +250,7 @@
 $(document).ready(function() {
   alert ('here');
   $('.contentToggle').hide();
-}
+})
 </script>
 </body>
 
