@@ -54,14 +54,14 @@
 
   <div id="content">
       <h2> Photography <img src="/img/Xtemp.png" alt="photo of 1960s Rolliflex camera" /></h2>
+      <p>I've been fascinated with photography ever since my childhood in the seventies, where I staged a photo shoot using a velour bathrobe as a backdrop, ceramic dog figurines as models, and my trusty little 110 plastic camera.</p>
         <div id="about" class="nav">
           <h3>About</h3>
-          <p>I've been fascinated with photography ever since my childhood in the seventies, where I staged a photo shoot using a velour bathrobe as a backdrop, ceramic dog figurines as models, and my trusty little 110 plastic camera.</p>
           <h4><a href="/artist-biography.php">Exhibitions and Education</a></h4>
 		    </div>
         <div id="galleries" class="nav">
           <h3>Galleries</h3>
-          <p>View <a href="/fine-art.php">fine art</a>, <a href="/portraits.php">portraiture</a> and <a href="/events.php">event</a> photography</p>
+          <p>View <a href="/fine-art.php">fine art</a>, <a href="/portraits.php">portraiture</a>, <a href="/events.php">event</a> and <a href="/travel.php">travel</a> photography</p>
         </div>
         <div id="pricing" class="nav">
           <h3>Pricing</h3>
