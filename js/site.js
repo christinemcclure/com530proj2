@@ -1,11 +1,16 @@
  $(document).ready(function() {
 
    /* Initial page states*/
-/*  $('.contentToggle').hide();    */
+  $('#about').hide();    
 
-   $(".headerToggle").click(function() {
-     $(this).next('.contentToggle').slideToggle(500);
-   });
-
+     $("#openAbout").toggle(
+      function(){$('#openAbout').removeClass('headerClosed'), $('#openDesk').addClass('headerOpen'),
+	  			$('#about').slideToggle();},
+      function () {
+        $('#openAbout').removeClass('headerOpen'), $('#openAbout').addClass('headerClosed'),
+		$('#about').slideToggle();}
+    ); 
+		
+		
  });
 

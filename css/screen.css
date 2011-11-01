@@ -1,66 +1,77 @@
 /* Mobile Styles (apply to non-mobile also) */
 
-img {max-width:50%;}
+img {max-width:100%;}
 
 html { /* initial grid system: line-height:18 font-size: 14 */
-
-  font-family: 'Quattrocento Sans', sans-serif;
+  font-family: 'Spinnaker', sans-serif;
+  padding: 15px; 
+  font-size: 14px;
 }
 
 
-/* Page Divisions - NO LAYOUT HERE; Think Linear, Mobile Design */
-div#header {}
-div#content {}
-div#main {}
-div#supporting {}
-ul#navigation {}
-div#footer {}
+#page{
+  width:100%;
+}
 
-/* Headings */
-h1,h2,h3,h4,h5,h6 { font-family: 'Lato', sans-serif; } /* Google font */
+#contenr{  
+  margin: 0px auto;
+}
 
-h1 {
+#header{
+  text-align:center;
+}
 
+#header h1, h2{
+  font-family: 'Covered By Your Grace', serif;
+  padding: 10px;
+}
+
+#header h1 {
+  font-size:42px;
+  line-height:38px;
+}
+
+#photo h2 {
+  font-size:38px;
+  line-height:32px;
+}
+
+.subheading {
+  font-family: 'Spinnaker', sans-serif;
+  font-size: 16px;
+  overflow:hidden;
+}
+
+#header p{
+  font-size: 12px;
+	  margin: 0 0 20px 0;
+}
+
+#camera{
+  display:none;
 }
 
 
-h2 {
-;
-}
-/*
-h3{
-  font-size: 8px;
+.accessibility{
+	display:none;
 }
 
-*/
-/* Paragraphs */
-p.tagline {
-
+.clear {
+ clear:both;
 }
-p{
 
-}
-div#content p {}
-
-/* Lists */
-div#content ul {}
-div#content ul > li {}
-
-
-/* Phrase Styles */
-
-/* Hide Stuff */
-ul.accessibility { display: none; }
-a {text-decoration: none;}
-
-
-/* Basic Media Query for Screens wider than 1010 pixels */
+/* Basic Media Query for Screens wider than 600 pixels (tablets and up) */
 
 @media screen and (min-width: 600px) {
 
-	img {max-width:100%;}
+#camera{
+  padding: 0 0 0 10px;
+  float:right;
+  display:block;
+}
+
   div#page { /*Copy code from grid.css when done experimenting.*/ }
-	div#header { background-color: rgba(255,0,0,.2) }
+
   /*Page Divisions*/
 
   /*
@@ -69,7 +80,7 @@ a {text-decoration: none;}
     use the rgba(); color syntax to keep the grid images
     visible, e.g.,
 
-    div#header { background-color: rgba(255,0,0,.2) }
+	div#header { background-color: rgba(255,0,0,.2) }   
 
     The forth/alpha value ranges from 0 (completely transparent)
     to 1.0 (completely opaque).
