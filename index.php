@@ -10,10 +10,11 @@
   <?php include '/includes/header.php' ?>
 
   <div id="content">
-      <h2> Photography <img src="/img/Xtemp.png" alt="photo of 1960s Rolliflex camera" /></h2>
+		  <img src="/img/boqueteForest.jpg" alt="Macro photo of plant from Boquete, Panama forest." />
+      <h2> Photography <img src="/img/rolliflex.gif" alt="photo of 1960s Rolliflex camera" /></h2>
       <p>I've been fascinated with photography ever since my childhood in the seventies, where I staged a photo shoot using a velour bathrobe as a backdrop, ceramic dog figurines as models, and my trusty little 110 plastic camera.</p>
         <div id="about" class="nav">
-          <h3>About</h3>
+          <h3><a href="#">About</a></h3>
           <h4>Exhibitions</h4>
             	<p><strong>Portals</strong> Looptopia, Chicago IL. May 2007 – Looptopia</p>
               <?php include '/includes/about-portals.html' ?>
@@ -31,7 +32,7 @@
 
 		    </div>
         <div id="galleries" class="nav">
-          <h3>Galleries</h3>
+          <h3><a href="#">Galleries</a></h3>
           <p>View <a href="/fine-art.php">fine art</a>, <a href="/portraits.php">portraiture</a>, <a href="/events.php">event</a> and <a href="/travel.php">travel</a> photography</p>
         </div>
         <div id="pricing" class="nav">
@@ -58,7 +59,7 @@
           </div>
         </div>
 
-      <h2><img src="/img/Xtemp.png" alt="photo of librarian action figure" />Librarianship</h2>
+      <h2><img src="/img/librarian.gif" alt="photo of librarian action figure" />Librarianship</h2>
         <p>I'm currently the Digital Services Librarian at a private university in Chicago, where I design and develop websites and make all of our various technologies talk to each other. My goal is to provide a rich online experience for students that doesn't take a library degree to navigate.</p>
         <div id="resume" class="nav">
           <p>Work experience, skills, the usual stuff</p>
