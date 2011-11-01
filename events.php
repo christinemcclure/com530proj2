@@ -1,4 +1,4 @@
-<?php include '/includes/html-head-stub.html'; ?>
+<?php include './includes/html-head-stub.html'; ?>
 
   <title>Event Photography Gallery: Christine McClure</title>
 
@@ -9,7 +9,7 @@
 <div id="page">
 <div id="content">
 
-  <?php include '/includes/header.php' ?>
+  <?php include './includes/header.php' ?>
 
 <h1>Literature For All of Us, Honor Thy Mother Luncheon, 2011</h1>
   <ul>
@@ -37,7 +37,7 @@
 
 
     
-<?php include '/includes/footer.php' ?>
+<?php include './includes/footer.php' ?>
   
 </div>
 </div>

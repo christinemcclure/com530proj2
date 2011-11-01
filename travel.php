@@ -1,4 +1,4 @@
-<?php include '/includes/html-head-stub.html'; ?>
+<?php include './includes/html-head-stub.html'; ?>
 <title>Portraiture Gallery: Christine McClure</title>
 
 </head>
@@ -8,7 +8,7 @@
 <div id="page">
 <div id="content">
 
-  <?php include '/includes/header.php' ?>
+  <?php include './includes/header.php' ?>
 <h1>Jerusalem</h1>
   <ul>
   	<li>Dome of the Rock <img src="/img/travel/temple_mount_1600_08.jpg" alt="Photo of Muslim woman walking in front the Dome on the Rock." /></li>
@@ -26,7 +26,7 @@
   
 
     
-  <?php include '/includes/footer.php' ?>
+  <?php include './includes/footer.php' ?>
   
 </div>
 </div>

@@ -1,4 +1,4 @@
-<?php include '/includes/html-head-stub.html'; ?>
+<?php include './includes/html-head-stub.html'; ?>
   <title>Fine Art: Christine McClure</title>
 </head>
 
@@ -7,9 +7,9 @@
 <div id="page">
 <div id="content">
 
-  <?php include '/includes/header.php' ?>
+  <?php include './includes/header.php' ?>
 	<h1>Portals</h1>
-  <?php include '/includes/about-portals.html' ?>
+  <?php include './includes/about-portals.html' ?>
   <h2>Focus</h2>
   <h3>(Jerusalem, Israel - Religion as  barrier)</h3>
   <ul>
@@ -34,7 +34,7 @@
   	<li><img src="/img/fineart/persephone-3.jpg" alt="Digitally-manipulated image of a large fern-like plant in grayscale growing out of large red rocks (magnified pebbles)." /></li>    
   </ul>
     
-  <?php include '/includes/footer.php' ?>
+  <?php include './includes/footer.php' ?>
   
 </div>
 </div>

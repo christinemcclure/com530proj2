@@ -1,4 +1,4 @@
-<?php include '/includes/html-head-stub.html'; ?>
+<?php include './includes/html-head-stub.html'; ?>
 
   <title>Resume: Christine McClure</title>
 
@@ -8,7 +8,7 @@
 
 <div id="page">
 
-<?php include '/includes/header.php' ?>
+<?php include './includes/header.php' ?>
 
   <div id="content">
 
@@ -199,7 +199,7 @@
   </div>
 
 
-<?php include '/includes/header.php' ?>
+<?php include './includes/header.php' ?>
 
 
 </div>

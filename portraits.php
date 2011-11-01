@@ -1,4 +1,4 @@
-<?php include '/includes/html-head-stub.html'; ?>
+<?php include './includes/html-head-stub.html'; ?>
   <title>Portraiture Gallery: Christine McClure</title>
 </head>
 
@@ -7,7 +7,7 @@
 <div id="page">
 <div id="content">
 
-  <?php include '/includes/header.php' ?>
+  <?php include './includes/header.php' ?>
   <ul>
   	<li>Gerry Doyle, <strong>From the Depths</strong> book jacket portrait. <img src="/img/portraits/gd_book_03.jpg" alt="Photo of author Gerry Doyle in a bar, holding a beer and laughing." /></li>
   	<li>Gerry Doyle, <strong>From the Depths</strong> book jacket shoot. <img src="/img/portraits/gd_book_02.jpg" alt="Black and white photo of author Gerry Doyle holding a beer, with the back of a woman's head in the foreground." /></li>
@@ -17,7 +17,7 @@
   
 
     
-  <?php include '/includes/footer.php' ?>
+  <?php include './includes/footer.php' ?>
   
 </div>
 </div>
