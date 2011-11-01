@@ -1,5 +1,7 @@
 /* Mobile Styles (apply to non-mobile also) */
 
+img {max-width:50%;}
+
 html { /* initial grid system: line-height:18 font-size: 14 */
 
   font-family: 'Quattrocento Sans', sans-serif;
@@ -54,10 +56,11 @@ a {text-decoration: none;}
 
 /* Basic Media Query for Screens wider than 1010 pixels */
 
-@media screen and (min-width: 1010px) {
+@media screen and (min-width: 600px) {
 
+	img {max-width:100%;}
   div#page { /*Copy code from grid.css when done experimenting.*/ }
-
+	div#header { background-color: rgba(255,0,0,.2) }
   /*Page Divisions*/
 
   /*
