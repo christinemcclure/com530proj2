@@ -12,7 +12,7 @@
   <div id="content">
     <div id="photo">
 		  <img src="/img/boqueteForest.jpg" alt="Macro photo of plant from Boquete, Panama forest." />
-      <img id="camera" src="./img/rolliflex.gif" alt="photo of 1960s Rolliflex camera" />
+      <img id="camera" src="/img/rolliflex.gif" alt="photo of 1960s Rolliflex camera" />
       <p>I've been fascinated with photography ever since my childhood in the seventies, where I staged a photo shoot using a velour bathrobe as a backdrop, ceramic dog figurines as models, and my trusty little 110 plastic camera.</p>
           
           <div id="openAbout">
@@ -42,6 +42,7 @@
             <h2><span class="headingblock">Galleries:</span> <span class="subheading headingblock">View past work</span></h2>
           </div>
           <div id="galleries" class="clear"> 
+            
           <p>View <a href="/fine-art.php">fine art</a>, <a href="/portraits.php">portraiture</a>, <a href="/events.php">event</a> and <a href="/travel.php">travel</a> photography</p>
           </div>
 

@@ -4,14 +4,14 @@
 
 <body>
 
-<div id="page">
+<div id="page" class="gallery">
 <div id="content">
 
   <?php include './includes/header.php' ?>
 	<h1>Portals</h1>
   <?php include './includes/about-portals.html' ?>
-  <h2>Focus</h2>
-  <h3>(Jerusalem, Israel - Religion as  barrier)</h3>
+  <h2><strong>Focus</strong> (Religion as barrier)</h2>
+  <p>Jerusalem, Israel</p>
   <ul>
   	<li><img src="/img/fineart/focus-1.jpg" alt="Circular photo. Top half is out-of-focus dark shapes. Bottom half is the top portion of a gate (barrier) in up-close detail" /></li>
     <li><img src="/img/fineart/focus-2.jpg" alt="Circular photo. Top half is slightly out-of-focus dark shapes. Bottom half is slightly out-of-focus gate (barrier)." /></li>
@@ -19,7 +19,7 @@
   </ul>
 
   <h2>Macro</h2>
-  <h3>(Chicago, Illnois - Life in the details)</h3>
+  <h3>(Chicago, Illinois - Life in the details)</h3>
   <ul>
   	<li><img src="/img/fineart/macro-1.jpg" alt="Circular photo of a succulent plant (unknown species) taken at the Garfield Park Conservatory in Chicago, Illinois." /></li>
   	<li><img src="/img/fineart/macro-2.jpg" alt="Circular photo of a succulent plant (unknown species) taken at the Garfield Park Conservatory in Chicago, Illinois." /></li>
