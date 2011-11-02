@@ -22,12 +22,15 @@
 	          <h3>Exhibitions</h3>
             	<p class="showtitle"><strong>Portals:</strong> Looptopia, Chicago IL. May 2007</p>
               <?php include './includes/about-portals.html' ?>
+              <p><a href="fine-art.php">View Gallery</a></p>
             	<p class="showtitle"><strong>Retrospective</strong> Gallery 302, Chicago IL. August 2004</p>
               <p>This exhibit showcased my favorite digital and silver gelatin prints, including the new piece "Persephone's Garden."</p>
             	<p class="showtitle"><strong>Untitled:</strong> Around the Coyote Festival, Chicago IL. September 2003</p>
-              <p>Various silver gelatin prints</p>
+              <p>Assorted silver gelatin prints</p>
             	<p class="showtitle"><strong>180 Minutes:</strong> Residency Program Exhibition, Vital Projects gallery, Chicago IL. February 2003</p>
+              <?php include './includes/about-180minutes.html' ?>
             	<p class="showtitle"><strong>Untitled:</strong> Around the Coyote Festival, Chicago IL. August 2002</p>
+              <p>Assorted silver gelatin prints</p>
   	        <h3>Education</h3>
 							<h4>Residency Program, Vital Projects Studio, Chicago, IL:</h4>
 							<p>A three month residency designed for advanced photographers who wanted to explore creating a cohesive body of work for exhibition. 2002-2003</p>
