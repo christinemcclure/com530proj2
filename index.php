@@ -16,9 +16,9 @@
       <p>I've been fascinated with photography ever since my childhood in the seventies, where I staged a photo shoot using a velour bathrobe as a backdrop, ceramic dog figurines as models, and my trusty little 110 plastic camera.</p>
           
           <div id="openAbout">
-						<h2><a href="#aboutcontent">About: <span class="subheading">Exhibitions and Education</span></a></h2>
+						<h2><span class="headingblock">About:</span> <span class="subheading headingblock">Exhibitions/Education</span></h2>
           </div>
-          <div id="about">          
+          <div id="about" class="clear">          
 	          <h3>Exhibitions</h3>
             	<p><strong>Portals</strong> Looptopia, Chicago IL. May 2007 – Looptopia</p>
               <?php include './includes/about-portals.html' ?>

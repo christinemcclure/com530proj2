@@ -32,16 +32,23 @@ html { /* initial grid system: line-height:18 font-size: 14 */
 }
 
 #photo h2 {
-  font-size:38px;
-  line-height:32px;
+  font-size:32px;
+  line-height:28px;
 }
 
+.headingblock{
+ display:block;
+ float:left; /* to be able to nudge subheadings into place */
+}
 .subheading {
   font-family: 'Spinnaker', sans-serif;
-  font-size: 16px;
-  overflow:hidden;
+  font-size: 14px;
+  margin: 3px 0 0 10px;
 }
 
+a {
+outline:none;
+}
 #header p{
   font-size: 12px;
 	  margin: 0 0 20px 0;
@@ -94,3 +101,4 @@ html { /* initial grid system: line-height:18 font-size: 14 */
 
 /*Close curly-brace from media query:*/
 }
+
