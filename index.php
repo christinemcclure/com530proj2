@@ -12,7 +12,7 @@
   <div id="content">
     <div id="photo">
 		  <img src="/img/boqueteForest.jpg" alt="Macro photo of plant from Boquete, Panama forest." />
-      <img id="camera" src="/img/rolliflex.gif" alt="photo of 1960s Rolliflex camera" />
+      <img id="camera" src="./img/rolliflex.gif" alt="photo of 1960s Rolliflex camera" />
       <p>I've been fascinated with photography ever since my childhood in the seventies, where I staged a photo shoot using a velour bathrobe as a backdrop, ceramic dog figurines as models, and my trusty little 110 plastic camera.</p>
           
           <div id="openAbout">
@@ -21,7 +21,7 @@
           <div id="about" class="clear">          
 	          <h3>Exhibitions</h3>
             	<p><strong>Portals</strong> Looptopia, Chicago IL. May 2007 – Looptopia</p>
-              <?php include './includes/about-portals.html' ?>
+              <?php include '/includes/about-portals.html' ?>
             	<p><strong>Retrospective</strong> Gallery 302, Chicago IL. August 2004</p>
               <p>This exhibit showcased my favorite digital and silver gelatin prints, including the new piece "Persephone's Garden."</p>
             	<p><strong>Untitled</strong> Around the Coyote Festival, Chicago IL. September 2003</p>
@@ -83,7 +83,7 @@
   </div>
 
 
-  <?php include './includes/footer.php' ?>
+  <?php include '/includes/footer.php' ?>
 
 </div>
 

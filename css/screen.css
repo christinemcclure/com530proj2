@@ -23,12 +23,12 @@ html { /* initial grid system: line-height:18 font-size: 14 */
 
 #header h1, h2{
   font-family: 'Covered By Your Grace', serif;
-  padding: 10px;
 }
 
 #header h1 {
   font-size:42px;
   line-height:38px;
+  padding: 10px;
 }
 
 #photo h2 {
@@ -39,6 +39,7 @@ html { /* initial grid system: line-height:18 font-size: 14 */
 .headingblock{
  display:block;
  float:left; /* to be able to nudge subheadings into place */
+ cursor:pointer;
 }
 .subheading {
   font-family: 'Spinnaker', sans-serif;
