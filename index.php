@@ -20,7 +20,7 @@
           </div>
           <div id="about" class="clear">          
 	          <h3>Exhibitions</h3>
-            	<p class="showtitle"><strong>Portals:</strong> Looptopia, Chicago IL. May 2007</p>
+            	<p class="showtitle" id="portals"><strong>Portals:</strong> Looptopia, Chicago IL. May 2007</p>
               <?php include './includes/about-portals.html' ?>
               <p><a href="fine-art.php">View Gallery</a></p>
             	<p class="showtitle"><strong>Retrospective</strong> Gallery 302, Chicago IL. August 2004</p>
@@ -42,8 +42,11 @@
             <h2><span class="headingblock">Galleries:</span> <span class="subheading headingblock">View past work</span></h2>
           </div>
           <div id="galleries" class="clear"> 
-            
-          <p>View <a href="/fine-art.php">fine art</a>, <a href="/portraits.php">portraiture</a>, <a href="/events.php">event</a> and <a href="/travel.php">travel</a> photography</p>
+          	<h3><a href="/fine-art.php">Fine Art</a></h3>  
+          	<h3><a href="/portraits.php">Portraiture</a></h3>
+          	<h3><a href="/events.php">Events</a></h3>
+						<h3> <a href="/travel.php">Travel</a></h3>  
+        
           </div>
 
           <div id="openPricing">

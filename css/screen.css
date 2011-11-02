@@ -1,120 +1,97 @@
 /* Mobile Styles (apply to non-mobile also) */
 img {
-  max-width: 100%;
-}
+  max-width: 100%; }
 
 html {
   /* initial grid system: line-height:18 font-size: 14 */
   font-family: "Spinnaker", sans-serif;
   padding: 10px;
-  font-size: 14px;
-}
+  font-size: 14px; }
 
 #page {
-  width: 100%;
-}
+  width: 100%; }
 
 #content {
-  margin: 0px auto;
-}
+  margin: 0px auto; }
 
 #header {
-  text-align: center;
-}
+  text-align: center; }
 
 #header h1, h2 {
-  font-family: "Covered By Your Grace", serif;
-}
+  font-family: "Covered By Your Grace", serif; }
 
 #header h1 {
   font-size: 42px;
   line-height: 38px;
-  padding: 10px;
-}
+  padding: 10px; }
 
 #photo h2 {
   font-size: 32px;
-  line-height: 28px;
-}
+  line-height: 28px; }
 
 div > h2 {
   /* spacing for mobile*/
-  padding: 20px 0;
-}
+  padding: 20px 0; }
 
 .headingblock {
   display: block;
   float: left;
   /* to be able to nudge subheadings into place */
-  cursor: pointer;
-}
+  cursor: pointer; }
 
 .subheading, .gallery h2 {
   font-family: "Spinnaker", sans-serif;
   font-size: 14px;
-  margin: 3px 0 0 10px;
-}
+  margin: 3px 0 0 10px; }
 
 .gallery h2 {
   font-family: "Spinnaker", sans-serif;
-  font-size: 14px;
-}
+  font-size: 14px; }
 
 h3 {
   font-size: 18px;
-  margin: 20px 0 10px 0;
-}
+  margin: 20px 0 10px 0; }
 
 .showtitle {
   font-size: 12px;
-  margin: 10px 0 10px 0;
-}
+  margin: 10px 0 10px 0; }
 
 .showtitle strong, .gallery h1, .gallery h2 strong {
   font-family: "PT Serif", serif;
   font-size: 16px;
   margin: 0 5px 0 0;
   font-style: italic;
-  font-weight: bold;
-}
+  font-weight: bold; }
 
 h4 {
   font-weight: bold;
-  margin: 5px 0;
-}
+  margin: 5px 0; }
 
 a {
-  outline: none;
-}
+  outline: none; }
 
 #header p {
   font-size: 12px;
-  margin: 0 0 20px 0;
-}
+  margin: 0 0 20px 0; }
 
 #camera {
-  display: none;
-}
+  display: none; }
 
 .accessibility {
-  display: none;
-}
+  display: none; }
 
 .clear {
-  clear: both;
-}
+  clear: both; }
 
 /* Basic Media Query for Screens wider than 600 pixels (tablets and up) */
 @media screen and (min-width: 600px) {
   #camera {
     padding: 0 0 0 10px;
     float: right;
-    display: block;
-  }
+    display: block; }
 
   div#page {
-    /*Copy code from grid.css when done experimenting.*/
-  }
+    /*Copy code from grid.css when done experimenting.*/ }
 
   /*Page Divisions*/
   /*
@@ -128,5 +105,4 @@ a {
     The forth/alpha value ranges from 0 (completely transparent)
     to 1.0 (completely opaque).
   */
-  /*Close curly-brace from media query:*/
-}
+  /*Close curly-brace from media query:*/ }
