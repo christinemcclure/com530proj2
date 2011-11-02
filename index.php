@@ -20,14 +20,14 @@
           </div>
           <div id="about" class="clear">          
 	          <h3>Exhibitions</h3>
-            	<p><strong>Portals</strong> Looptopia, Chicago IL. May 2007 – Looptopia</p>
-              <?php include '/includes/about-portals.html' ?>
-            	<p><strong>Retrospective</strong> Gallery 302, Chicago IL. August 2004</p>
+            	<p class="showtitle"><strong>Portals:</strong> Looptopia, Chicago IL. May 2007</p>
+              <?php include './includes/about-portals.html' ?>
+            	<p class="showtitle"><strong>Retrospective</strong> Gallery 302, Chicago IL. August 2004</p>
               <p>This exhibit showcased my favorite digital and silver gelatin prints, including the new piece "Persephone's Garden."</p>
-            	<p><strong>Untitled</strong> Around the Coyote Festival, Chicago IL. September 2003</p>
+            	<p class="showtitle"><strong>Untitled:</strong> Around the Coyote Festival, Chicago IL. September 2003</p>
               <p>Various silver gelatin prints</p>
-            	<p><strong>180 Minutes</strong> Residency Program Exhibition, Vital Projects gallery, Chicago IL. February 2003</p>
-            	<p><strong>Untitled</strong> Around the Coyote Festival, Chicago IL. August 2002</p>
+            	<p class="showtitle"><strong>180 Minutes:</strong> Residency Program Exhibition, Vital Projects gallery, Chicago IL. February 2003</p>
+            	<p class="showtitle"><strong>Untitled:</strong> Around the Coyote Festival, Chicago IL. August 2002</p>
   	        <h3>Education</h3>
 							<h4>Residency Program, Vital Projects Studio, Chicago, IL:</h4>
 							<p>A three month residency designed for advanced photographers who wanted to explore creating a cohesive body of work for exhibition. 2002-2003</p>
@@ -35,11 +35,17 @@
               	<p>Basic exposure and printing, advanced printing, color printing, digital imaging, portraiture lighting. 1994 - present</p>
 					</div>
           
-          
-          <h2><a href="#">Galleries: <span class="subheading">View past work</span></a></h2>
+          <div id="openGalleries">
+            <h2><span class="headingblock">Galleries:</span> <span class="subheading headingblock">View past work</span></h2>
+          </div>
+          <div id="galleries" class="clear"> 
           <p>View <a href="/fine-art.php">fine art</a>, <a href="/portraits.php">portraiture</a>, <a href="/events.php">event</a> and <a href="/travel.php">travel</a> photography</p>
+          </div>
 
-          <h2><a href="#">Pricing: <span class="subheading">How things are done</span></a></h2>
+          <div id="openPricing">
+            <h2><span class="headingblock">Pricing:</span> <span class="subheading headingblock">How things are done</span></h2>
+          </div>
+          <div id="pricing" class="clear"> 
           <h3>Event Photography</h3>
             <p>From children's birthday parties to book signings to corporate functions, you'll receive an accurate record of the occasion. Pricing is by a per-hour shooting fee, with a minimum agreed-upon amount. Additional shooting time can be arranged on the day of the event if necessary.</p>
              <p>After the event, you will receive a CD of web-quality images (600x400 pixels at 150ppi). Print-quality images can be ordered onlineat an additional cost.</p>
@@ -47,8 +53,12 @@
             <p>Whether you want a professional portrait, a casual outdoor photo, or something inbetween, I can work with you to capture the image you want to present to the world. With travel lights and a tripod, I can transfer the image in your mind to reality.</p>
              <p>Pricing is based on a flat-rate sitting fee for one hour of shooting. Additional time can be purchased for location and wardrobe changes.</p>
              <p>After the event, you will receive a CD of web-quality images (600x400 pixels at 150ppi). Print-quality images can be ordered online at an additional cost.</p>
+          </div>
 
-          <h2><a href="#">Contact: <span class="subheading">Book or order prints</span></a></h2>
+          <div id="openContact">
+            <h2><span class="headingblock">Contact:</span> <span class="subheading headingblock">Book or order prints</span></h2>
+          </div>
+          <div id="contact" class="clear"> 
             <p>Need to order prints? You can do that <a href="http://christinemcclure.smugmug.com/">online at Smugmug</a>, where they use a professional photo lab for expert color correction.</p>
           <div class="contact">
             <form method="post" action="contact.php" id="contactForm">
@@ -59,6 +69,7 @@
             <input class="button" type="submit" name="submit" value="Send" id="submitButton" />
             <input type="hidden" name="submitted" value="TRUE" />
           </div>
+        </div>
 	</div>
   <div id="library">
       <img src="/img/librarian.gif" alt="photo of librarian action figure" />

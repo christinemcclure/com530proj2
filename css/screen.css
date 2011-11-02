@@ -36,6 +36,10 @@ html { /* initial grid system: line-height:18 font-size: 14 */
   line-height:28px;
 }
 
+div > h2 { /* spacing for mobile*/
+  padding: 20px 0;
+}
+
 .headingblock{
  display:block;
  float:left; /* to be able to nudge subheadings into place */
@@ -46,6 +50,26 @@ html { /* initial grid system: line-height:18 font-size: 14 */
   font-size: 14px;
   margin: 3px 0 0 10px;
 }
+
+
+h3 {
+ font-size: 18px;
+ margin: 20px 0 10px 0;
+}
+
+.showtitle {
+ font-size: 12px;
+ margin: 10px 0 10px 0;
+}
+
+.showtitle strong {
+  font-family:'PT Serif', serif;
+  font-size:16px;
+  margin: 0 5px 0 0;
+  font-style:italic;
+  font-weight:bold;
+}
+
 
 a {
 outline:none;
@@ -102,4 +126,5 @@ outline:none;
 
 /*Close curly-brace from media query:*/
 }
+
 
