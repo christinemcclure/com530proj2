@@ -1,8 +1,19 @@
 project requirements at http://courses.karlstolley.com/530/projects.htm
 
 TO DO 
-***create mobile version first
-copy resume from project 1, stip out class tags
-create home page for lib / photography
-greate sample gallery page
 
+MOBILE
+Add PHP class mailer
+Navigation for gallery/resume pages
+JQuery for link to bookmarks - make sure div is open
+Add ids to tagline and change based on page. 
+
+DESKTOP
+Columns
+
+
+WIDE
+Columns
+
+LAST
+Color scheme
