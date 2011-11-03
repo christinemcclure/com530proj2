@@ -1,0 +1,114 @@
+/* Mobile Styles (apply to non-mobile also) */
+img {
+  max-width: 100%; }
+
+html {
+  /* initial grid system: line-height:18 font-size: 14 */
+  font-family: "Spinnaker", sans-serif;
+  padding: 10px;
+  font-size: 14px; }
+
+#page {
+  width: 100%; }
+
+#content {
+  margin: 0px auto; }
+
+#header {
+  text-align: center; }
+
+#header h1, h3 {
+  font-family: "Covered By Your Grace", serif; }
+
+#header h1 {
+  font-size: 42px;
+  line-height: 38px;
+  padding: 10px; }
+
+h2 {
+  font-family: "Spinnaker", sans-serif;
+  font-size: 18pt;
+  font-weight: bold;
+  margin: 20px 0 20px 0; }
+
+#photo h3 {
+  font-size: 32px;
+  line-height: 28px; }
+
+div > h3 {
+  /* spacing for mobile*/
+  padding: 20px 0; }
+
+.headingblock {
+  display: block;
+  float: left;
+  /* to be able to nudge subheadings into place */
+  cursor: pointer; }
+
+.subheading, .gallery h2 {
+  font-family: "Spinnaker", sans-serif;
+  font-size: 14px;
+  margin: 3px 0 0 10px; }
+
+.gallery h2 {
+  font-family: "Spinnaker", sans-serif;
+  font-size: 14px; }
+
+h4 {
+  font-size: 18px;
+  margin: 20px 0 10px 0; }
+
+.showtitle {
+  font-size: 12px;
+  margin: 10px 0 10px 0; }
+
+.showtitle strong, .gallery h1, .gallery h2 strong {
+  font-family: "PT Serif", serif;
+  font-size: 16px;
+  margin: 0 5px 0 0;
+  font-style: italic;
+  font-weight: bold; }
+
+h5 {
+  font-weight: bold;
+  margin: 5px 0; }
+
+a {
+  outline: none; }
+
+#header p {
+  font-size: 12px;
+  margin: 0 0 20px 0; }
+
+.hideMobile {
+  display: none; }
+
+.accessibility {
+  display: none; }
+
+.clear {
+  clear: both; }
+
+/* Basic Media Query for Screens wider than 600 pixels (tablets and up) */
+@media screen and (min-width: 600px) {
+  #camera {
+    padding: 0 0 0 10px;
+    float: right;
+    display: block; }
+
+  div#page {
+    /*Copy code from grid.css when done experimenting.*/ }
+
+  /*Page Divisions*/
+  /*
+    Helpful hint:
+    While working to position page divisions into regions,
+    use the rgba(); color syntax to keep the grid images
+    visible, e.g.,
+
+	div#header { background-color: rgba(255,0,0,.2) }   
+
+    The forth/alpha value ranges from 0 (completely transparent)
+    to 1.0 (completely opaque).
+  */
+  /*Close curly-brace from media query:*/ }
