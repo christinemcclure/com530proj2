@@ -13,21 +13,6 @@
 */
 
 
-
-$mainFont: 'Spinnaker', sans-serif;
-$mainFontPadding:15px;
-$mainFontSize: 14px;
-$impactFont: 'Covered By Your Grace', serif;
-$headingFont: 'PT Serif', serif;
-
-
-html { /* initial grid system: line-height:18 font-size: 14 */
-  font-family: $mainFont;
-  padding: $mainFontPadding; 
-  font-size: $mainFontSize;
-}
-
-
 #page{
   width:100%;
 }

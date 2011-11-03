@@ -16,9 +16,9 @@
 			<h2>Photography</h2>
       <p>I've been fascinated with photography ever since my childhood in the seventies, where I staged a photo shoot using a velour bathrobe as a backdrop, ceramic dog figurines as models, and my trusty little 110 plastic camera.</p>
           
-          <div id="openAbout">
-						<h3><span class="headingblock">About:</span> <span class="subheading headingblock">Exhibitions/Education</span></h3>
-          </div>
+          <h3 id="openAbout">
+						<span class="headingblock">About:</span> <span class="subheading headingblock">Exhibitions/Education</span>
+          </h3>
           <div id="about" class="clear">          
 	          <h4>Exhibitions</h4>
             	<p class="showtitle" id="portals"><strong>Portals:</strong> Looptopia, Chicago IL. May 2007</p>
@@ -39,9 +39,9 @@
               	<p>Basic exposure and printing, advanced printing, color printing, digital imaging, portraiture lighting. 1994 - present</p>
 					</div>
           
-          <div id="openGalleries">
-            <h3><span class="headingblock">Galleries:</span> <span class="subheading headingblock">View past work</span></h3>
-          </div>
+          <h3 id="openGalleries">
+            <span class="headingblock">Galleries:</span> <span class="subheading headingblock">View past work</span>
+          </h3>
           <div id="galleries" class="clear"> 
           	<h4><a href="/fine-art.php">Fine Art</a></h4>  
           	<h4><a href="/portraits.php">Portraiture</a></h4>
