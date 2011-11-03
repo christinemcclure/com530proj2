@@ -55,37 +55,27 @@ if (isset($_POST['submitted'])) {
 } // End of main isset() IF.
 ?>
 
-
     
             <div><?php echo $feedback; ?>
             </div>
-            <div id="contactForm" class="<?php echo $cssclass; ?>"> <!--showForm to start-->
+            <div id="showContactForm" class="<?php echo $cssclass; ?>"> <!--showForm to start-->
 
-                <form method="post" action="index.php#contact" id="contactForm">
-                <table>
-                  <tr>
-                    <td class="right"><label for="name">Name:</label></td>
-                    <td>
-                      <input type="text" name="name" id="name">
-                    </td>
-                  </tr>
-                  <tr>
-                    <td class="right"><label for="email">E-mail:</label></td>
-                    <td><input type="text" name="email" id="email"></td>
-                  </tr>
-                  <tr>
-                    <td class="right"><label for="phone">Phone:</label></td>
-                    <td><input type="text" name="phone" id="phone"></td>
-                  </tr>
-                  <tr>
-                    <td class="right"><label for="message">Message:</label></td>
-                    <td>  <textarea name="message" cols="50" rows="5" id="message">
-                  </textarea></td>
-                  </tr>
-                </table>
-                    <input class="button" type="submit" name="submit" value="Send" id="submitButton" />
-                    <input type="hidden" name="submitted" value="TRUE" />
-                </form>
+<form method="post" action="index.php#contact" id="contactForm">
+  <p>Name:</p>
+  <p><input type="text" name="name" id="name" /></p>
+  <p>Email:</p>
+  <p><input type="text" name="email" id="email" /></p>
+  <p>Phone:</p>
+  <p><input type="text" name="phone" id="phone" /></p>
+  <p>Message:</p>
+  <p><textarea name="message" cols="30" rows="5" id="message">
+				<?php if (isset($_POST['question'])) echo $_POST['question']; ?>
+	      </textarea>
+   </p>
+  <p><input class="button" type="submit" name="submit" value="Send" id="submitButton" />
+  <input type="hidden" name="submitted" value="TRUE" /></p>
+</form>
 
+</div>
 
 

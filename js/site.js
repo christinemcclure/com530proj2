@@ -39,7 +39,7 @@
     ); 	
 		
 		
-		if ($('#contactForm').hasClass('hideForm')==true) {
+		if ($('#showContactForm').hasClass('hideForm')==true) {
 			$('#contact').show();
 		}
 
