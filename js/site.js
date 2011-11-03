@@ -31,12 +31,17 @@
     ); 	
 
      $("#openContact").toggle(
-      function(){$('#openPricing').removeClass('headerClosed'), $('#openContact').addClass('headerOpen'),
+      function(){$('#openContact').removeClass('headerClosed'), $('#openContact').addClass('headerOpen'),
 	  			$('#contact').slideToggle();},
       function () {
         $('#openContact').removeClass('headerOpen'), $('#openContact').addClass('headerClosed'),
 		$('#contact').slideToggle();}
     ); 	
+		
+		
+		if ($('#contactForm').hasClass('hideForm')==true) {
+			$('#contact').show();
+		}
 
  });
 

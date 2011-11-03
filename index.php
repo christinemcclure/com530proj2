@@ -1,54 +1,3 @@
-<?php // this script creates the  email form
-
-$contact_email="camcclure@gmail.com";
- 
-// Check for form submission:
-if (isset($_POST['submitted'])) {
-
-	function spam_scrubber($value) {
-	
-		// List of very bad values:
-		$very_bad = array('to:', 'cc:', 'bcc:', 'content-type:', 'mime-version:', 'multipart-mixed:', 'content-transfer-encoding:');
-		
-		// If any of the very bad strings are in the submitted value, return an empty string:
-		foreach ($very_bad as $v) {
-			if (stripos($value, $v) !== false) return '';
-		}
-		
-		// Replace any newline characters with spaces:
-		$value = str_replace(array( "\r", "\n", "%0a", "%0d"), ' ', $value);
-		
-		// Return the value:
-		return trim($value);
-	
-	} // End of spam_scrubber() function.
-	
-	// Clean the form data:
-	$scrubbed = array_map('spam_scrubber', $_POST);
-
-	// Minimal form validation:
-	if  (  (!empty($scrubbed['name'])) && (!empty($scrubbed['email'])) ) {
-	
-		// Create the body:
-		$body = "Name: {$scrubbed['name']} \n E-mail: {$scrubbed['email']} \n {$scrubbed['message']}";
-		$body = wordwrap($body, 70);
-	
-		// Send the email:
-		mail($contact_email, "Mail from ChristineMcClure.com", $body, "From: {$scrubbed['email']}");
-		
-		// Print a message:
-		echo "<p>Thank you for your message; I will be in contact soon. Enjoy your day.</p>";
-		
-		// Clear $_POST (so that the form's not sticky):
-		$_POST = array();
-	
-	} else {
-		echo '<p class="red">Please include both your name and e-mail address.</p>';
-	}
-	
-} // End of main isset() IF.
-?>
-
 <?php include './includes/html-head-stub.html'; ?>
 
   <title>Christine McClure</title>
@@ -123,27 +72,7 @@ if (isset($_POST['submitted'])) {
             <p>You can do that <a href="http://christinemcclure.smugmug.com/">online at Smugmug</a>, where they use a professional photo lab for expert color correction.</p>
             <h4>Or, send me a message:</h4> 
             
-            
-<!-- begin E-mail reference form -->
-<p>&nbsp;</p>
-<form action="index.php" method="post">
-  <p>Name*
-    <input name="name" type="text" id="name" />
-  </p>
-  <p>E-mail address 
-    <input name="email" type="text" id="email" />
-  </p>
-  <p>Message<br />
-  <textarea name="message" cols="30" rows="5" id="message">
-<?php if (isset($_POST['question'])) echo $_POST['question']; ?>
-	      </textarea>
-    </p>
-  <p>
-    <input type="submit" name="submit" value="Send!" />
-    <input type="hidden" name="submitted" value="TRUE" />
-  </p>
-</form>
-
+						<?php include './form.php'; ?>
     
         </div>
 	</div>

@@ -97,7 +97,7 @@ a {
 }
 
 /* line 36, ../sass/_base.scss */
-.accessibility {
+.accessibility, .hideForm {
   display: none;
 }
 
