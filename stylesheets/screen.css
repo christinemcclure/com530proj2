@@ -167,7 +167,7 @@ div > h3 {
 /* line 42, ../sass/_mobile.scss */
 h4 {
   font-size: 18px;
-  margin: 20px 0 10px 0;
+  margin: 25px 0 10px 0;
 }
 
 /* line 47, ../sass/_mobile.scss */
@@ -176,7 +176,12 @@ h5 {
   margin: 5px 0;
 }
 
-/* line 53, ../sass/_mobile.scss */
+/* line 52, ../sass/_mobile.scss */
+p {
+  margin: 5px 0 10px 0;
+}
+
+/* line 57, ../sass/_mobile.scss */
 .headingblock {
   display: block;
   float: left;
@@ -184,13 +189,13 @@ h5 {
   cursor: pointer;
 }
 
-/* line 60, ../sass/_mobile.scss */
+/* line 64, ../sass/_mobile.scss */
 .showtitle {
   font-size: 12px;
-  margin: 10px 0 10px 0;
+  margin: 15px 0 10px 0;
 }
 
-/* line 65, ../sass/_mobile.scss */
+/* line 69, ../sass/_mobile.scss */
 .showtitle strong, .gallery h1, .gallery h2 strong {
   font-family: "PT Serif", serif;
   font-size: 16px;
@@ -199,7 +204,7 @@ h5 {
   font-weight: bold;
 }
 
-/* line 74, ../sass/_mobile.scss */
+/* line 78, ../sass/_mobile.scss */
 .hideMobile {
   display: none;
 }
