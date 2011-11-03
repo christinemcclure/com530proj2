@@ -28,7 +28,7 @@ html { /* initial grid system: line-height:18 font-size: 14 */
   text-align:center;
 }
 
-#header h1, h2{
+#header h1, h3{
   font-family: $impactFont;
 }
 
@@ -38,12 +38,18 @@ html { /* initial grid system: line-height:18 font-size: 14 */
   padding: 10px;
 }
 
-#photo h2 {
+h2 {
+ font-family: $mainFont;
+ font-size: 18pt;
+ font-weight:bold;
+ margin: 20px 0 20px 0;
+}
+#photo h3 {
   font-size:32px;
   line-height:28px;
 }
 
-div > h2 { /* spacing for mobile*/
+div > h3 { /* spacing for mobile*/
   padding: 20px 0;
 }
 
@@ -64,7 +70,7 @@ div > h2 { /* spacing for mobile*/
 }
 
 
-h3 {
+h4 {
  font-size: 18px;
  margin: 20px 0 10px 0;
 }
@@ -84,7 +90,7 @@ h3 {
 }
 
 
-h4{
+h5{
  font-weight:bold;
  margin:5px 0;
 }
@@ -98,7 +104,7 @@ outline:none;
 	  margin: 0 0 20px 0;
 }
 
-#camera{
+.hideMobile{
   display:none;
 }
 

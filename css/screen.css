@@ -17,7 +17,7 @@ html {
 #header {
   text-align: center; }
 
-#header h1, h2 {
+#header h1, h3 {
   font-family: "Covered By Your Grace", serif; }
 
 #header h1 {
@@ -25,11 +25,17 @@ html {
   line-height: 38px;
   padding: 10px; }
 
-#photo h2 {
+h2 {
+  font-family: "Spinnaker", sans-serif;
+  font-size: 18pt;
+  font-weight: bold;
+  margin: 20px 0 20px 0; }
+
+#photo h3 {
   font-size: 32px;
   line-height: 28px; }
 
-div > h2 {
+div > h3 {
   /* spacing for mobile*/
   padding: 20px 0; }
 
@@ -48,7 +54,7 @@ div > h2 {
   font-family: "Spinnaker", sans-serif;
   font-size: 14px; }
 
-h3 {
+h4 {
   font-size: 18px;
   margin: 20px 0 10px 0; }
 
@@ -63,7 +69,7 @@ h3 {
   font-style: italic;
   font-weight: bold; }
 
-h4 {
+h5 {
   font-weight: bold;
   margin: 5px 0; }
 
@@ -74,7 +80,7 @@ a {
   font-size: 12px;
   margin: 0 0 20px 0; }
 
-#camera {
+.hideMobile {
   display: none; }
 
 .accessibility {
