@@ -1,4 +1,3 @@
-
 #header h1, h3{
   font-family: $impactFont;
 }
@@ -9,35 +8,34 @@
   padding: 10px;
 }
 
+#header p{
+  font-size: 12px;
+	  margin: 0 0 20px 0;
+}
+
 h2 {
  font-family: $mainFont;
  font-size: 18pt;
  font-weight:bold;
  margin: 20px 0 20px 0;
 }
-#photo h3 {
-  font-size:32px;
-  line-height:28px;
-}
 
-div > h3 { /* spacing for mobile*/
-  padding: 20px 0;
-}
 
-.headingblock{
- display:block;
- float:left; /* to be able to nudge subheadings into place */
- cursor:pointer;
-}
 .subheading, .gallery h2 {
   font-family: $mainFont;
   font-size: $mainFontSize;
   margin: 3px 0 0 10px;
 }
 
-.gallery h2 {
-  font-family: $mainFont;
-  font-size: 14px;
+
+div > h3 { /* spacing for mobile*/
+  padding: 20px 0;
+}
+
+
+#photo h3 {
+  font-size:32px;
+  line-height:28px;
 }
 
 
@@ -45,6 +43,19 @@ h4 {
  font-size: 18px;
  margin: 20px 0 10px 0;
 }
+
+h5{
+ font-weight:bold;
+ margin:5px 0;
+}
+
+
+.headingblock{
+ display:block;
+ float:left; /* to be able to nudge subheadings into place */
+ cursor:pointer;
+}
+
 
 .showtitle {
  font-size: 12px;
@@ -60,20 +71,7 @@ h4 {
 
 }
 
-
-h5{
- font-weight:bold;
- margin:5px 0;
-}
-
-
-#header p{
-  font-size: 12px;
-	  margin: 0 0 20px 0;
-}
-
 .hideMobile{
   display:none;
 }
-
 

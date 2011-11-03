@@ -1,4 +1,4 @@
-/* line 17, C:/RailsInstaller/Ruby1.8.7/lib/ruby/gems/1.8/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 17, ../../../RailsInstaller/Ruby1.8.7/lib/ruby/gems/1.8/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -20,45 +20,45 @@ time, mark, audio, video {
   vertical-align: baseline;
 }
 
-/* line 20, C:/RailsInstaller/Ruby1.8.7/lib/ruby/gems/1.8/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 20, ../../../RailsInstaller/Ruby1.8.7/lib/ruby/gems/1.8/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 body {
   line-height: 1;
 }
 
-/* line 22, C:/RailsInstaller/Ruby1.8.7/lib/ruby/gems/1.8/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 22, ../../../RailsInstaller/Ruby1.8.7/lib/ruby/gems/1.8/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 ol, ul {
   list-style: none;
 }
 
-/* line 24, C:/RailsInstaller/Ruby1.8.7/lib/ruby/gems/1.8/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 24, ../../../RailsInstaller/Ruby1.8.7/lib/ruby/gems/1.8/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
 
-/* line 26, C:/RailsInstaller/Ruby1.8.7/lib/ruby/gems/1.8/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 26, ../../../RailsInstaller/Ruby1.8.7/lib/ruby/gems/1.8/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 caption, th, td {
   text-align: left;
   font-weight: normal;
   vertical-align: middle;
 }
 
-/* line 28, C:/RailsInstaller/Ruby1.8.7/lib/ruby/gems/1.8/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 28, ../../../RailsInstaller/Ruby1.8.7/lib/ruby/gems/1.8/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 q, blockquote {
   quotes: none;
 }
-/* line 101, C:/RailsInstaller/Ruby1.8.7/lib/ruby/gems/1.8/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 101, ../../../RailsInstaller/Ruby1.8.7/lib/ruby/gems/1.8/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 q:before, q:after, blockquote:before, blockquote:after {
   content: "";
   content: none;
 }
 
-/* line 30, C:/RailsInstaller/Ruby1.8.7/lib/ruby/gems/1.8/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 30, ../../../RailsInstaller/Ruby1.8.7/lib/ruby/gems/1.8/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 a img {
   border: none;
 }
 
-/* line 114, C:/RailsInstaller/Ruby1.8.7/lib/ruby/gems/1.8/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 114, ../../../RailsInstaller/Ruby1.8.7/lib/ruby/gems/1.8/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
   display: block;
 }
@@ -70,38 +70,38 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 ####################################################### 
 
 */
-/* line 16, C:/xampp/htdocs/sass/_base.scss */
+/* line 16, ../sass/_base.scss */
 #page {
   width: 100%;
 }
 
-/* line 20, C:/xampp/htdocs/sass/_base.scss */
+/* line 20, ../sass/_base.scss */
 #content {
   margin: 0px auto;
 }
 
-/* line 24, C:/xampp/htdocs/sass/_base.scss */
+/* line 24, ../sass/_base.scss */
 #header {
   text-align: center;
 }
 
-/* line 29, C:/xampp/htdocs/sass/_base.scss */
+/* line 29, ../sass/_base.scss */
 img {
   max-width: 100%;
 }
 
-/* line 31, C:/xampp/htdocs/sass/_base.scss */
+/* line 31, ../sass/_base.scss */
 a {
   text-decoration: none;
   outline: none;
 }
 
-/* line 36, C:/xampp/htdocs/sass/_base.scss */
+/* line 36, ../sass/_base.scss */
 .accessibility {
   display: none;
 }
 
-/* line 40, C:/xampp/htdocs/sass/_base.scss */
+/* line 40, ../sass/_base.scss */
 .clear {
   clear: both;
 }
@@ -119,19 +119,25 @@ html {
 ###############  Start of Mobile CSS ################## 
 
 */
-/* line 2, C:/xampp/htdocs/sass/_mobile.scss */
+/* line 1, ../sass/_mobile.scss */
 #header h1, h3 {
   font-family: "Covered By Your Grace", serif;
 }
 
-/* line 6, C:/xampp/htdocs/sass/_mobile.scss */
+/* line 5, ../sass/_mobile.scss */
 #header h1 {
   font-size: 42px;
   line-height: 38px;
   padding: 10px;
 }
 
-/* line 12, C:/xampp/htdocs/sass/_mobile.scss */
+/* line 11, ../sass/_mobile.scss */
+#header p {
+  font-size: 12px;
+  margin: 0 0 20px 0;
+}
+
+/* line 16, ../sass/_mobile.scss */
 h2 {
   font-family: "Spinnaker", sans-serif;
   font-size: 18pt;
@@ -139,19 +145,38 @@ h2 {
   margin: 20px 0 20px 0;
 }
 
-/* line 18, C:/xampp/htdocs/sass/_mobile.scss */
-#photo h3 {
-  font-size: 32px;
-  line-height: 28px;
+/* line 24, ../sass/_mobile.scss */
+.subheading, .gallery h2 {
+  font-family: "Spinnaker", sans-serif;
+  font-size: 14px;
+  margin: 3px 0 0 10px;
 }
 
-/* line 23, C:/xampp/htdocs/sass/_mobile.scss */
+/* line 31, ../sass/_mobile.scss */
 div > h3 {
   /* spacing for mobile*/
   padding: 20px 0;
 }
 
-/* line 27, C:/xampp/htdocs/sass/_mobile.scss */
+/* line 36, ../sass/_mobile.scss */
+#photo h3 {
+  font-size: 32px;
+  line-height: 28px;
+}
+
+/* line 42, ../sass/_mobile.scss */
+h4 {
+  font-size: 18px;
+  margin: 20px 0 10px 0;
+}
+
+/* line 47, ../sass/_mobile.scss */
+h5 {
+  font-weight: bold;
+  margin: 5px 0;
+}
+
+/* line 53, ../sass/_mobile.scss */
 .headingblock {
   display: block;
   float: left;
@@ -159,32 +184,13 @@ div > h3 {
   cursor: pointer;
 }
 
-/* line 32, C:/xampp/htdocs/sass/_mobile.scss */
-.subheading, .gallery h2 {
-  font-family: "Spinnaker", sans-serif;
-  font-size: 14px;
-  margin: 3px 0 0 10px;
-}
-
-/* line 38, C:/xampp/htdocs/sass/_mobile.scss */
-.gallery h2 {
-  font-family: "Spinnaker", sans-serif;
-  font-size: 14px;
-}
-
-/* line 44, C:/xampp/htdocs/sass/_mobile.scss */
-h4 {
-  font-size: 18px;
-  margin: 20px 0 10px 0;
-}
-
-/* line 49, C:/xampp/htdocs/sass/_mobile.scss */
+/* line 60, ../sass/_mobile.scss */
 .showtitle {
   font-size: 12px;
   margin: 10px 0 10px 0;
 }
 
-/* line 54, C:/xampp/htdocs/sass/_mobile.scss */
+/* line 65, ../sass/_mobile.scss */
 .showtitle strong, .gallery h1, .gallery h2 strong {
   font-family: "PT Serif", serif;
   font-size: 16px;
@@ -193,19 +199,7 @@ h4 {
   font-weight: bold;
 }
 
-/* line 64, C:/xampp/htdocs/sass/_mobile.scss */
-h5 {
-  font-weight: bold;
-  margin: 5px 0;
-}
-
-/* line 70, C:/xampp/htdocs/sass/_mobile.scss */
-#header p {
-  font-size: 12px;
-  margin: 0 0 20px 0;
-}
-
-/* line 75, C:/xampp/htdocs/sass/_mobile.scss */
+/* line 74, ../sass/_mobile.scss */
 .hideMobile {
   display: none;
 }
@@ -217,14 +211,14 @@ h5 {
 */
 /* Basic Media Query for Screens wider than 600 pixels (tablets and up) */
 @media screen and (min-width: 600px) {
-  /* line 5, C:/xampp/htdocs/sass/_min600.scss */
+  /* line 5, ../sass/_min600.scss */
   #camera {
     padding: 0 0 0 10px;
     float: right;
     display: block;
   }
 
-  /* line 11, C:/xampp/htdocs/sass/_min600.scss */
+  /* line 11, ../sass/_min600.scss */
   div#page {
     /*Copy code from grid.css when done experimenting.*/
   }
