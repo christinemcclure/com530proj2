@@ -204,12 +204,6 @@
 
 </div>
 
-<script type="text/javascript">
-$(document).ready(function() {
-  alert ('here');
-  $('.contentToggle').hide();
-})
-</script>
 </body>
 
 </html>

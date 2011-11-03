@@ -33,7 +33,7 @@ div > h3 { /* spacing for mobile*/
 }
 
 
-#photo h3 {
+h3 {
   font-size:32px;
   line-height:28px;
 }
@@ -50,7 +50,7 @@ h5{
 }
 
 p {
-	margin: 5px 0 10px 0;
+	margin: 10px 0 10px 0;
 }
 
 
@@ -59,7 +59,6 @@ p {
  float:left; /* to be able to nudge subheadings into place */
  cursor:pointer;
 }
-
 
 .showtitle {
  font-size: 12px;

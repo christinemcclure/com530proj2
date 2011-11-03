@@ -5,6 +5,7 @@
   $('#galleries').hide();    
   $('#pricing').hide();    
   $('#contact').hide();    
+  $('#contactLib').hide();    
 
      $("#openAbout").toggle(
       function(){$('#openAbout').removeClass('headerClosed'), $('#openAbout').addClass('headerOpen'),
@@ -38,9 +39,17 @@
 		$('#contact').slideToggle();}
     ); 	
 		
+     $("#openContactLib").toggle(
+      function(){$('#openContactLib').removeClass('headerClosed'), $('#openContactLib').addClass('headerOpen'),
+	  			$('#contactLib').slideToggle();},
+      function () {
+        $('#openContactLib').removeClass('headerOpen'), $('#openContactLib').addClass('headerClosed'),
+		$('#contactLib').slideToggle();}
+    ); 	
+		
 		
 		if ($('#showContactForm').hasClass('hideForm')==true) {
-			$('#contact').show();
+			$('#contact').fadeIn();
 		}
 
  });

@@ -13,7 +13,7 @@
     <div id="photo">
 		  <img src="/img/boqueteForest.jpg" alt="Macro photo of plant from Boquete, Panama forest." />
       <img class="hideMobile" src="/img/rolliflex.gif" alt="photo of 1960s Rolliflex camera" />
-			<h2>Photography</h2>
+			<h2 class="hideMobile">Photography</h2>
       <p>I've been fascinated with photography ever since my childhood in the seventies, where I staged a photo shoot using a velour bathrobe as a backdrop, ceramic dog figurines as models, and my trusty little 110 plastic camera.</p>
           
           <h3 id="openGalleries">
@@ -79,30 +79,22 @@
   <div id="library">
 		<h2>Librarianship</h2>
       <img  class="hideMobile" src="/img/librarian.gif" alt="photo of librarian action figure" />
-        <p>I'm currently the Digital Services Librarian at a private university in Chicago, where I design and develop websites and make all of our various technologies talk to each other. My goal is to provide a rich online experience for students that doesn't take a library degree to navigate.</p>
-        <h3><span class="subheading headingblock">Experience/Skills</span><span class="headingblock">:Resume</span></h3>
-     
-        <div id="resume" class="nav">
-          <p>Work experience, skills, the usual stuff</p>
-          <h4>Resume</h4>
-        </div>
-        <div id="portfolio" class="nav">
-          <p>Graphic design and website examples</p>
-          <h4>Design Portfolio</h4>
-        </div>
-        <div id="lab" class="nav">
-          <p>See what experiments are cooking in the lab</p>
-          <h4>The Lab</h4>
-        </div>
-        <div id="contactLib" class="nav">
-          <p>How to find me. Let's talk.</p>
-          <h4>Contact</h4>
-        </div>
+      <p>I'm currently the Digital Services Librarian at a private university in Chicago, where I design and develop websites and make all of our various technologies talk to each other. My goal is to provide a rich online experience for students that doesn't take a library degree to navigate.</p>
+          
+      <h3><a href="resume.php" id="openResume"><span class="subheading headingblock">Experience/Skills: </span><span class="headingblock">Resume</span></a></h3>
+      <h3><a href="portfolio.php" id="openPortfolio"><span class="subheading headingblock">Design examples: </span><span class="headingblock">Portfolio</span></a></h3>
+      <h3><a href="lab.php" id="openPortfolio"><span class="subheading headingblock">See What's Cooking: </span><span class="headingblock">The Lab</span></a></h3>
+      <div id="openContactLib">
+      <h3><span class="subheading headingblock">Let's Talk: </span><span class="headingblock">Contact</span></h3>
+      </div>
+      <div id="contactLib" class="clear"> 
+				<?php include './form.php'; ?>
+      </div>
 		</div>
   </div>
 
 
-  <?php include '/includes/footer.php' ?>
+  <?php include './includes/footer.php' ?>
 
 </div>
 
