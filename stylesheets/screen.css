@@ -138,6 +138,12 @@ html {
 }
 
 /* line 16, ../sass/_mobile.scss */
+#footer {
+  margin: 25px 0 0 0;
+  text-align: center;
+}
+
+/* line 20, ../sass/_mobile.scss */
 h2 {
   font-family: "Spinnaker", sans-serif;
   font-size: 18pt;
@@ -145,43 +151,53 @@ h2 {
   margin: 20px 0 20px 0;
 }
 
-/* line 24, ../sass/_mobile.scss */
+/* line 27, ../sass/_mobile.scss */
+#library > h2 {
+  margin-top: 30px;
+}
+
+/* line 31, ../sass/_mobile.scss */
 .subheading, .gallery h2 {
   font-family: "Spinnaker", sans-serif;
   font-size: 14px;
   margin: 3px 0 0 10px;
 }
 
-/* line 31, ../sass/_mobile.scss */
+/* line 37, ../sass/_mobile.scss */
+#library .subheading {
+  margin: 0 10px 0 0;
+}
+
+/* line 41, ../sass/_mobile.scss */
 div > h3 {
   /* spacing for mobile*/
   padding: 20px 0;
 }
 
-/* line 36, ../sass/_mobile.scss */
+/* line 46, ../sass/_mobile.scss */
 h3 {
   font-size: 32px;
   line-height: 28px;
 }
 
-/* line 42, ../sass/_mobile.scss */
+/* line 52, ../sass/_mobile.scss */
 h4 {
   font-size: 18px;
   margin: 25px 0 10px 0;
 }
 
-/* line 47, ../sass/_mobile.scss */
+/* line 57, ../sass/_mobile.scss */
 h5 {
   font-weight: bold;
   margin: 5px 0;
 }
 
-/* line 52, ../sass/_mobile.scss */
+/* line 62, ../sass/_mobile.scss */
 p {
   margin: 10px 0 10px 0;
 }
 
-/* line 57, ../sass/_mobile.scss */
+/* line 67, ../sass/_mobile.scss */
 .headingblock {
   display: block;
   float: left;
@@ -189,13 +205,13 @@ p {
   cursor: pointer;
 }
 
-/* line 63, ../sass/_mobile.scss */
+/* line 73, ../sass/_mobile.scss */
 .showtitle {
   font-size: 12px;
   margin: 15px 0 10px 0;
 }
 
-/* line 68, ../sass/_mobile.scss */
+/* line 78, ../sass/_mobile.scss */
 .showtitle strong, .gallery h1, .gallery h2 strong {
   font-family: "PT Serif", serif;
   font-size: 16px;
@@ -204,7 +220,7 @@ p {
   font-weight: bold;
 }
 
-/* line 77, ../sass/_mobile.scss */
+/* line 87, ../sass/_mobile.scss */
 .hideMobile {
   display: none;
 }

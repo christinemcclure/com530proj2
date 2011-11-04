@@ -13,6 +13,10 @@
 	  margin: 0 0 20px 0;
 }
 
+#footer {
+  margin: 25px 0 0 0;
+  text-align:center;
+}
 h2 {
  font-family: $mainFont;
  font-size: 18pt;
@@ -20,6 +24,9 @@ h2 {
  margin: 20px 0 20px 0;
 }
 
+#library > h2 {
+  margin-top:30px;
+}
 
 .subheading, .gallery h2 {
   font-family: $mainFont;
@@ -27,6 +34,9 @@ h2 {
   margin: 3px 0 0 10px;
 }
 
+#library .subheading {
+ margin: 0 10px 0 0;
+}
 
 div > h3 { /* spacing for mobile*/
   padding: 20px 0;
