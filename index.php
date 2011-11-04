@@ -47,7 +47,7 @@
 	          <h4>Exhibitions</h4>
             	<p class="showtitle" id="portals"><strong>Portals:</strong> Looptopia, Chicago IL. May 2007</p>
               <?php include './includes/about-portals.html' ?>
-              <p><a href="fine-art.php">View Gallery</a></p>
+              <p><a href="/fine-art.php">View Gallery</a></p>
             	<p class="showtitle"><strong>Retrospective</strong> Gallery 302, Chicago IL. August 2004</p>
               <p>This exhibit showcased my favorite digital and silver gelatin prints, including the new piece "Persephone's Garden."</p>
             	<p class="showtitle"><strong>Untitled:</strong> Around the Coyote Festival, Chicago IL. September 2003</p>
@@ -80,10 +80,10 @@
       <img  class="hideMobile" src="/img/librarian.gif" alt="photo of librarian action figure" />
       <p>I'm currently the Digital Services Librarian at a private university in Chicago, where I design and develop websites and make all of our various technologies talk to each other. My goal is to provide a rich online experience for students that doesn't take a library degree to navigate.</p>
           
-      <h3><a href="resume.php" id="openResume"><span class="subheading headingblock">Experience/Skills</span><span class="headingblock">Resume</span></a></h3>
-      <h3><a href="portfolio.php" id="openPortfolio"><span class="subheading headingblock">Design examples</span><span class="headingblock">Portfolio</span></a></h3>
-      <h3><a href="lab.php" id="openLab"><span class="subheading headingblock">See What's Cooking</span><span class="headingblock">The Lab</span></a></h3>
-      <h3><a href="contact.php" id="openContact"><span class="subheading headingblock">Need More Info?</span><span class="headingblock">Contact</span></a></h3>
+      <h3><a href="/resume.php" id="openResume"><span class="subheading headingblock">Experience/Skills</span><span class="headingblock">Resume</span></a></h3>
+      <h3><a href="/portfolio.php" id="openPortfolio"><span class="subheading headingblock">Design examples</span><span class="headingblock">Portfolio</span></a></h3>
+      <h3><a href="/lab.php" id="openLab"><span class="subheading headingblock">See What's Cooking</span><span class="headingblock">The Lab</span></a></h3>
+      <h3><a href="/contact.php" id="openContact"><span class="subheading headingblock">Need More Info?</span><span class="headingblock">Contact</span></a></h3>
   </div>
 
 
