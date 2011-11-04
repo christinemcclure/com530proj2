@@ -1,3 +1,6 @@
+#header, #footer {
+ text-align:center;
+}
 #header h1, h3{
   font-family: $impactFont;
 }
@@ -15,7 +18,6 @@
 
 #footer {
   margin: 25px 0 0 0;
-  text-align:center;
 }
 
 h2 {
@@ -45,7 +47,7 @@ h2 {
 
 div > h3 { /* spacing for mobile*/
   padding: 20px 0;
-  hover:pointer;
+  cursor:pointer;
 }
 
 
@@ -71,6 +73,20 @@ p {
 
 #contactLib p {
   margin-top: 20px;
+}
+
+
+.navContainer ul {
+ text-align: center;
+}
+
+.navContainer ul li { 
+ display: inline; 
+ margin: 10px;
+}
+
+.navContainer ul li a {
+ padding: 10px 30px;
 }
 
 

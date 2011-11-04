@@ -60,7 +60,15 @@ if (isset($_POST['submitted'])) {
   <title>Contact: Christine McClure</title>
 </head>
 
-<body>    
+<body>
+<div id="header">
+		<?php include './includes/header.html'; ?>
+
+  <div class="navContainer">
+		<?php include './includes/photo-nav.html'; ?>
+  </div>  
+</div>
+    
 	<div><?php echo $feedback; ?>
   </div>
   <div id="showContactForm" class="<?php echo $cssclass; ?>"> <!--showForm to start-->
@@ -80,6 +88,11 @@ if (isset($_POST['submitted'])) {
       <input type="hidden" name="submitted" value="TRUE" /></p>
     </form>
 	</div>
+  
+  <div id="footer">
+  <?php include 'includes/footer.html' ?> 
+  </div>
+    
 </body>
 </html>
 

@@ -5,21 +5,31 @@
 <body>
 
 <div id="page">
-<div id="content">
 
-  <?php include './includes/header.php' ?>
-  <ul>
-  	<li>Gerry Doyle, <strong>From the Depths</strong> book jacket portrait. <img src="/img/portraits/gd_book_03.jpg" alt="Photo of author Gerry Doyle in a bar, holding a beer and laughing." /></li>
-  	<li>Gerry Doyle, <strong>From the Depths</strong> book jacket shoot. <img src="/img/portraits/gd_book_02.jpg" alt="Black and white photo of author Gerry Doyle holding a beer, with the back of a woman's head in the foreground." /></li>
-  	<li>Singer, Literature for all of Us benefit at Cary's Lounge, Chicago IL. <img src="/img/portraits/2009ThisisHell-LFAOU115.jpg" alt="Black and white photo of a smiling singer, head turned to the side." /></li>
-  </ul>
+  <div id="header">
+      <?php include './includes/header.html'; ?>
   
+    <div class="navContainer">
+      <?php include './includes/photo-nav.html'; ?>
+    </div>  
+  </div>
   
+  <div id="content">
 
-    
-  <?php include './includes/footer.php' ?>
+    <ul>
+      <li>Gerry Doyle, <strong>From the Depths</strong> book jacket portrait. <img src="/img/portraits/gd_book_03.jpg" alt="Photo of author Gerry Doyle in a bar, holding a beer and laughing." /></li>
+      <li>Gerry Doyle, <strong>From the Depths</strong> book jacket shoot. <img src="/img/portraits/gd_book_02.jpg" alt="Black and white photo of author Gerry Doyle holding a beer, with the back of a woman's head in the foreground." /></li>
+      <li>Singer, Literature for all of Us benefit at Cary's Lounge, Chicago IL. <img src="/img/portraits/2009ThisisHell-LFAOU115.jpg" alt="Black and white photo of a smiling singer, head turned to the side." /></li>
+    </ul>
   
-</div>
-</div>
+  </div>
+
+  <div id="footer">
+     <div class="navContainer">
+      <?php include './includes/photo-nav.html'; ?>
+    </div>  
+  <?php include 'includes/footer.html' ?> 
+  </div>
+</div>  
 </body>
 </html>

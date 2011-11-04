@@ -8,7 +8,7 @@
 
 <div id="page">
 
-<?php include './includes/header.php' ?>
+<?php include 'includes/header.html' ?>
 
   <div id="content">
 
@@ -199,7 +199,7 @@
   </div>
 
 
-<?php include './includes/header.php' ?>
+<?php include 'includes/header.html' ?>
 
 
 </div>

@@ -7,7 +7,7 @@
 
 <div id="page">
 
-  <?php include './includes/header.php' ?>
+  <?php include 'includes/header.html' ?>
 
   <div id="content">
     <div id="photo">
@@ -87,7 +87,7 @@
   </div>
 
 
-  <?php include './includes/footer.php' ?>
+  <?php include 'includes/footer.html' ?>
 
 </div>
 
