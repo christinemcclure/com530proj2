@@ -67,13 +67,12 @@
           <div id="openContact">
             <h3><span class="headingblock">Contact</span> <span class="subheading headingblock">Book or order prints</span></h3>
           </div>
+          
           <div id="contact" class="clear"> 
             <h4>Need to order prints?</h4> 
             <p>You can do that <a href="http://christinemcclure.smugmug.com/">online at Smugmug</a>, where they use a professional photo lab for expert color correction.</p>
-            <h4>Or, send me a message:</h4> 
-            
-						<?php include './includes/form.php'; ?>
-    
+            <p>Or, <a href="/contact.php">send me a message.</a></p> 
+                
         </div>
 	</div>
   <div id="library">
@@ -84,13 +83,7 @@
       <h3><a href="resume.php" id="openResume"><span class="subheading headingblock">Experience/Skills</span><span class="headingblock">Resume</span></a></h3>
       <h3><a href="portfolio.php" id="openPortfolio"><span class="subheading headingblock">Design examples</span><span class="headingblock">Portfolio</span></a></h3>
       <h3><a href="lab.php" id="openLab"><span class="subheading headingblock">See What's Cooking</span><span class="headingblock">The Lab</span></a></h3>
-      <div id="openContactLib">
-      <h3><span class="subheading headingblock">Need More Info?</span><span class="headingblock">Contact</span></h3>
-      </div>
-      <div id="contactLib" class="clear"> 
-				<?php include './includes/formLib.php'; ?>
-      </div>
-		</div>
+      <h3><a href="contact.php" id="openContact"><span class="subheading headingblock">Need More Info?</span><span class="headingblock">Contact</span></a></h3>
   </div>
 
 

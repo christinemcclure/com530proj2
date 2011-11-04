@@ -55,27 +55,31 @@ if (isset($_POST['submitted'])) {
 } // End of main isset() IF.
 ?>
 
-    
-            <div><?php echo $feedback; ?>
-            </div>
-            <div id="showContactForm" class="<?php echo $cssclass; ?>"> <!--showForm to start-->
+<?php include './includes/html-head-stub.html'; ?>
 
-<form method="post" action="index.php#contact" id="contactForm">
-  <p>Name:</p>
-  <p><input type="text" name="name" id="name" /></p>
-  <p>Email:</p>
-  <p><input type="text" name="email" id="email" /></p>
-  <p>Phone:</p>
-  <p><input type="text" name="phone" id="phone" /></p>
-  <p>Message:</p>
-  <p><textarea name="message" cols="30" rows="5" id="message">
-				<?php if (isset($_POST['question'])) echo $_POST['question']; ?>
-	      </textarea>
-   </p>
-  <p><input class="button" type="submit" name="submit" value="Send" id="submitButton" />
-  <input type="hidden" name="submitted" value="TRUE" /></p>
-</form>
+  <title>Contact: Christine McClure</title>
+</head>
 
-</div>
-
+<body>    
+	<div><?php echo $feedback; ?>
+  </div>
+  <div id="showContactForm" class="<?php echo $cssclass; ?>"> <!--showForm to start-->
+    <form method="post" action="index.php#contact" id="contactForm">
+      <p>Name:</p>
+      <p><input type="text" name="name" id="name" /></p>
+      <p>Email:</p>
+      <p><input type="text" name="email" id="email" /></p>
+      <p>Phone:</p>
+      <p><input type="text" name="phone" id="phone" /></p>
+      <p>Message:</p>
+      <p><textarea name="message" cols="30" rows="5" id="message">
+            <?php if (isset($_POST['question'])) echo $_POST['question']; ?>
+            </textarea>
+      </p>
+      <p><input class="button" type="submit" name="submit" value="Send" id="submitButton" />
+      <input type="hidden" name="submitted" value="TRUE" /></p>
+    </form>
+	</div>
+</body>
+</html>
 
