@@ -72,7 +72,7 @@
             <p>You can do that <a href="http://christinemcclure.smugmug.com/">online at Smugmug</a>, where they use a professional photo lab for expert color correction.</p>
             <h4>Or, send me a message:</h4> 
             
-						<?php include './form.php'; ?>
+						<?php include './includes/form.php'; ?>
     
         </div>
 	</div>
@@ -83,12 +83,12 @@
           
       <h3><a href="resume.php" id="openResume"><span class="subheading headingblock">Experience/Skills</span><span class="headingblock">Resume</span></a></h3>
       <h3><a href="portfolio.php" id="openPortfolio"><span class="subheading headingblock">Design examples</span><span class="headingblock">Portfolio</span></a></h3>
-      <h3><a href="lab.php" id="openPortfolio"><span class="subheading headingblock">See What's Cooking</span><span class="headingblock">The Lab</span></a></h3>
+      <h3><a href="lab.php" id="openLab"><span class="subheading headingblock">See What's Cooking</span><span class="headingblock">The Lab</span></a></h3>
       <div id="openContactLib">
       <h3><span class="subheading headingblock">Need More Info?</span><span class="headingblock">Contact</span></h3>
       </div>
       <div id="contactLib" class="clear"> 
-				<?php include './form.php'; ?>
+				<?php include './includes/formLib.php'; ?>
       </div>
 		</div>
   </div>

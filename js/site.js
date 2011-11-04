@@ -52,5 +52,8 @@
 			$('#contact').fadeIn();
 		}
 
+		if ($('#showContactFormLib').hasClass('hideForm')==true) {
+			$('#contactLib').fadeIn();
+		}
  });
 
