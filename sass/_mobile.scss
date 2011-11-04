@@ -21,10 +21,11 @@
 }
 
 h2 {
-  font-family: "Spinnaker", sans-serif;
+  font-family: $mainFont;
   font-size: 20pt;
   font-weight: bold;
   margin: 30px 0 20px 0;
+	text-align:center;
 }
 
 .headingblock{

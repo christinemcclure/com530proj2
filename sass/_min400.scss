@@ -1,0 +1,12 @@
+/* Basic Media Query for Screens wider than 600 pixels (tablets and up) */
+
+@media screen and (min-width: 400px) {
+
+	#header, #footer, h2 {
+		text-align:left;
+	}
+
+}
+
+
+
