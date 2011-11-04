@@ -6,9 +6,9 @@
 <body>
 
 <div id="page">
-
-  <?php include 'includes/header.html' ?>
-
+ <div id="header">
+   <?php include './includes/header.html' ?>
+	</div>
   <div id="content">
     <div id="photo">
 		  <img src="/img/boqueteForest.jpg" alt="Macro photo of plant from Boquete, Panama forest." />
@@ -86,9 +86,9 @@
       <h3><a href="/contact.php" id="openContact"><span class="subheading headingblock">Need More Info?</span><span class="headingblock">Contact</span></a></h3>
   </div>
 
-
-  <?php include 'includes/footer.html' ?>
-
+    <div id="footer">
+		  <?php include 'includes/footer.html' ?>
+		</div>
 </div>
 
 
