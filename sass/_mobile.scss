@@ -17,16 +17,21 @@
   margin: 25px 0 0 0;
   text-align:center;
 }
+
 h2 {
- font-family: $mainFont;
- font-size: 18pt;
- font-weight:bold;
- margin: 20px 0 20px 0;
+  font-family: "Spinnaker", sans-serif;
+  font-size: 20pt;
+  font-weight: bold;
+  margin: 30px 0 20px 0;
 }
 
-#library > h2 {
-  margin-top:30px;
+.headingblock{
+ display:block;
+ float:left; /* to be able to nudge subheadings into place */
+ cursor:pointer;
+ font-family: $impactFont;
 }
+
 
 .subheading, .gallery h2 {
   font-family: $mainFont;
@@ -40,6 +45,7 @@ h2 {
 
 div > h3 { /* spacing for mobile*/
   padding: 20px 0;
+  hover:pointer;
 }
 
 
@@ -63,12 +69,10 @@ p {
 	margin: 10px 0 10px 0;
 }
 
-
-.headingblock{
- display:block;
- float:left; /* to be able to nudge subheadings into place */
- cursor:pointer;
+#contactLib p {
+  margin-top: 20px;
 }
+
 
 .showtitle {
  font-size: 12px;

@@ -1,11 +1,13 @@
 @import "_base.scss";
 
 
-$mainFont: 'Spinnaker', sans-serif;
+$mainFont: 'Spinnaker', 'Century Gothic', 'Tahoma', 'Verdana', sans-serif;
 $mainFontPadding:15px;
 $mainFontSize: 14px;
-$impactFont: 'Covered By Your Grace', serif;
-$headingFont: 'PT Serif', serif;
+
+$impactFont: 'Covered By Your Grace', 'Impact', 'Copperplate Gothic Light', serif;
+$headingFont: 'PT Serif', 'Palatino Linotype', 'Georgia', serif;
+
 
 
 html { /* initial grid system: line-height:18 font-size: 14 */
