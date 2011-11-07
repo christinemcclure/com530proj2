@@ -6,7 +6,7 @@
 <body>
 
 <div id="page">
- <div id="header">
+	<div id="header">
    <?php include './includes/header.html' ?>
 	</div>
   <div id="content">
@@ -83,9 +83,9 @@
       <h3><a href="/resume.php" id="openResume"><span class="subheading headingblock">Experience/Skills</span><span class="headingblock">Resume</span></a></h3>
       <h3><a href="/portfolio.php" id="openPortfolio"><span class="subheading headingblock">Design examples</span><span class="headingblock">Portfolio</span></a></h3>
       <h3><a href="/lab.php" id="openLab"><span class="subheading headingblock">See What's Cooking</span><span class="headingblock">The Lab</span></a></h3>
-      <h3><a href="/contact.php" id="openContact"><span class="subheading headingblock">Need More Info?</span><span class="headingblock">Contact</span></a></h3>
+      <h3><a href="/contact.php" id="openContactLib"><span class="subheading headingblock">Need More Info?</span><span class="headingblock">Contact</span></a></h3>
   </div>
-
+	</div>
     <div id="footer">
 		  <?php include 'includes/footer.html' ?>
 		</div>
