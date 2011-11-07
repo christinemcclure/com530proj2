@@ -9,15 +9,15 @@
 <div id="page" class="gallery">
 
   <div id="header">
-      <?php include './includes/header.html'; ?>
-  
-    <div class="navContainer">
-      <?php include './includes/photo-nav.html'; ?>
-    </div>  
+      <?php include './includes/header.html'; ?>  
   </div>
+
+   <div class="navContainer">
+      <?php include './includes/photo-nav.html'; ?>
+   </div>  
   
-  <div id="content">
-  <h1>Literature For All of Us, Honor Thy Mother Luncheon, 2011</h1>
+  <div id="content" class="clear">
+  <h2>Literature For All of Us, Honor Thy Mother Luncheon, 2011</h2>
     <ul>
       <li><img src="/img/events/IMG_1002.jpg" alt="Photo of centerpiece flower arrangement." /></li>
       <li><img src="/img/events/IMG_1008.jpg" alt="Photo of event site." /></li>
@@ -32,7 +32,7 @@
       <li><img src="/img/events/IMG_1566.jpg" alt="Photo of author Jane Hamilton signing books." /></li>
     </ul>
     
-  <h1>District 57 Education Foundation, Live Auction, 2010</h1>
+  <h2>District 57 Education Foundation, Live Auction, 2010</h2>
     <ul>
       <li><img src="/img/events/2010_District_57_-73.jpg" alt="Photo of several women in cocktail attire at a silent auction table." /></li>
       <li><img src="/img/events/2010_District_57_-291.jpg" alt="Photo of a dessert table." /></li>
@@ -42,11 +42,11 @@
     </ul>
     
   </div>
-  
-    <div id="footer">
      <div class="navContainer">
       <?php include './includes/photo-nav.html'; ?>
     </div>  
+  
+    <div id="footer" class="clear">
   <?php include 'includes/footer.html' ?> 
   </div>
   

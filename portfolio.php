@@ -7,11 +7,12 @@
 <div id="page">
 <div id="header">
 		<?php include './includes/header.html'; ?>
+</div>
 
   <div class="navContainer">
 		<?php include './includes/lib-nav.html'; ?>
   </div>  
-</div>
+
   <div id="content" class="clear">
 	<p>Here are a few things I've designed over the years...</p>
   
@@ -34,11 +35,11 @@
 
   </div>
 
-
-  <div id="footer">
      <div class="navContainer">
       <?php include './includes/photo-nav.html'; ?>
     </div>  
+
+  <div id="footer" class="clear">
   <?php include 'includes/footer.html' ?> 
   </div>
 

@@ -6,12 +6,11 @@
 
 <div id="page" class="gallery">
 <div id="header">
-		<?php include './includes/header.html'; ?>
-
+		<?php include './includes/header.html'; ?> 
+</div>
   <div class="navContainer">
 		<?php include './includes/lib-nav.html'; ?>
-  </div>  
-</div>
+  </div> 
   <div id="content" class="clear">
 
 
@@ -202,10 +201,10 @@
   
 
   </div>
-  <div id="footer">
      <div class="navContainer">
       <?php include './includes/lib-nav.html'; ?>
     </div>  
+  <div id="footer" class="clear">
   <?php include 'includes/footer.html' ?> 
   </div>
 </div>

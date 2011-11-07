@@ -8,13 +8,13 @@
 <div id="page">
   <div id="header">
       <?php include './includes/header.html'; ?>
-  
+  </div>
+
     <div class="navContainer">
       <?php include './includes/photo-nav.html'; ?>
     </div>  
-  </div>
-
-  <div id="content">
+    
+  <div id="content" class="clear">
   <h1>Jerusalem</h1>
     <ul>
       <li><p>Dome of the Rock.</p> <img src="/img/travel/temple_mount_1600_08.jpg" alt="Photo of Muslim woman walking in front the Dome on the Rock." /></li>
@@ -29,10 +29,11 @@
       <li><p>Panama City.</p> <img src="/img/travel/panamaearlymorning_10.jpg" alt="Photo of an old brick supporting structure, backlit from the sun rising over the ocean." /></li>
     </ul>   
   </div>
-  <div id="footer">
      <div class="navContainer">
       <?php include './includes/photo-nav.html'; ?>
     </div>  
+
+  <div id="footer" class="clear">
   <?php include 'includes/footer.html' ?> 
   </div>
     

@@ -61,17 +61,18 @@ if (isset($_POST['submitted'])) {
 </head>
 
 <body>
+<div id="page">
 <div id="header">
 		<?php include './includes/header.html'; ?>
+</div>
 
   <div class="navContainer">
 		<?php include './includes/contact-nav.html'; ?>
   </div>  
-</div>
-    
-	<div><?php echo $feedback; ?>
+
+  <div class="clear"><?php echo $feedback; ?>  
+  <div id="showContactForm" class="<?php echo $cssclass; ?>"> <!--showForm to start-->	
   </div>
-  <div id="showContactForm" class="<?php echo $cssclass; ?>"> <!--showForm to start-->
     <form method="post" action="contact.php" id="contactForm">
       <p>Name:</p>
       <p><input type="text" name="name" id="name" /></p>
@@ -92,7 +93,7 @@ if (isset($_POST['submitted'])) {
   <div id="footer">
   <?php include 'includes/footer.html' ?> 
   </div>
-    
+</div>    
 </body>
 </html>
 
