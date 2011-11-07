@@ -7,6 +7,7 @@ Add PHP class mailer
 Navigation for gallery/resume pages
 JQuery for link to bookmarks - make sure div is open
 Add ids to tagline and change based on page. 
+Add honeypot to contact form for robots
 
 DESKTOP
 Columns
