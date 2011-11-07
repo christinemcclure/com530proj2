@@ -2,9 +2,18 @@
 
 @media screen and (min-width: 400px) {
 
-	#header, #footer, h2 {
-		text-align:left;
+  body {
+    text-align:center;
+  }
+
+
+	#page {
+	width: 400px;
+  margin-left: auto;
+	margin-right: auto;
+	text-align: left;
 	}
+
 
 }
 

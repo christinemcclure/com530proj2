@@ -1,6 +1,28 @@
-#header, #footer {
- text-align:center;
+#body {
+	text-align:center;
 }
+
+#header, #footer {
+  text-align:center;
+  padding: 5px 0;
+  padding: 2px;
+  margin-bottom: 10px;
+}
+
+#header, #footer, #library h2 {
+  @include border-radius(20px); 
+  background-color:yellow;
+}
+
+.showtitle strong, .gallery h1, .gallery h2 strong{
+  font-family:$headingFont;
+  font-size:16px;
+  margin: 0 5px 0 0;
+  font-style:italic;
+  font-weight:bold;
+}
+
+
 #header h1, h3{
   font-family: $impactFont;
 }
@@ -9,6 +31,11 @@
   font-size:42px;
   line-height:38px;
   padding: 10px;
+}
+
+.gallery > h1 {
+	font-family: $headingFont;
+  font-size: 22px;
 }
 
 #header p{
@@ -39,9 +66,11 @@ h2 {
 .subheading, .gallery h2 {
   font-family: $mainFont;
   font-size: $mainFontSize;
-  margin: 3px 0 0 10px;
 }
 
+.subheading {
+  margin: 3px 0 0 10px;
+}
 #library .subheading {
  margin: 0 10px 0 0;
 }
@@ -57,6 +86,11 @@ h3 {
   line-height:28px;
 }
 
+.gallery h3 {
+  background-color:green;
+  font-family: $mainFont;
+  
+}
 
 h4 {
  font-size: 18px;
@@ -72,40 +106,41 @@ p {
 	margin: 10px 0 10px 0;
 }
 
+ li p {
+  margin: 40px 0 10px 0;
+}
 #contactLib p {
   margin-top: 20px;
 }
 
-
 .navContainer ul {
- text-align: center;
+  margin-bottom: 30px;
 }
 
-.navContainer ul li { 
- display: inline; 
- margin: 10px;
+.navContainer ul li {
+  display: inline;
+margin:30px;
+line-height:40px;
 }
 
 .navContainer ul li a {
- padding: 10px 30px;
+  padding: 5px 10px;
+  background-color:green;
+  margin-bottom: 20px;
 }
 
+.gallery img {
+  margin: 10px 0;
+}
 
 .showtitle {
  font-size: 12px;
  margin: 15px 0 10px 0;
 }
 
-.showtitle strong, .gallery h1, .gallery h2 strong{
-  font-family:$headingFont;
-  font-size:16px;
-  margin: 0 5px 0 0;
-  font-style:italic;
-  font-weight:bold;
-
-}
-
 .hideMobile{
   display:none;
 }
+
+
 
