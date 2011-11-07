@@ -5,7 +5,7 @@
   $('#galleries').hide();    
   $('#pricing').hide();    
   $('#contact').hide();    
-//  $('#lab').hide();    
+  $('#lab').hide();    
 
 
 
