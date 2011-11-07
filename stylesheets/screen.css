@@ -80,29 +80,24 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   margin: 0px auto;
 }
 
-/* line 24, ../sass/_base.scss */
-#header {
-  text-align: center;
-}
-
-/* line 29, ../sass/_base.scss */
+/* line 25, ../sass/_base.scss */
 img {
   max-width: 100%;
 }
 
-/* line 31, ../sass/_base.scss */
+/* line 27, ../sass/_base.scss */
 a {
   text-decoration: none;
   outline: none;
   cursor: pointer;
 }
 
-/* line 37, ../sass/_base.scss */
+/* line 33, ../sass/_base.scss */
 .accessibility, .hideForm {
   display: none;
 }
 
-/* line 41, ../sass/_base.scss */
+/* line 37, ../sass/_base.scss */
 .clear {
   clear: both;
 }
@@ -121,20 +116,10 @@ html {
 
 */
 /* line 1, ../sass/_mobile.scss */
-#body {
-  text-align: center;
-}
-
-/* line 5, ../sass/_mobile.scss */
-#header, #footer {
+#header, #footer, #homePage h2 {
   text-align: center;
   padding: 5px 0;
-  padding: 2px;
   margin-bottom: 10px;
-}
-
-/* line 12, ../sass/_mobile.scss */
-#header, #footer, #library h2 {
   -moz-border-radius: 20px;
   -webkit-border-radius: 20px;
   -o-border-radius: 20px;
@@ -144,7 +129,12 @@ html {
   background-color: yellow;
 }
 
-/* line 17, ../sass/_mobile.scss */
+/* line 9, ../sass/_mobile.scss */
+body p {
+  text-align: left;
+}
+
+/* line 13, ../sass/_mobile.scss */
 .showtitle strong, .gallery h1, .gallery h2 strong {
   font-family: "PT Serif", "Palatino Linotype", "Georgia", serif;
   font-size: 20px;
@@ -153,42 +143,47 @@ html {
   font-weight: bold;
 }
 
-/* line 26, ../sass/_mobile.scss */
-#header h1, h3 {
+/* line 22, ../sass/_mobile.scss */
+#header h1, #homePage h3 {
   font-family: "Covered By Your Grace", "Impact", "Copperplate Gothic Light", serif;
 }
 
-/* line 30, ../sass/_mobile.scss */
+/* line 26, ../sass/_mobile.scss */
 #header h1 {
-  font-size: 46px;
-  line-height: 38px;
+  font-size: 44px;
+  line-height: 36px;
   padding: 10px;
 }
 
-/* line 36, ../sass/_mobile.scss */
+/* line 32, ../sass/_mobile.scss */
 .gallery > h1 {
   font-family: "PT Serif", "Palatino Linotype", "Georgia", serif;
   font-size: 24px;
 }
 
-/* line 41, ../sass/_mobile.scss */
+/* line 37, ../sass/_mobile.scss */
+#library h2 {
+  font-size: 26px;
+  margin: 50px 0 25px 0;
+}
+
+/* line 42, ../sass/_mobile.scss */
 #header p {
   font-size: 12px;
-  margin: 0 0 20px 0;
+  margin: 0 0 10px 0;
 }
 
-/* line 46, ../sass/_mobile.scss */
+/* line 47, ../sass/_mobile.scss */
 #footer {
-  margin: 25px 0 0 0;
+  margin: 35px 0 0 0;
 }
 
-/* line 50, ../sass/_mobile.scss */
+/* line 51, ../sass/_mobile.scss */
 h2 {
   font-family: "Spinnaker", "Century Gothic", "Tahoma", "Verdana", sans-serif;
   font-size: 18px;
   font-weight: bold;
   margin: 30px 0 20px 0;
-  text-align: center;
 }
 
 /* line 58, ../sass/_mobile.scss */
@@ -204,24 +199,24 @@ h2 {
 .subheading, .gallery h2 {
   font-family: "Spinnaker", "Century Gothic", "Tahoma", "Verdana", sans-serif;
   font-size: 16px;
-  text-align: left;
 }
 
-/* line 72, ../sass/_mobile.scss */
+/* line 71, ../sass/_mobile.scss */
 .subheading {
   margin: 3px 0 0 10px;
 }
 
-/* line 75, ../sass/_mobile.scss */
+/* line 74, ../sass/_mobile.scss */
 #library .subheading {
   margin: 0 10px 0 0;
 }
 
-/* line 79, ../sass/_mobile.scss */
-div > h3 {
-  /* spacing for mobile*/
-  padding: 20px 0;
+/* line 78, ../sass/_mobile.scss */
+#homePage h3 {
+  clear: both;
+  padding: 10px 0;
   cursor: pointer;
+  margin: 10px 0;
 }
 
 /* line 85, ../sass/_mobile.scss */
@@ -306,12 +301,7 @@ li p {
 /* Basic Media Query for Screens wider than 600 pixels (tablets and up) */
 @media screen and (min-width: 400px) {
   /* line 5, ../sass/_min400.scss */
-  body {
-    text-align: center;
-  }
-
-  /* line 10, ../sass/_min400.scss */
-  #page {
+  #page, #homePage {
     width: 400px;
     margin-left: auto;
     margin-right: auto;
