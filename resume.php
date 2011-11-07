@@ -1,10 +1,10 @@
 <?php include './includes/html-head-stub.html'; ?>
-  <title>Resume: Christine McClure</title>
+  <title>Fine Art: Christine McClure</title>
 </head>
 
 <body>
 
-<div id="page">
+<div id="page" class="gallery">
 <div id="header">
 		<?php include './includes/header.html'; ?>
 
@@ -13,6 +13,8 @@
   </div>  
 </div>
   <div id="content" class="clear">
+
+
 
     <h2 id="experience" class="headerToggle">Experience</h2>
       <div class="contentToggle">
@@ -197,15 +199,15 @@
 			  <li>Graphic design</li>
       </ul>
      </div>
+  
 
   </div>
-
-
-<?php include 'includes/header.html' ?>
-
-
+  <div id="footer">
+     <div class="navContainer">
+      <?php include './includes/lib-nav.html'; ?>
+    </div>  
+  <?php include 'includes/footer.html' ?> 
+  </div>
 </div>
-
 </body>
-
 </html>
