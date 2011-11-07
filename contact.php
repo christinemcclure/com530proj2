@@ -65,7 +65,7 @@ if (isset($_POST['submitted'])) {
 		<?php include './includes/header.html'; ?>
 
   <div class="navContainer">
-		<?php include './includes/photo-nav.html'; ?>
+		<?php include './includes/contact-nav.html'; ?>
   </div>  
 </div>
     

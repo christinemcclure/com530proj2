@@ -5,7 +5,9 @@
   $('#galleries').hide();    
   $('#pricing').hide();    
   $('#contact').hide();    
-  $('#contactLib').hide();    
+//  $('#lab').hide();    
+
+
 
      $("#openAbout").toggle(
       function(){$('#openAbout').removeClass('headerClosed'), $('#openAbout').addClass('headerOpen'),
@@ -39,21 +41,18 @@
 		$('#contact').slideToggle();}
     ); 	
 		
-     $("#openContactLib").toggle(
-      function(){$('#openContactLib').removeClass('headerClosed'), $('#openContactLib').addClass('headerOpen'),
-	  			$('#contactLib').slideToggle();},
+     $("#openLab").toggle(
+      function(){$('#openLab').removeClass('headerClosed'), $('#openLab').addClass('headerOpen'),
+	  			$('#lab').slideToggle();},
       function () {
-        $('#openContactLib').removeClass('headerOpen'), $('#openContactLib').addClass('headerClosed'),
-		$('#contactLib').slideToggle();}
+        $('#openLab').removeClass('headerOpen'), $('#openLab').addClass('headerClosed'),
+		$('#lab').slideToggle();}
     ); 	
-		
-		
-		if ($('#showContactForm').hasClass('hideForm')==true) {
-			$('#contact').fadeIn();
-		}
 
-		if ($('#showContactFormLib').hasClass('hideForm')==true) {
-			$('#contactLib').fadeIn();
-		}
+		$('#labAnchor').click(function() {
+			$('#content').load('./includes/lab.html');
+		});		
+
+
  });
 

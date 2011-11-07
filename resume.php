@@ -1,16 +1,18 @@
 <?php include './includes/html-head-stub.html'; ?>
-
   <title>Resume: Christine McClure</title>
-
 </head>
 
 <body>
 
 <div id="page">
+<div id="header">
+		<?php include './includes/header.html'; ?>
 
-<?php include 'includes/header.html' ?>
-
-  <div id="content">
+  <div class="navContainer">
+		<?php include './includes/lib-nav.html'; ?>
+  </div>  
+</div>
+  <div id="content" class="clear">
 
     <h2 id="experience" class="headerToggle">Experience</h2>
       <div class="contentToggle">
