@@ -16,7 +16,7 @@
 
 .showtitle strong, .gallery h1, .gallery h2 strong{
   font-family:$headingFont;
-  font-size:16px;
+  font-size: $base-font-size + 4px;
   margin: 0 5px 0 0;
   font-style:italic;
   font-weight:bold;
@@ -28,19 +28,19 @@
 }
 
 #header h1 {
-  font-size:42px;
-  line-height:38px;
+  font-size: $base-font-size + 30px;
+  line-height: $base-line-height + 14px;
   padding: 10px;
 }
 
 .gallery > h1 {
 	font-family: $headingFont;
-  font-size: 22px;
+  font-size: $base-font-size + 8px;
 }
 
 #header p{
-  font-size: 12px;
-	  margin: 0 0 20px 0;
+ font-size: $base-font-size - 4px;
+ margin: 0 0 20px 0;
 }
 
 #footer {
@@ -49,7 +49,7 @@
 
 h2 {
   font-family: $mainFont;
-  font-size: 20pt;
+  font-size: $base-font-size + 2px;
   font-weight: bold;
   margin: 30px 0 20px 0;
 	text-align:center;
@@ -65,7 +65,8 @@ h2 {
 
 .subheading, .gallery h2 {
   font-family: $mainFont;
-  font-size: $mainFontSize;
+  font-size: $base-font-size;
+  text-align:left;
 }
 
 .subheading {
@@ -82,8 +83,8 @@ div > h3 { /* spacing for mobile*/
 
 
 h3 {
-  font-size:32px;
-  line-height:28px;
+  font-size: $base-font-size + 16px;
+  line-height: $base-line-height + 4px;
 }
 
 .gallery h3 {
@@ -93,7 +94,7 @@ h3 {
 }
 
 h4 {
- font-size: 18px;
+ font-size: $base-font-size + 2px;
  margin: 25px 0 10px 0;
 }
 
@@ -119,8 +120,8 @@ p {
 
 .navContainer ul li {
   display: inline;
-margin:30px;
-line-height:40px;
+	margin:30px;
+  line-height: $base-line-height + 16px;
 }
 
 .navContainer ul li a {
@@ -134,7 +135,7 @@ line-height:40px;
 }
 
 .showtitle {
- font-size: 12px;
+ font-size: $base-font-size - 4px;
  margin: 15px 0 10px 0;
 }
 
