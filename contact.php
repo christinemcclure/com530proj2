@@ -72,7 +72,7 @@ if (isset($_POST['submitted'])) {
 	<div><?php echo $feedback; ?>
   </div>
   <div id="showContactForm" class="<?php echo $cssclass; ?>"> <!--showForm to start-->
-    <form method="post" action="index.php#contact" id="contactForm">
+    <form method="post" action="contact.php" id="contactForm">
       <p>Name:</p>
       <p><input type="text" name="name" id="name" /></p>
       <p>Email:</p>
