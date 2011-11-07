@@ -5,7 +5,7 @@
 
 <body>
 
-<div id="page">
+<div id="homePage">
 	<div id="header">
    <?php include './includes/header.html' ?>
 	</div>
@@ -15,7 +15,8 @@
       <img class="hideMobile" src="/img/rolliflex.gif" alt="photo of 1960s Rolliflex camera" />
 			<h2 class="hideMobile">Photography</h2>
       <p>I've been fascinated with photography ever since my childhood in the seventies, where I staged a photo shoot using a velour bathrobe as a backdrop, ceramic dog figurines as models, and my trusty little 110 plastic camera.</p>
-          
+
+      
           <h3 id="openGalleries">
             <span class="headingblock">Galleries</span> <span class="subheading headingblock">View past work</span>
           </h3>
@@ -24,12 +25,11 @@
           	<h4><a href="/portraits.php">Portraiture<span class="subheading">Headshots and other stagings.</span></a></h4>
           	<h4><a href="/events.php">Events<span class="subheading">Candid shots from group events.</span></a></h4>
 						<h4> <a href="/travel.php">Travel<span class="subheading">Favorite images from my travels.</span></a></h4>  
-        
           </div>
 
-          <div id="openPricing">
-            <h3><span class="headingblock">Pricing</span> <span class="subheading headingblock">How things are done</span></h3>
-          </div>
+          <h3 id="openPricing">
+            <span class="headingblock">Pricing</span> <span class="subheading headingblock">How things are done</span>
+          </h3>
           <div id="pricing" class="clear"> 
           <h4>Event Photography</h4>
             <p>From children's birthday parties to book signings to corporate functions, you'll receive an accurate record of the occasion. Pricing is by a per-hour shooting fee, with a minimum agreed-upon amount. Additional shooting time can be arranged on the day of the event if necessary.</p>
@@ -64,16 +64,17 @@
 					</div>
           
 
-          <div id="openContact">
-            <h3><span class="headingblock">Contact</span> <span class="subheading headingblock">Book or order prints</span></h3>
-          </div>
+          <h3 id="openContact">
+            <span class="headingblock">Contact</span> <span class="subheading headingblock">Book or order prints</span>
+          </h3>
           
           <div id="contact" class="clear"> 
             <h4>Need to order prints?</h4> 
             <p>You can do that <a href="http://christinemcclure.smugmug.com/">online at Smugmug</a>, where they use a professional photo lab for expert color correction.</p>
-            <p>Or, <a href="/contact.php">send me a message.</a></p> 
-                
+            <p>Or, <a href="/contact.php">send me a message.</a></p>                 
         </div>
+              
+        
 	</div>
   <div id="library">
 		<h2>Librarianship</h2>
