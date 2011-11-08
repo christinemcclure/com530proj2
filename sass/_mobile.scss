@@ -181,21 +181,28 @@ p {
 
 /* NAVIGATION  -- from http://www.visibilityinherit.com/code/center-nav.php */
 
+#wrap {
+overflow:hidden;
+position:relative; /* IE7 needs this */
+}
 #nav {
-width:280px; /**/
-margin:0 auto;
-list-style:none;
-overflow:auto; /* added in case the resolution is smaller than width*/
+float:left;
+position:relative;
+left:50%;
+}
+#nav ul {
+float:left; /* IE6 needs this */
+position:relative;
+left:-50%;
+list-style:none; 
 }
 #nav li {
 float:left;
 }
 #nav a {
-display:block;
-text-align:center;
-width:90px; /* fixed width */
+float:left;
 text-decoration:none; 
-border: 1px solid white;
+padding:0 30px; /* variable width */
 }
 
 /* MISC */

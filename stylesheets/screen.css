@@ -341,32 +341,43 @@ li p {
 
 /* NAVIGATION  -- from http://www.visibilityinherit.com/code/center-nav.php */
 /* line 184, ../sass/_mobile.scss */
-#nav {
-  width: 280px;
-  /**/
-  margin: 0 auto;
-  list-style: none;
-  overflow: auto;
-  /* added in case the resolution is smaller than width*/
+#wrap {
+  overflow: hidden;
+  position: relative;
+  /* IE7 needs this */
 }
 
-/* line 190, ../sass/_mobile.scss */
+/* line 188, ../sass/_mobile.scss */
+#nav {
+  float: left;
+  position: relative;
+  left: 50%;
+}
+
+/* line 193, ../sass/_mobile.scss */
+#nav ul {
+  float: left;
+  /* IE6 needs this */
+  position: relative;
+  left: -50%;
+  list-style: none;
+}
+
+/* line 199, ../sass/_mobile.scss */
 #nav li {
   float: left;
 }
 
-/* line 193, ../sass/_mobile.scss */
+/* line 202, ../sass/_mobile.scss */
 #nav a {
-  display: block;
-  text-align: center;
-  width: 90px;
-  /* fixed width */
+  float: left;
   text-decoration: none;
-  border: 1px solid white;
+  padding: 0 30px;
+  /* variable width */
 }
 
 /* MISC */
-/* line 203, ../sass/_mobile.scss */
+/* line 210, ../sass/_mobile.scss */
 .hideMobile {
   display: none;
 }
