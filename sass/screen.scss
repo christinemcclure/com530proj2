@@ -30,12 +30,16 @@ $headingFont: 'PT Serif', 'Palatino Linotype', 'Georgia', serif;
   $paleGreen: #BCC98E;
   $yellow: #EDE059;
 
+$background1: $greyGreen;
+$background2: $yellow;
+$fontColor: $darkBlue;
+
 html { /* initial grid system: line-height:18 font-size: 14 */
   font-family: $mainFont;
   padding: 15px; 
   font-size: $base-font-size;
-  background-color: $greyGreen;
-  color:$darkBlue;
+  background-color: $background2;
+  color:$fontColor;
 }
 
 
