@@ -8,11 +8,34 @@ $mainFont: 'Spinnaker', 'Century Gothic', 'Tahoma', 'Verdana', sans-serif;
 $impactFont: 'Covered By Your Grace', 'Impact', 'Copperplate Gothic Light', serif;
 $headingFont: 'PT Serif', 'Palatino Linotype', 'Georgia', serif;
 
+/* Seeking Nature */
+	$darkGrey:#3E3830;
+  $lightGrey: #63605C;
+  $greyGreen: #B5BA8D;
+  $paleYellow: #FFED97;
+  $goldenYellow: #E6D66D;
+
+
+/* Gallery Window*/
+	$lightGrey: #2E3446;
+  $beige: #BFA980;
+  $tan: #A6783F;
+  $red: #732626;
+  $darkGrey: #262626;
+
+/* Parapluie*/
+  $darkBlue: #0C2538;
+  $greyBlue: #2B434F;
+  $greyGreen: #638270;
+  $paleGreen: #BCC98E;
+  $yellow: #EDE059;
 
 html { /* initial grid system: line-height:18 font-size: 14 */
   font-family: $mainFont;
   padding: 15px; 
   font-size: $base-font-size;
+  background-color: $greyGreen;
+  color:$darkBlue;
 }
 
 

@@ -1,4 +1,4 @@
-/* line 17, ../../../RailsInstaller/Ruby1.8.7/lib/ruby/gems/1.8/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 17, ../../.rvm/gems/ruby-1.9.2-p290/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -20,45 +20,45 @@ time, mark, audio, video {
   vertical-align: baseline;
 }
 
-/* line 20, ../../../RailsInstaller/Ruby1.8.7/lib/ruby/gems/1.8/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 20, ../../.rvm/gems/ruby-1.9.2-p290/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 body {
   line-height: 1;
 }
 
-/* line 22, ../../../RailsInstaller/Ruby1.8.7/lib/ruby/gems/1.8/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 22, ../../.rvm/gems/ruby-1.9.2-p290/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 ol, ul {
   list-style: none;
 }
 
-/* line 24, ../../../RailsInstaller/Ruby1.8.7/lib/ruby/gems/1.8/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 24, ../../.rvm/gems/ruby-1.9.2-p290/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
 
-/* line 26, ../../../RailsInstaller/Ruby1.8.7/lib/ruby/gems/1.8/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 26, ../../.rvm/gems/ruby-1.9.2-p290/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 caption, th, td {
   text-align: left;
   font-weight: normal;
   vertical-align: middle;
 }
 
-/* line 28, ../../../RailsInstaller/Ruby1.8.7/lib/ruby/gems/1.8/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 28, ../../.rvm/gems/ruby-1.9.2-p290/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 q, blockquote {
   quotes: none;
 }
-/* line 101, ../../../RailsInstaller/Ruby1.8.7/lib/ruby/gems/1.8/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 101, ../../.rvm/gems/ruby-1.9.2-p290/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 q:before, q:after, blockquote:before, blockquote:after {
   content: "";
   content: none;
 }
 
-/* line 30, ../../../RailsInstaller/Ruby1.8.7/lib/ruby/gems/1.8/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 30, ../../.rvm/gems/ruby-1.9.2-p290/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 a img {
   border: none;
 }
 
-/* line 114, ../../../RailsInstaller/Ruby1.8.7/lib/ruby/gems/1.8/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 114, ../../.rvm/gems/ruby-1.9.2-p290/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
   display: block;
 }
@@ -107,12 +107,17 @@ a {
   display: none;
 }
 
-/* line 12, ../sass/screen.scss */
+/* Seeking Nature */
+/* Gallery Window*/
+/* Parapluie*/
+/* line 33, ../sass/screen.scss */
 html {
   /* initial grid system: line-height:18 font-size: 14 */
   font-family: "Spinnaker", "Century Gothic", "Tahoma", "Verdana", sans-serif;
   padding: 15px;
   font-size: 16px;
+  background-color: #638270;
+  color: #0c2538;
 }
 
 /* 
@@ -121,7 +126,7 @@ html {
 
 */
 /* line 1, ../sass/_mobile.scss */
-#header, #footer, #homePage h2, .navContainer ul li a {
+#header, #footer, #homePage h2, .navContainer {
   text-align: center;
   padding: 5px 0;
   margin-bottom: 10px;
@@ -131,42 +136,70 @@ html {
   -ms-border-radius: 20px;
   -khtml-border-radius: 20px;
   border-radius: 20px;
-  background-color: yellow;
+  -moz-box-shadow: 0px 0px 5px #333333;
+  -webkit-box-shadow: 0px 0px 5px #333333;
+  -o-box-shadow: 0px 0px 5px #333333;
+  box-shadow: 0px 0px 5px #333333;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #2b434f), color-stop(100%, #0c2538));
+  background-image: -webkit-linear-gradient(top, #2b434f, #0c2538);
+  background-image: -moz-linear-gradient(top, #2b434f, #0c2538);
+  background-image: -o-linear-gradient(top, #2b434f, #0c2538);
+  background-image: -ms-linear-gradient(top, #2b434f, #0c2538);
+  background-image: linear-gradient(top, #2b434f, #0c2538);
 }
 
-/* line 11, ../sass/_mobile.scss */
+/* line 13, ../sass/_mobile.scss */
 .showtitle strong, .gallery h1, .gallery h2 strong {
   font-family: "PT Serif", "Palatino Linotype", "Georgia", serif;
   font-size: 20px;
   margin: 0 5px 0 0;
   font-style: italic;
-  font-weight: bold;
 }
 
-/* line 20, ../sass/_mobile.scss */
+/* line 22, ../sass/_mobile.scss */
 #header h1, #homePage h3 {
   font-family: "Covered By Your Grace", "Impact", "Copperplate Gothic Light", serif;
 }
 
-/* line 24, ../sass/_mobile.scss */
+/* line 27, ../sass/_mobile.scss */
+#header p, #footer {
+  color: #638270;
+}
+
+/* line 31, ../sass/_mobile.scss */
+#homePage h2 {
+  color: #bcc98e;
+}
+
+/* line 35, ../sass/_mobile.scss */
 #header h1 {
   font-size: 44px;
   line-height: 36px;
   padding: 10px;
 }
 
-/* line 31, ../sass/_mobile.scss */
+/* line 41, ../sass/_mobile.scss */
+#header a, #homePage h3, #homePage h3 a {
+  color: #ede059;
+}
+
+/* line 45, ../sass/_mobile.scss */
+#homePage h3 .subheading, #homePage h3 .subheading a {
+  color: #2b434f;
+}
+
+/* line 50, ../sass/_mobile.scss */
 #header p {
   font-size: 12px;
   margin: 0 0 10px 0;
 }
 
-/* line 36, ../sass/_mobile.scss */
+/* line 55, ../sass/_mobile.scss */
 #footer {
   margin: 35px 0 0 0;
 }
 
-/* line 40, ../sass/_mobile.scss */
+/* line 59, ../sass/_mobile.scss */
 h2 {
   font-family: "Spinnaker", "Century Gothic", "Tahoma", "Verdana", sans-serif;
   font-size: 24px;
@@ -174,12 +207,12 @@ h2 {
   margin: 30px 0 20px 0;
 }
 
-/* line 48, ../sass/_mobile.scss */
+/* line 67, ../sass/_mobile.scss */
 #library .subheading {
   margin: 0 10px 0 0;
 }
 
-/* line 53, ../sass/_mobile.scss */
+/* line 72, ../sass/_mobile.scss */
 h3 {
   font-family: "PT Serif", "Palatino Linotype", "Georgia", serif;
   font-size: 20px;
@@ -187,7 +220,7 @@ h3 {
   font-style: italic;
 }
 
-/* line 60, ../sass/_mobile.scss */
+/* line 79, ../sass/_mobile.scss */
 #homePage h3 {
   clear: both;
   padding: 10px 0;
@@ -196,7 +229,7 @@ h3 {
   font-style: normal;
 }
 
-/* line 68, ../sass/_mobile.scss */
+/* line 87, ../sass/_mobile.scss */
 .headingblock {
   display: block;
   float: left;
@@ -206,94 +239,86 @@ h3 {
   font-size: 30px;
 }
 
-/* line 76, ../sass/_mobile.scss */
+/* line 95, ../sass/_mobile.scss */
 .subheading {
   font-family: "Spinnaker", "Century Gothic", "Tahoma", "Verdana", sans-serif;
   font-size: 16px;
   margin: 3px 0 0 10px;
 }
 
-/* line 82, ../sass/_mobile.scss */
+/* line 101, ../sass/_mobile.scss */
 #homePage h4 {
   font-size: 18px;
   margin: 20px 0 10px 0;
 }
 
-/* line 87, ../sass/_mobile.scss */
+/* line 106, ../sass/_mobile.scss */
 #photo h4:first-child {
   margin-top: 40px;
 }
 
-/* line 91, ../sass/_mobile.scss */
+/* line 110, ../sass/_mobile.scss */
 h5 {
   font-weight: bold;
   margin: 5px 0;
 }
 
-/* line 96, ../sass/_mobile.scss */
+/* line 115, ../sass/_mobile.scss */
 p {
   margin: 10px 0 10px 0;
 }
 
-/* line 100, ../sass/_mobile.scss */
+/* line 119, ../sass/_mobile.scss */
 li p {
   margin: 40px 0 10px 0;
 }
 
-/* line 104, ../sass/_mobile.scss */
+/* line 123, ../sass/_mobile.scss */
 .gallery p strong {
   font-family: "PT Serif", "Palatino Linotype", "Georgia", serif;
   font-style: italic;
   font-weight: bold;
 }
 
-/* line 110, ../sass/_mobile.scss */
+/* line 129, ../sass/_mobile.scss */
 #contactLib p {
   margin-top: 20px;
 }
 
-/* line 114, ../sass/_mobile.scss */
+/* line 133, ../sass/_mobile.scss */
 .navContainer {
-  padding: 0;
-  clear: both;
-  width: 100%;
-}
-
-/* line 120, ../sass/_mobile.scss */
-.navContainer ul {
-  padding: 0;
+  width: 98%;
+  padding: 5px;
   margin: 0 auto;
+  text-align: left;
   position: relative;
-  left: 50%;
 }
 
-/* line 127, ../sass/_mobile.scss */
-.navContainer ul li {
-  float: left;
+/* line 142, ../sass/_mobile.scss */
+.navContainer p {
+  display: inline;
   position: relative;
-  right: 50%;
-  margin: 0 0 10px 0;
+  line-height: 26px;
+  margin: 0 auto;
 }
 
-/* line 132, ../sass/_mobile.scss */
-.navContainer ul li a {
-  width: auto;
-  display: block;
-  padding: 4px 16px;
+/* line 150, ../sass/_mobile.scss */
+.navContainer p a {
+  padding: 15px;
 }
 
-/* line 139, ../sass/_mobile.scss */
+/* line 154, ../sass/_mobile.scss */
 .gallery img {
   margin: 10px 0;
 }
 
-/* line 143, ../sass/_mobile.scss */
+/* line 158, ../sass/_mobile.scss */
 .showtitle {
   font-size: 12px;
   margin: 15px 0 10px 0;
 }
 
-/* line 148, ../sass/_mobile.scss */
+/* line 163, ../sass/_mobile.scss */
 .hideMobile {
   display: none;
 }

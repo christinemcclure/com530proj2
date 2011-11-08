@@ -1,9 +1,11 @@
-#header, #footer, #homePage h2, .navContainer ul li a  {
+#header, #footer, #homePage h2, .navContainer {
   text-align:center;
   padding: 5px 0;
   margin-bottom: 10px;
   @include border-radius(20px); 
-  background-color:yellow;
+  @include box-shadow;  
+  @include linear-gradient(color-stops($greyBlue, $darkBlue), top); 
+
 }
 
 
@@ -13,7 +15,7 @@
   font-size: $base-font-size + 4px;
   margin: 0 5px 0 0;
   font-style:italic;
-  font-weight:bold;
+
 }
 
 
@@ -21,10 +23,27 @@
   font-family: $impactFont;
 }
 
+
+#header p, #footer {
+  color: $greyGreen;
+}
+
+#homePage h2 {
+  color: $paleGreen;
+}
+
 #header h1 {
   font-size: $base-font-size + 28px;
   line-height: $base-line-height + 12px;
   padding: 10px;
+}
+
+#header a, #homePage h3, #homePage h3 a {
+    color: $yellow;
+}
+
+#homePage h3 .subheading, #homePage h3 .subheading a {
+   color: $greyBlue;
 }
 
 
@@ -112,29 +131,25 @@ p {
 }
 
 .navContainer {
-	padding:0;
-	clear:both; 
-	width:100%; 
+  width:98%;
+  padding: 5px;
+  margin: 0 auto;
+  text-align: left;
+  position: relative;
+
 }
 
-.navContainer ul {
-  padding:0; 
-  margin:0 auto; 
-  position:relative; 
-  left:50%;
+.navContainer p {
+  display: inline;
+  position: relative;
+  line-height: 26px;
+  margin: 0 auto;
+
 }
 
-.navContainer ul li {
-  float:left; position:relative; right:50%;
-	margin: 0 0 10px 0;
+.navContainer p a {
+  padding: 15px;
 }
-
-.navContainer ul li a {
-  width:auto;
-  display:block;
-  padding:4px 16px;
-}
-
 
 .gallery img {
   margin: 10px 0;
