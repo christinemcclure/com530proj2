@@ -8,9 +8,7 @@
 <div id="header">
 		<?php include './includes/header.html'; ?>
 </div>
-  <div class="navContainer">
 		<?php include './includes/photo-nav.html'; ?>
-  </div>  
 
   <div id="content" class="clear">
   

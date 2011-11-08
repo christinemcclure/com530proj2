@@ -35,9 +35,9 @@
 
   </div>
 
-     <div class="navContainer">
-      <?php include './includes/photo-nav.html'; ?>
-    </div>  
+  <div class="navContainer">
+		<?php include './includes/lib-nav.html'; ?>
+  </div> 
 
   <div id="footer" class="clear">
   <?php include 'includes/footer.html' ?> 

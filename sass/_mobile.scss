@@ -1,3 +1,5 @@
+/* MAIN DIV ELEMENTS */
+
 #page, #homePage {
   background-color:$background1;
   padding: 20px;
@@ -12,7 +14,6 @@
   @include linear-gradient(color-stops($greyBlue, $darkBlue), top); 
 
 }
-
 
 
 .showtitle strong, .gallery h1, .gallery h2 strong{
@@ -61,16 +62,13 @@
   margin: 35px 0 0 0;
 }
 
+/* MAIN HTML ELEMENTS */
+
 h2 {
   font-family: $mainFont;
   font-size: $base-font-size + 8px;
   font-weight: bold;
   margin: 30px 0 20px 0;
-}
-
-
-#library .subheading {
- margin: 0 10px 0 0;
 }
 
 
@@ -80,6 +78,24 @@ h3 {
   line-height: $base-line-height + 4px;
 	font-style: italic;
 }
+
+h5{
+ font-weight:bold;
+ margin:5px 0;
+}
+
+p {
+	margin: 10px 0 10px 0;
+}
+
+ li p {
+  margin: 40px 0 10px 0;
+}
+
+/* SPECIAL HANDLERS */
+
+
+/* HOME PAGE */
 
 #homePage h3 {
   clear: both;
@@ -108,52 +124,17 @@ h3 {
   margin: 20px 0 10px 0;
 }
 
+
+/* PHOTO GALLERIES */
+
 #photo h4:first-child {
   margin-top:40px;
-}
-
-h5{
- font-weight:bold;
- margin:5px 0;
-}
-
-p {
-	margin: 10px 0 10px 0;
-}
-
- li p {
-  margin: 40px 0 10px 0;
 }
 
 .gallery p strong {
   font-family: $headingFont;
 	font-style:italic;
 	font-weight: bold;
-}
-
-#contactLib p {
-  margin-top: 20px;
-}
-
-.navContainer {
-  width:98%;
-  padding: 5px;
-  margin: 0 auto;
-  text-align: left;
-  position: relative;
-
-}
-
-.navContainer p {
-  display: inline;
-  position: relative;
-  line-height: 26px;
-  margin: 0 auto;
-
-}
-
-.navContainer p a {
-  padding: 15px;
 }
 
 .gallery img {
@@ -164,6 +145,60 @@ p {
  font-size: $base-font-size - 4px;
  margin: 15px 0 10px 0;
 }
+
+/* RESUME */
+
+.resume h4 {
+  margin: 0 0 15px 0;
+}
+
+.resume ul li {
+  list-style-type:disc;
+  margin: 0 10px 10px 30px;
+}
+
+.resume p{
+  margin:5px 15px;
+}
+
+.resume h4{
+  font-size: $base-font-size - 2px;
+	font-weight: bold;
+  margin: 10px 15px;
+}
+
+.resume strong {
+  background-color: $resumeStrongBackground;
+	@include border-radius(20px);
+	padding: 0 10px;
+}
+
+.resume #content ul li {
+  list-style-type: disc;
+  margin: 0 10px 10px 30px;
+}
+
+
+/* NAVIGATION  -- from http://www.visibilityinherit.com/code/center-nav.php */
+
+#nav {
+width:280px; /**/
+margin:0 auto;
+list-style:none;
+overflow:auto; /* added in case the resolution is smaller than width*/
+}
+#nav li {
+float:left;
+}
+#nav a {
+display:block;
+text-align:center;
+width:90px; /* fixed width */
+text-decoration:none; 
+border: 1px solid white;
+}
+
+/* MISC */
 
 .hideMobile{
   display:none;

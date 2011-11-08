@@ -4,30 +4,31 @@
 
 <body>
 
-<div id="page" class="gallery">
+<div id="page" class="resume">
 <div id="header">
 		<?php include './includes/header.html'; ?> 
 </div>
-  <div class="navContainer">
+  <div id="wrap">
+  <div id="nav">
 		<?php include './includes/lib-nav.html'; ?>
   </div> 
-  <div id="content" class="clear">
-
-
-
-    <h2 id="experience" class="headerToggle">Experience</h2>
-      <div class="contentToggle">
+  </div>
+  
+<div id="content" class="clear">
+  
+<h2>Experience</h2>
       <h3>Digital Services Librarian</h3>
       <p>Illinois Institute of Technology</p>
    	  <h4>Web Design/Development</h4>
-       	<ul>
-    			<li>Creating new digital content for the library: including web-based tutorials,
-          digitally reformatted collections, subject specific pathfinders, and other digital library services. </li>
-          <li>Developing dynamic, evolving, user-centered content and services for all IIT Library web sites. Designed and <strong>developed the library's first mobile website</strong> (summer 2011).</li>
-				  <li>Introducing <strong>best practices</strong> for web development such as version control, usability studies and process documentation.</li>
-        </ul>
+     	<ul>
+   			<li>Creating new digital content for the library: including web-based tutorials,
+        digitally reformatted collections, subject specific pathfinders, and other digital library services. </li>
+        <li>Developing dynamic, evolving, user-centered content and services for all IIT Library web sites. Designed and <strong>developed the library's first <a href="http://m.library.iit.edu" target="_blank">mobile website</a></strong> (summer 2011). </li>
+<li>Presented at the <strong>2011 <a href="http://eduiconf.org/sessions/the-jquery-mobile-website/" target="_blank">edUI conference</a></strong> on using a particular mobile development framework. </li>
+			  <li>Introducing <strong>best practices</strong> for web development such as version control, usability studies and process documentation.</li>
+      </ul>
 
-  <h4>Application Administration</h4>
+<h4>Application Administration</h4>
        	<ul>
          	<li>Recommending digital services and program content through recommendations, literature review, and statistical reports. </li>
           <li>Implementing and maintaining applications such as open-URL linkages and federated search software.</li>
@@ -141,10 +142,8 @@
           <ul>
             <li>Designed marketing materials such as <strong>logos, business cards and brochures</strong>.</li>
           </ul>
-      </div>
 
-    <h2 id="skills" class="headerToggle">Technical Skills</h2>
-      <div class="contentToggle">
+    <h2>Technical Skills</h2>
     	<h3>Software</h3>
 
       	<h4>Library Systems</h4>
@@ -176,9 +175,8 @@
         <ul>
           <li>HTML, PHP, <strong>JavaScript/jQuery, Ruby on Rails,</strong> MySQL, Perl</li>
         </ul>
-      </div>
-	  <h2 id="education" class="headerToggle">Education</h2>
-      <div class="contentToggle">   
+
+	  <h2>Education</h2>
     	<ul>
       	<li>Master Certificate in <strong>Web Design &amp; Application Development</strong> (2012)</li>
       	<li>Master of <strong>Library and Information Science</strong>, Dominican University, River Forest, IL. 
@@ -188,16 +186,13 @@
         </li>
         <li>Bachelor of Science, Eastern Michigan University, Ypsilanti, MI</li>
       </ul>
-      </div>
 
-	  <h2 id="activities" class="headerToggle">Activities / Interests</h2>
-      <div class="contentToggle">
+	  <h2>Activities / Interests</h2>
     	<ul>
 			  <li>Active member of ALA, RUSA, and LITA</li>
 			  <li><strong>Photography</strong> (fine art, portraiture and event photography)</li>
 			  <li>Graphic design</li>
       </ul>
-     </div>
   
 
   </div>
@@ -208,5 +203,6 @@
   <?php include 'includes/footer.html' ?> 
   </div>
 </div>
+
 </body>
 </html>
