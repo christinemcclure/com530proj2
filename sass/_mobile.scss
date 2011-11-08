@@ -179,30 +179,31 @@ p {
 }
 
 
-/* NAVIGATION  -- from http://www.visibilityinherit.com/code/center-nav.php */
+/* NAVIGATION  -- from http://www.visibilityinherit.com/code/center-nav.php 
+                   with some tweaks
+*/
 
-#wrap {
-overflow:hidden;
-position:relative; /* IE7 needs this */
-}
+/* line 186, ../sass/_mobile.scss */
 #nav {
-float:left;
-position:relative;
-left:50%;
+  /* IE6 needs this */
+  position: relative;
+  right: -5%; /* this gives better centering results, but check in IE*/
 }
+
+/* line 191, ../sass/_mobile.scss */
 #nav ul {
-float:left; /* IE6 needs this */
-position:relative;
-left:-50%;
-list-style:none; 
+  list-style: none;
 }
-#nav li {
-float:left;
-}
+
+/* line 202, ../sass/_mobile.scss */
+/* line 196, ../sass/_mobile.scss */
 #nav a {
-float:left;
-text-decoration:none; 
-padding:0 30px; /* variable width */
+  width: 80px; /* lines up better in mobile*/
+  float: left;
+  text-decoration: none;
+  padding: 10px 20px;
+	text-align: center;
+  /* variable width */
 }
 
 /* MISC */

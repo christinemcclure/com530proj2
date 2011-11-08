@@ -38,9 +38,7 @@
       <li><img src="/img/fineart/persephone-3.jpg" alt="Digitally-manipulated image of a large fern-like plant in grayscale growing out of large red rocks (magnified pebbles)." /></li>    
     </ul>
   </div>
-     <div class="navContainer">
-      <?php include './includes/photo-nav.html'; ?>
-    </div>  
+	<?php include './includes/photo-nav.html'; ?>
   <div id="footer" class="clear">
   <?php include 'includes/footer.html' ?> 
   </div>

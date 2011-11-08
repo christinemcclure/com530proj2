@@ -339,45 +339,39 @@ li p {
   margin: 0 10px 10px 30px;
 }
 
-/* NAVIGATION  -- from http://www.visibilityinherit.com/code/center-nav.php */
-/* line 184, ../sass/_mobile.scss */
-#wrap {
-  overflow: hidden;
-  position: relative;
-  /* IE7 needs this */
-}
-
-/* line 188, ../sass/_mobile.scss */
+/* NAVIGATION  -- from http://www.visibilityinherit.com/code/center-nav.php 
+                   with some tweaks
+*/
+/* line 186, ../sass/_mobile.scss */
+/* line 187, ../sass/_mobile.scss */
 #nav {
-  float: left;
-  position: relative;
-  left: 50%;
-}
-
-/* line 193, ../sass/_mobile.scss */
-#nav ul {
-  float: left;
   /* IE6 needs this */
   position: relative;
-  left: -50%;
+  right: -5%;
+  /* this gives better centering results, but check in IE*/
+}
+
+/* line 191, ../sass/_mobile.scss */
+/* line 194, ../sass/_mobile.scss */
+#nav ul {
   list-style: none;
 }
 
-/* line 199, ../sass/_mobile.scss */
-#nav li {
-  float: left;
-}
-
 /* line 202, ../sass/_mobile.scss */
+/* line 196, ../sass/_mobile.scss */
+/* line 200, ../sass/_mobile.scss */
 #nav a {
+  width: 80px;
+  /* lines up better in mobile*/
   float: left;
   text-decoration: none;
-  padding: 0 30px;
+  padding: 10px 20px;
+  text-align: center;
   /* variable width */
 }
 
 /* MISC */
-/* line 210, ../sass/_mobile.scss */
+/* line 211, ../sass/_mobile.scss */
 .hideMobile {
   display: none;
 }

@@ -8,11 +8,8 @@
 <div id="header">
 		<?php include './includes/header.html'; ?> 
 </div>
-  <div id="wrap">
-  <div id="nav">
-		<?php include './includes/lib-nav.html'; ?>
-  </div> 
-  </div>
+
+	<?php include './includes/lib-nav.html'; ?>
   
 <div id="content" class="clear">
   
@@ -196,9 +193,7 @@
   
 
   </div>
-     <div class="navContainer">
-      <?php include './includes/lib-nav.html'; ?>
-    </div>  
+  <?php include './includes/lib-nav.html'; ?>
   <div id="footer" class="clear">
   <?php include 'includes/footer.html' ?> 
   </div>

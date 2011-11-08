@@ -9,10 +9,8 @@
 		<?php include './includes/header.html'; ?>
 </div>
 
-  <div class="navContainer">
-		<?php include './includes/lib-nav.html'; ?>
-  </div>  
-
+ 	<?php include './includes/lib-nav.html'; ?>
+ 
   <div id="content" class="clear">
 	<p>Here are a few things I've designed over the years...</p>
   
@@ -35,10 +33,8 @@
 
   </div>
 
-  <div class="navContainer">
-		<?php include './includes/lib-nav.html'; ?>
-  </div> 
-
+	<?php include './includes/lib-nav.html'; ?>
+ 
   <div id="footer" class="clear">
   <?php include 'includes/footer.html' ?> 
   </div>

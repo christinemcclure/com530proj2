@@ -10,9 +10,7 @@
       <?php include './includes/header.html'; ?>
   </div>
 
-    <div class="navContainer">
-      <?php include './includes/photo-nav.html'; ?>
-    </div>  
+  <?php include './includes/photo-nav.html'; ?>
     
   <div id="content" class="clear">
   <h1>Jerusalem</h1>
@@ -29,9 +27,8 @@
       <li><p>Panama City.</p> <img src="/img/travel/panamaearlymorning_10.jpg" alt="Photo of an old brick supporting structure, backlit from the sun rising over the ocean." /></li>
     </ul>   
   </div>
-     <div class="navContainer">
-      <?php include './includes/photo-nav.html'; ?>
-    </div>  
+
+  <?php include './includes/photo-nav.html'; ?>
 
   <div id="footer" class="clear">
   <?php include 'includes/footer.html' ?> 

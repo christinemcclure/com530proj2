@@ -12,9 +12,7 @@
       <?php include './includes/header.html'; ?>  
   </div>
 
-   <div class="navContainer">
-      <?php include './includes/photo-nav.html'; ?>
-   </div>  
+	<?php include './includes/photo-nav.html'; ?>
   
   <div id="content" class="clear">
   <h2>Literature For All of Us, Honor Thy Mother Luncheon, 2011</h2>
@@ -42,9 +40,8 @@
     </ul>
     
   </div>
-     <div class="navContainer">
-      <?php include './includes/photo-nav.html'; ?>
-    </div>  
+
+	<?php include './includes/photo-nav.html'; ?>
   
     <div id="footer" class="clear">
   <?php include 'includes/footer.html' ?> 
