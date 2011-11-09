@@ -128,7 +128,7 @@ html {
 /* MAIN DIV ELEMENTS */
 /* line 3, ../sass/_mobile.scss */
 .page {
-  background-color: #638270;
+  /*  background-color:$background1; */
   padding: 20px;
 }
 
@@ -137,7 +137,7 @@ html {
   text-align: center;
   padding: 5px 0;
   margin-bottom: 10px;
-  background-color: #ede059;
+  /*  background-color:$background2; */
 }
 
 /* line 16, ../sass/_mobile.scss */
@@ -147,7 +147,7 @@ html {
 
 /* line 21, ../sass/_mobile.scss */
 #header p, #footer {
-  color: #638270;
+  /* color: $greyGreen; */
   font-size: 11px;
 }
 
@@ -160,12 +160,12 @@ html {
 
 /* line 34, ../sass/_mobile.scss */
 #header a, #homePage h3, #homePage h3 a {
-  color: #0c2538;
+  /*    color: $darkBlue; */
 }
 
 /* line 38, ../sass/_mobile.scss */
 #homePage h3 .subheading, #homePage h3 .subheading a {
-  color: #2b434f;
+  /*   color: $greyBlue; */
 }
 
 /* line 43, ../sass/_mobile.scss */
@@ -220,7 +220,7 @@ li p {
 /* HOME PAGE */
 /* line 91, ../sass/_mobile.scss */
 #homePage #library h2 {
-  color: #bcc98e;
+  /*  color: $paleGreen; */
   margin: 50px 0 0 0;
 }
 
@@ -334,13 +334,8 @@ li p {
 
 /* line 191, ../sass/_mobile.scss */
 #resume strong {
-  background-color: #bcc98e;
-  -moz-border-radius: 20px;
-  -webkit-border-radius: 20px;
-  -o-border-radius: 20px;
-  -ms-border-radius: 20px;
-  -khtml-border-radius: 20px;
-  border-radius: 20px;
+  /*  background-color: $resumeStrongBackground;
+  	@include border-radius(20px); */
   padding: 0 10px;
 }
 

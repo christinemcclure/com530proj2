@@ -1,7 +1,7 @@
 /* MAIN DIV ELEMENTS */
 
 .page {
-  background-color:$background1;
+/*  background-color:$background1; */
   padding: 20px;
 }
 
@@ -9,7 +9,7 @@
   text-align:center;
   padding: 5px 0;
   margin-bottom: 10px;
-  background-color:$background2;
+/*  background-color:$background2; */
 }
 
 
@@ -19,7 +19,7 @@
 
 
 #header p, #footer {
- color: $greyGreen;
+/* color: $greyGreen; */
  font-size: $base-font-size - 5px;
 }
 
@@ -32,11 +32,11 @@
 }
 
 #header a, #homePage h3, #homePage h3 a {
-    color: $darkBlue;
+/*    color: $darkBlue; */
 }
 
 #homePage h3 .subheading, #homePage h3 .subheading a {
-   color: $greyBlue;
+/*   color: $greyBlue; */
 }
 
 
@@ -89,7 +89,7 @@ p {
 /* HOME PAGE */
 
 #homePage #library h2 {
-  color: $paleGreen;
+/*  color: $paleGreen; */
 	margin: 50px 0 0 0;
 }
 
@@ -189,8 +189,8 @@ p {
 }
 
 #resume strong {
-  background-color: $resumeStrongBackground;
-	@include border-radius(20px);
+/*  background-color: $resumeStrongBackground;
+	@include border-radius(20px); */
 	padding: 0 10px;
 }
 
