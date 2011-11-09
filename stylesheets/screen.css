@@ -376,6 +376,12 @@ li p {
   display: none;
 }
 
+/* line 215, ../sass/_mobile.scss */
+img.floatRight {
+  float: right;
+  margin: 4px;
+}
+
 /* 
 
 ###############  Start of Minimum 400px ################## 
