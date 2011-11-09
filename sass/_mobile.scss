@@ -48,6 +48,11 @@
   margin: 35px 0 0 0;
 }
 
+
+#footer p {
+  margin: 5px;
+}
+
 /* MAIN HTML ELEMENTS */
 
 h2 {
@@ -109,6 +114,11 @@ p {
   font-size: $base-font-size;
   margin: 3px 0 0 10px;
 } 
+
+
+#library .headingblock {
+ margin: 0 0 0 10px;
+}
 
 
 #homePage h4, h5, p {

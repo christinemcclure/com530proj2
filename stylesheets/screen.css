@@ -178,8 +178,13 @@ html {
   margin: 35px 0 0 0;
 }
 
+/* line 52, ../sass/_mobile.scss */
+#footer p {
+  margin: 5px;
+}
+
 /* MAIN HTML ELEMENTS */
-/* line 53, ../sass/_mobile.scss */
+/* line 58, ../sass/_mobile.scss */
 h2 {
   font-family: "Spinnaker", "Century Gothic", "Tahoma", "Verdana", sans-serif;
   font-size: 24px;
@@ -187,7 +192,7 @@ h2 {
   margin: 30px 0 20px 0;
 }
 
-/* line 61, ../sass/_mobile.scss */
+/* line 66, ../sass/_mobile.scss */
 h3 {
   font-family: "PT Serif", "Palatino Linotype", "Georgia", serif;
   font-size: 20px;
@@ -195,31 +200,31 @@ h3 {
   font-style: italic;
 }
 
-/* line 68, ../sass/_mobile.scss */
+/* line 73, ../sass/_mobile.scss */
 h5 {
   font-weight: bold;
   margin: 5px 0;
 }
 
-/* line 73, ../sass/_mobile.scss */
+/* line 78, ../sass/_mobile.scss */
 p {
   margin: 10px 0 10px 0;
 }
 
-/* line 77, ../sass/_mobile.scss */
+/* line 82, ../sass/_mobile.scss */
 li p {
   margin: 40px 0 10px 0;
 }
 
 /* SPECIAL HANDLERS */
 /* HOME PAGE */
-/* line 86, ../sass/_mobile.scss */
+/* line 91, ../sass/_mobile.scss */
 #homePage #library h2 {
   color: #bcc98e;
   margin: 50px 0 0 0;
 }
 
-/* line 91, ../sass/_mobile.scss */
+/* line 96, ../sass/_mobile.scss */
 #homePage h3 {
   clear: both;
   padding: 10px 0;
@@ -228,7 +233,7 @@ li p {
   font-style: normal;
 }
 
-/* line 99, ../sass/_mobile.scss */
+/* line 104, ../sass/_mobile.scss */
 .headingblock {
   display: block;
   float: left;
@@ -238,32 +243,37 @@ li p {
   font-size: 30px;
 }
 
-/* line 107, ../sass/_mobile.scss */
+/* line 112, ../sass/_mobile.scss */
 .subheading {
   font-family: "Spinnaker", "Century Gothic", "Tahoma", "Verdana", sans-serif;
   font-size: 16px;
   margin: 3px 0 0 10px;
 }
 
-/* line 114, ../sass/_mobile.scss */
+/* line 119, ../sass/_mobile.scss */
+#library .headingblock {
+  margin: 0 0 0 10px;
+}
+
+/* line 124, ../sass/_mobile.scss */
 #homePage h4, h5, p {
   margin: 20px 0 10px 10px;
 }
 
-/* line 118, ../sass/_mobile.scss */
+/* line 128, ../sass/_mobile.scss */
 #homePage h4 {
   font-size: 18px;
   font-weight: bold;
 }
 
-/* line 123, ../sass/_mobile.scss */
+/* line 133, ../sass/_mobile.scss */
 #homePage h5 {
   font-size: 16px;
   font-weight: bold;
 }
 
 /* PHOTO GALLERIES */
-/* line 131, ../sass/_mobile.scss */
+/* line 141, ../sass/_mobile.scss */
 .showtitle strong, .gallery h2, .gallery h2 strong {
   font-family: "PT Serif", "Palatino Linotype", "Georgia", serif;
   font-size: 18px;
@@ -271,58 +281,58 @@ li p {
   font-style: italic;
 }
 
-/* line 138, ../sass/_mobile.scss */
+/* line 148, ../sass/_mobile.scss */
 .gallery h2 {
   margin: 20px 5px 0 0;
 }
 
-/* line 142, ../sass/_mobile.scss */
+/* line 152, ../sass/_mobile.scss */
 #photo h4:first-child {
   margin-top: 40px;
 }
 
-/* line 146, ../sass/_mobile.scss */
+/* line 156, ../sass/_mobile.scss */
 .gallery p strong {
   font-family: "PT Serif", "Palatino Linotype", "Georgia", serif;
   font-style: italic;
   font-weight: bold;
 }
 
-/* line 152, ../sass/_mobile.scss */
+/* line 162, ../sass/_mobile.scss */
 .gallery img {
   margin: 10px 0;
 }
 
-/* line 156, ../sass/_mobile.scss */
+/* line 166, ../sass/_mobile.scss */
 .showtitle {
   font-size: 12px;
 }
 
 /* RESUME */
-/* line 162, ../sass/_mobile.scss */
+/* line 172, ../sass/_mobile.scss */
 #resume h4 {
   margin: 0 0 15px 0;
 }
 
-/* line 166, ../sass/_mobile.scss */
+/* line 176, ../sass/_mobile.scss */
 #resume #content ul li {
   list-style-type: disc;
   margin: 0 10px 10px 30px;
 }
 
-/* line 171, ../sass/_mobile.scss */
+/* line 181, ../sass/_mobile.scss */
 #resume p {
   margin: 5px 15px;
 }
 
-/* line 175, ../sass/_mobile.scss */
+/* line 185, ../sass/_mobile.scss */
 #resume h4 {
   font-size: 14px;
   font-weight: bold;
   margin: 10px 15px;
 }
 
-/* line 181, ../sass/_mobile.scss */
+/* line 191, ../sass/_mobile.scss */
 #resume strong {
   background-color: #bcc98e;
   -moz-border-radius: 20px;
@@ -334,7 +344,7 @@ li p {
   padding: 0 10px;
 }
 
-/* line 187, ../sass/_mobile.scss */
+/* line 197, ../sass/_mobile.scss */
 #resume #content ul li {
   list-style-type: disc;
   margin: 0 10px 10px 30px;
@@ -344,7 +354,7 @@ li p {
                    with some tweaks
 */
 /* line 186, ../sass/_mobile.scss */
-/* line 198, ../sass/_mobile.scss */
+/* line 208, ../sass/_mobile.scss */
 #nav {
   /* IE6 needs this */
   position: relative;
@@ -353,7 +363,7 @@ li p {
   margin: 0 0 100px 0;
 }
 
-/* line 205, ../sass/_mobile.scss */
+/* line 215, ../sass/_mobile.scss */
 #resume #nav, #portfolio #nav {
   /* IE6 needs this */
   position: relative;
@@ -362,14 +372,14 @@ li p {
 }
 
 /* line 191, ../sass/_mobile.scss */
-/* line 213, ../sass/_mobile.scss */
+/* line 223, ../sass/_mobile.scss */
 #nav ul {
   list-style: none;
 }
 
 /* line 202, ../sass/_mobile.scss */
 /* line 196, ../sass/_mobile.scss */
-/* line 219, ../sass/_mobile.scss */
+/* line 229, ../sass/_mobile.scss */
 #nav a {
   width: 80px;
   /* lines up better in mobile*/
@@ -381,12 +391,12 @@ li p {
 }
 
 /* MISC */
-/* line 230, ../sass/_mobile.scss */
+/* line 240, ../sass/_mobile.scss */
 .hideMobile {
   display: none;
 }
 
-/* line 234, ../sass/_mobile.scss */
+/* line 244, ../sass/_mobile.scss */
 img.floatRight {
   float: right;
   margin: 4px;
