@@ -6,7 +6,7 @@
 
 <body>
 
-<div id="page" class="gallery">
+<div id="events" class="page gallery">
 
   <div id="header">
       <?php include './includes/header.html'; ?>  

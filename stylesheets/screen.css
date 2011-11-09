@@ -127,7 +127,7 @@ html {
 */
 /* MAIN DIV ELEMENTS */
 /* line 3, ../sass/_mobile.scss */
-#page, #homePage {
+.page {
   background-color: #638270;
   padding: 20px;
 }

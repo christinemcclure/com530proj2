@@ -61,7 +61,7 @@ if (isset($_POST['submitted'])) {
 </head>
 
 <body>
-<div id="page">
+<div id="conatct" class="page">
 	<div id="header">
 		<?php include './includes/header.html'; ?>
 	</div>

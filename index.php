@@ -5,7 +5,7 @@
 
 <body>
 
-<div id="homePage">
+<div id="homePage" class="page">
 	<div id="header">
    <?php include './includes/header.html' ?>
 	</div>

@@ -4,7 +4,7 @@
 
 <body>
 
-<div id="page" class="resume">
+<div id="resume" class="page resume">
 <div id="header">
 		<?php include './includes/header.html'; ?> 
 </div>

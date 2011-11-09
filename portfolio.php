@@ -4,7 +4,7 @@
 
 <body>
 
-<div id="page">
+<div id="portfolio" class="page">
 <div id="header">
 		<?php include './includes/header.html'; ?>
 </div>

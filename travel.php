@@ -5,7 +5,7 @@
 
 <body>
 
-<div id="page">
+<div id="travel" class="page gallery">
   <div id="header">
       <?php include './includes/header.html'; ?>
   </div>
