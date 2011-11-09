@@ -61,16 +61,16 @@ if (isset($_POST['submitted'])) {
 </head>
 
 <body>
-<div id="conatct" class="page">
+<div id="contactFormPage" class="page">
 	<div id="header">
 		<?php include './includes/header.html'; ?>
 	</div>
 
 	<?php include './includes/contact-nav.html'; ?>  
 
-  <div class="clear"><?php echo $feedback; ?>  
-  <div id="showContactForm" class="<?php echo $cssclass; ?>"> <!--showForm to start-->	
-  </div>
+  <?php echo $feedback; ?>  
+    <div id="showContactForm" class="<?php echo $cssclass; ?>"> <!--showForm to start-->	
+    </div>
     <form method="post" action="contact.php" id="contactForm">
       <p>Name:</p>
       <p><input type="text" name="name" id="name" /></p>
@@ -79,15 +79,14 @@ if (isset($_POST['submitted'])) {
       <p>Phone:</p>
       <p><input type="text" name="phone" id="phone" /></p>
       <p>Message:</p>
-      <p><textarea name="message" cols="30" rows="5" id="message">
+      <p><textarea name="message" cols="20" rows="5" id="message">
             <?php if (isset($_POST['question'])) echo $_POST['question']; ?>
             </textarea>
       </p>
       <p><input class="button" type="submit" name="submit" value="Send" id="submitButton" />
       <input type="hidden" name="submitted" value="TRUE" /></p>
     </form>
-	</div>
-  
+		</div>
   <div id="footer">
   <?php include 'includes/footer.html' ?> 
   </div>

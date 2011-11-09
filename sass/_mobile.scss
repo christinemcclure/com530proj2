@@ -13,18 +13,6 @@
 }
 
 
-.showtitle strong, .gallery h2 strong{
-  font-family:$headingFont;
-  font-size: $base-font-size + 4px;
-  margin: 0 5px 0 0;
-  font-style:italic;
-}
-
-.showtitle strong{
-  font-size: $base-font-size + 2px;
-}
-
-
 #header h1, #homePage h3{
   font-family: $impactFont;
 }
@@ -35,9 +23,7 @@
  font-size: $base-font-size - 5px;
 }
 
-#homePage h2 {
-  color: $paleGreen;
-}
+
 
 #header h1 {
   font-size: $base-font-size + 26px;
@@ -97,6 +83,11 @@ p {
 
 /* HOME PAGE */
 
+#homePage #library h2 {
+  color: $paleGreen;
+	margin: 50px 0 0 0;
+}
+
 #homePage h3 {
   clear: both;
   padding: 10px 0;
@@ -136,6 +127,18 @@ p {
 
 /* PHOTO GALLERIES */
 
+
+.showtitle strong, .gallery h2,  .gallery h2 strong{
+  font-family:$headingFont;
+  font-size: $base-font-size + 2px;
+  margin: 0 5px 0 0;
+  font-style:italic;
+}
+
+.gallery h2{
+  margin: 20px 5px 0 0;
+}
+
 #photo h4:first-child {
   margin-top:40px;
 }
@@ -156,32 +159,32 @@ p {
 
 /* RESUME */
 
-.resume h4 {
+#resume h4 {
   margin: 0 0 15px 0;
 }
 
-.resume ul li {
+#resume #content ul li {
   list-style-type:disc;
   margin: 0 10px 10px 30px;
 }
 
-.resume p{
+#resume p{
   margin:5px 15px;
 }
 
-.resume h4{
+#resume h4{
   font-size: $base-font-size - 2px;
 	font-weight: bold;
   margin: 10px 15px;
 }
 
-.resume strong {
+#resume strong {
   background-color: $resumeStrongBackground;
 	@include border-radius(20px);
 	padding: 0 10px;
 }
 
-.resume #content ul li {
+#resume #content ul li {
   list-style-type: disc;
   margin: 0 10px 10px 30px;
 }
@@ -196,6 +199,14 @@ p {
   /* IE6 needs this */
   position: relative;
   right: -5%; /* this gives better centering results, but check in IE*/
+  margin: 0 0 100px 0;
+}
+
+#resume #nav, #portfolio #nav {
+  /* IE6 needs this */
+  position: relative;
+  right: -10%;
+  /* this gives better centering results, but check in IE*/
 }
 
 /* line 191, ../sass/_mobile.scss */
