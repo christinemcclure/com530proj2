@@ -9,19 +9,19 @@
   text-align:center;
   padding: 5px 0;
   margin-bottom: 10px;
-  @include border-radius(20px); 
-  @include box-shadow;  
-  @include linear-gradient(color-stops($greyBlue, $darkBlue), top); 
-
+  background-color:$background2;
 }
 
 
-.showtitle strong, .gallery h1, .gallery h2 strong{
+.showtitle strong, .gallery h2 strong{
   font-family:$headingFont;
   font-size: $base-font-size + 4px;
   margin: 0 5px 0 0;
   font-style:italic;
+}
 
+.showtitle strong{
+  font-size: $base-font-size + 2px;
 }
 
 
@@ -31,7 +31,8 @@
 
 
 #header p, #footer {
-  color: $greyGreen;
+ color: $greyGreen;
+ font-size: $base-font-size - 5px;
 }
 
 #homePage h2 {
@@ -39,13 +40,13 @@
 }
 
 #header h1 {
-  font-size: $base-font-size + 28px;
+  font-size: $base-font-size + 26px;
   line-height: $base-line-height + 12px;
   padding: 10px;
 }
 
 #header a, #homePage h3, #homePage h3 a {
-    color: $yellow;
+    color: $darkBlue;
 }
 
 #homePage h3 .subheading, #homePage h3 .subheading a {
@@ -54,7 +55,6 @@
 
 
 #header p{
- font-size: $base-font-size - 4px;
  margin: 0 0 10px 0;
 }
 
@@ -119,11 +119,20 @@ p {
   margin: 3px 0 0 10px;
 } 
 
-#homePage h4 {
-  font-size: 18px;
-  margin: 20px 0 10px 0;
+
+#homePage h4, h5, p {
+  margin: 20px 0 10px 10px;
 }
 
+#homePage h4 {
+  font-size: $base-font-size + 2px;
+	font-weight:bold;
+}
+
+#homePage h5{
+  font-size: $base-font-size;
+	font-weight:bold;  
+}
 
 /* PHOTO GALLERIES */
 
@@ -143,7 +152,6 @@ p {
 
 .showtitle {
  font-size: $base-font-size - 4px;
- margin: 15px 0 10px 0;
 }
 
 /* RESUME */

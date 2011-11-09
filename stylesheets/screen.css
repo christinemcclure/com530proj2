@@ -137,30 +137,20 @@ html {
   text-align: center;
   padding: 5px 0;
   margin-bottom: 10px;
-  -moz-border-radius: 20px;
-  -webkit-border-radius: 20px;
-  -o-border-radius: 20px;
-  -ms-border-radius: 20px;
-  -khtml-border-radius: 20px;
-  border-radius: 20px;
-  -moz-box-shadow: 0px 0px 5px #333333;
-  -webkit-box-shadow: 0px 0px 5px #333333;
-  -o-box-shadow: 0px 0px 5px #333333;
-  box-shadow: 0px 0px 5px #333333;
-  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #2b434f), color-stop(100%, #0c2538));
-  background-image: -webkit-linear-gradient(top, #2b434f, #0c2538);
-  background-image: -moz-linear-gradient(top, #2b434f, #0c2538);
-  background-image: -o-linear-gradient(top, #2b434f, #0c2538);
-  background-image: -ms-linear-gradient(top, #2b434f, #0c2538);
-  background-image: linear-gradient(top, #2b434f, #0c2538);
+  background-color: #ede059;
 }
 
-/* line 19, ../sass/_mobile.scss */
-.showtitle strong, .gallery h1, .gallery h2 strong {
+/* line 16, ../sass/_mobile.scss */
+.showtitle strong, .gallery h2 strong {
   font-family: "PT Serif", "Palatino Linotype", "Georgia", serif;
   font-size: 20px;
   margin: 0 5px 0 0;
   font-style: italic;
+}
+
+/* line 23, ../sass/_mobile.scss */
+.showtitle strong {
+  font-size: 18px;
 }
 
 /* line 28, ../sass/_mobile.scss */
@@ -171,33 +161,33 @@ html {
 /* line 33, ../sass/_mobile.scss */
 #header p, #footer {
   color: #638270;
+  font-size: 11px;
 }
 
-/* line 37, ../sass/_mobile.scss */
+/* line 38, ../sass/_mobile.scss */
 #homePage h2 {
   color: #bcc98e;
 }
 
-/* line 41, ../sass/_mobile.scss */
+/* line 42, ../sass/_mobile.scss */
 #header h1 {
-  font-size: 44px;
+  font-size: 42px;
   line-height: 36px;
   padding: 10px;
 }
 
-/* line 47, ../sass/_mobile.scss */
+/* line 48, ../sass/_mobile.scss */
 #header a, #homePage h3, #homePage h3 a {
-  color: #ede059;
+  color: #0c2538;
 }
 
-/* line 51, ../sass/_mobile.scss */
+/* line 52, ../sass/_mobile.scss */
 #homePage h3 .subheading, #homePage h3 .subheading a {
   color: #2b434f;
 }
 
-/* line 56, ../sass/_mobile.scss */
+/* line 57, ../sass/_mobile.scss */
 #header p {
-  font-size: 12px;
   margin: 0 0 10px 0;
 }
 
@@ -267,61 +257,71 @@ li p {
   margin: 3px 0 0 10px;
 }
 
-/* line 122, ../sass/_mobile.scss */
+/* line 123, ../sass/_mobile.scss */
+#homePage h4, h5, p {
+  margin: 20px 0 10px 10px;
+}
+
+/* line 127, ../sass/_mobile.scss */
 #homePage h4 {
   font-size: 18px;
-  margin: 20px 0 10px 0;
+  font-weight: bold;
+}
+
+/* line 132, ../sass/_mobile.scss */
+#homePage h5 {
+  font-size: 16px;
+  font-weight: bold;
 }
 
 /* PHOTO GALLERIES */
-/* line 130, ../sass/_mobile.scss */
+/* line 139, ../sass/_mobile.scss */
 #photo h4:first-child {
   margin-top: 40px;
 }
 
-/* line 134, ../sass/_mobile.scss */
+/* line 143, ../sass/_mobile.scss */
 .gallery p strong {
   font-family: "PT Serif", "Palatino Linotype", "Georgia", serif;
   font-style: italic;
   font-weight: bold;
 }
 
-/* line 140, ../sass/_mobile.scss */
+/* line 149, ../sass/_mobile.scss */
 .gallery img {
   margin: 10px 0;
 }
 
-/* line 144, ../sass/_mobile.scss */
+/* line 153, ../sass/_mobile.scss */
 .showtitle {
   font-size: 12px;
-  margin: 15px 0 10px 0;
 }
 
 /* RESUME */
-/* line 151, ../sass/_mobile.scss */
+/* line 159, ../sass/_mobile.scss */
 .resume h4 {
   margin: 0 0 15px 0;
 }
 
-/* line 155, ../sass/_mobile.scss */
+/* line 163, ../sass/_mobile.scss */
 .resume ul li {
   list-style-type: disc;
   margin: 0 10px 10px 30px;
 }
 
-/* line 160, ../sass/_mobile.scss */
+/* line 168, ../sass/_mobile.scss */
 .resume p {
   margin: 5px 15px;
 }
 
-/* line 164, ../sass/_mobile.scss */
+/* line 172, ../sass/_mobile.scss */
 .resume h4 {
   font-size: 14px;
   font-weight: bold;
   margin: 10px 15px;
 }
 
-/* line 170, ../sass/_mobile.scss */
+/* line 178, ../sass/_mobile.scss */
 .resume strong {
   background-color: #bcc98e;
   -moz-border-radius: 20px;
@@ -333,7 +333,7 @@ li p {
   padding: 0 10px;
 }
 
-/* line 176, ../sass/_mobile.scss */
+/* line 184, ../sass/_mobile.scss */
 .resume #content ul li {
   list-style-type: disc;
   margin: 0 10px 10px 30px;
@@ -343,7 +343,7 @@ li p {
                    with some tweaks
 */
 /* line 186, ../sass/_mobile.scss */
-/* line 187, ../sass/_mobile.scss */
+/* line 195, ../sass/_mobile.scss */
 #nav {
   /* IE6 needs this */
   position: relative;
@@ -352,14 +352,14 @@ li p {
 }
 
 /* line 191, ../sass/_mobile.scss */
-/* line 194, ../sass/_mobile.scss */
+/* line 202, ../sass/_mobile.scss */
 #nav ul {
   list-style: none;
 }
 
 /* line 202, ../sass/_mobile.scss */
 /* line 196, ../sass/_mobile.scss */
-/* line 200, ../sass/_mobile.scss */
+/* line 208, ../sass/_mobile.scss */
 #nav a {
   width: 80px;
   /* lines up better in mobile*/
@@ -371,12 +371,12 @@ li p {
 }
 
 /* MISC */
-/* line 211, ../sass/_mobile.scss */
+/* line 219, ../sass/_mobile.scss */
 .hideMobile {
   display: none;
 }
 
-/* line 215, ../sass/_mobile.scss */
+/* line 223, ../sass/_mobile.scss */
 img.floatRight {
   float: right;
   margin: 4px;
