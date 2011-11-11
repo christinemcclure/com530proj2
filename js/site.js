@@ -5,7 +5,6 @@
   $('#galleries').hide();    
   $('#pricing').hide();    
   $('#contact').hide();    
-  $('#portfolio').hide();    
   $('#lab').hide();    
 
 
@@ -41,15 +40,6 @@
         $('#openContact').removeClass('headerOpen'), $('#openContact').addClass('headerClosed'),
 		$('#contact').slideToggle();}
     ); 	
-		
-	 $("#openPortfolio").toggle(
-      function(){$('#openLab').removeClass('headerClosed'), $('#openPortfolio').addClass('headerOpen'),
-	  			$('#portfolio').slideToggle();},
-      function () {
-        $('#openPortfolio').removeClass('headerOpen'), $('#openPortfolio').addClass('headerClosed'),
-		$('#portfolio').slideToggle();}
-    ); 	
-
 		
      $("#openLab").toggle(
       function(){$('#openLab').removeClass('headerClosed'), $('#openLab').addClass('headerOpen'),

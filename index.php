@@ -13,6 +13,7 @@
     <div id="photo">
 		  <img src="/img/boqueteForest.jpg" alt="Macro photo of plant from Boquete, Panama forest." />
 			<h2 class="hideMobile">Photography</h2>
+      
       <p>I've been fascinated with photography ever since my childhood in the seventies, where I staged a photo shoot using a velour bathrobe as a backdrop, ceramic dog figurines as models, and my trusty little 110 plastic camera.</p>
 
       
@@ -80,28 +81,9 @@
       <p>I'm currently the Digital Services Librarian at a private university in Chicago, where I design and develop websites and make all of our various technologies talk to each other. My goal is to provide a rich online experience for students that doesn't take a library degree to navigate.</p>
 		<div id="libNav">          
       <h3><a href="/resume.php" id="openResume"><span class="subheading headingblock">Experience/Skills:</span><span class="headingblock">Resume</span></a></h3>
-      
-			<h3 id="openPortfolio">
-        <span class="subheading headingblock">Design Examples:</span> <span class="headingblock">Portfolio</span>
-       </h3>
-          <div id="portfolio" class="clear"> 
-            <p>Here are a few things I've designed over the years...</p>
-            
-            <h2>Websites</h2>
-              <ul>
-                <li>This one, of course. The latest rendition of christinemcclure.com is an exercise in:
-                		<ul>
-                    		<li>The <strong>mobile first</strong> design methodology. This centers your site around planning for a mobile site, forcing the design to focus on the most importent content of the site, rather than trying to fill up all the real estate of a traditional desktop monitor. Read more about <a href="http://www.lukew.com/ff/entry.asp?933">mobile first</a></li>
-                        <li><strong>Responsive web design</strong>: Users now have so many devices they can use to access your site that it is no longer feasible to create a single, fixed-width design style. Resize your browser to see how the layout of this site changes. Read more about <a href="http://www.abookapart.com/products/responsive-web-design">responsive web design</a>
-                        </li>
-                        <li>Setting type to a baseline grid: Aligning blocks of text into rows and columns allows for a much better user experience. This was easily done for print products and has only recently been developed for the web by intrepid designers. Read more about <a href="http://www.thegridsystem.org">baseline grids.</a></li>
-                    </ul> </li>
-                <li>Galvin Library's <a href="http://m.library.iit.edu">first mobile website.</a></li>
-              </ul>
           
-            <h2>Images</h2>
-          </div>
-
+      <h3><a href="/portfolio.php" id="openResume"><span class="subheading headingblock">Design Examples:</span><span class="headingblock">Portfolio</span></a></h3>
+            
 			<h3 id="openLab">
         <span class="subheading headingblock">See What's Cooking:</span> <span class="headingblock">The Lab</span>
        </h3>

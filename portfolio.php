@@ -12,13 +12,21 @@
  	<?php include './includes/lib-nav.html'; ?>
  
   <div id="content" class="clear">
-	<p>Here are a few things I've designed over the years...</p>
-  
-  <h2>Websites</h2>
-  	<ul>
-      <li><a href="/index.php">This one, of course.</a></li>
-      <li>Galvin Library's <a href="http://m.library.iit.edu" target="_blank">first mobile website.</a></li>
-    </ul>
+<p>Here are a few things I've designed over the years...</p>
+
+<h2>Websites</h2>
+  <ul>
+    <li>This one, of course. The latest rendition of christinemcclure.com is an exercise in:
+        <ul>
+            <li>The <strong>mobile first</strong> design methodology. This centers your site around planning for a mobile site, forcing the design to focus on the most importent content of the site, rather than trying to fill up all the real estate of a traditional desktop monitor. Read more about <a href="http://www.lukew.com/ff/entry.asp?933">mobile first</a></li>
+            <li><strong>Responsive web design</strong>: Users now have so many devices they can use to access your site that it is no longer feasible to create a single, fixed-width design style. Resize your browser to see how the layout of this site changes. Read more about <a href="http://www.abookapart.com/products/responsive-web-design">responsive web design</a>
+            </li>
+            <li>Setting type to a baseline grid: Aligning blocks of text into rows and columns allows for a much better user experience. This was easily done for print products and has only recently been developed for the web by intrepid designers. Read more about <a href="http://www.thegridsystem.org">baseline grids.</a></li>
+        </ul> </li>
+    <li>Galvin Library's <a href="http://m.library.iit.edu">first mobile website.</a></li>
+  </ul>
+
+
 
   <h2>Images</h2>
     
