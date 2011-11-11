@@ -129,7 +129,7 @@ html {
 /* line 3, ../sass/_mobile.scss */
 .page {
   /*  background-color:$background1; */
-  padding: 20px;
+  padding: 10px;
 }
 
 /* line 8, ../sass/_mobile.scss */
@@ -315,7 +315,7 @@ li p {
 }
 
 /* line 176, ../sass/_mobile.scss */
-#resume #content ul li {
+#resume #content ul li, #libNav ul li {
   list-style-type: disc;
   margin: 0 10px 10px 30px;
 }

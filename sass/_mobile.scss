@@ -2,7 +2,7 @@
 
 .page {
 /*  background-color:$background1; */
-  padding: 20px;
+  padding: 10px;
 }
 
 #header, #footer, #homePage h2, .navContainer {
@@ -173,7 +173,7 @@ p {
   margin: 0 0 15px 0;
 }
 
-#resume #content ul li {
+#resume #content ul li, #libNav ul li {
   list-style-type:disc;
   margin: 0 10px 10px 30px;
 }
