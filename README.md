@@ -18,3 +18,5 @@ Columns
 
 LAST
 Color scheme
+Update accessability navigation
+Change header URL from dev.christinemcclure.com
