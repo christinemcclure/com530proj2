@@ -400,14 +400,12 @@ img.floatRight {
 /* 
 
 ###############  Start of Minimum 400px ################## 
+@import "_min400.scss"; take out for now - not being overwritten by grid
 
 */
-/* Basic Media Query for Screens wider than 600 pixels (tablets and up) */
-@media screen and (min-width: 400px) {
-  /* line 5, ../sass/_min400.scss */
-  #page, #homePage, #ContactForm, .col {
-    width: 400px;
-    margin: 0 auto;
-    text-align: left;
-  }
-}
+/*
+
+###############  Start of Minimum 1000px (for 978 grid) ################## 
+
+*/
+/* Basic Media Query for Screens wider than 1000 pixels */

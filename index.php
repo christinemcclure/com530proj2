@@ -11,8 +11,8 @@
 	</div>
   <div id="content">
     <div id="photo">
+		<h2 class="hideMobile">Photography</h2>
 		  <img src="/img/boqueteForest.jpg" alt="Macro photo of plant from Boquete, Panama forest." />
-      <img class="hideMobile" src="/img/rolliflex.gif" alt="photo of 1960s Rolliflex camera" />
 			<h2 class="hideMobile">Photography</h2>
       <p>I've been fascinated with photography ever since my childhood in the seventies, where I staged a photo shoot using a velour bathrobe as a backdrop, ceramic dog figurines as models, and my trusty little 110 plastic camera.</p>
 
@@ -78,7 +78,6 @@
 	</div>
   <div id="library">
 		<h2>Librarianship</h2>
-      <img  class="hideMobile" src="/img/librarian.gif" alt="photo of librarian action figure" />
       <p>I'm currently the Digital Services Librarian at a private university in Chicago, where I design and develop websites and make all of our various technologies talk to each other. My goal is to provide a rich online experience for students that doesn't take a library degree to navigate.</p>
           
       <h3><a href="/resume.php" id="openResume"><span class="subheading headingblock">Experience/Skills:</span><span class="headingblock">Resume</span></a></h3>
@@ -94,7 +93,7 @@
       <h3><a href="/contact.php" id="openContactLib"><span class="subheading headingblock">Need More Info?</span><span class="headingblock">Contact</span></a></h3>
   </div>
 	</div>
-    <div id="footer">
+    <div id="footer" class="clear">
 		  <?php include 'includes/footer.html' ?>
 		</div>
 </div>

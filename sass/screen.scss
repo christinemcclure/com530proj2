@@ -55,8 +55,15 @@ html { /* initial grid system: line-height:18 font-size: 14 */
 /* 
 
 ###############  Start of Minimum 400px ################## 
+@import "_min400.scss"; take out for now - not being overwritten by grid
 
 */
-@import "_min400.scss";
 
 
+/*
+
+###############  Start of Minimum 1000px (for 978 grid) ################## 
+
+*/
+
+@import "_min1000.scss";
