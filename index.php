@@ -64,7 +64,7 @@
           
 
           <h3 id="openContact">
-            <span class="headingblock">Contact:</span> <span class="subheading headingblock">Book or order prints</span>
+            <span class="headingblock">Contact:</span> <span class="subheading headingblock">Book/order prints</span>
           </h3>
           
           <div id="contact" class="clear"> 
@@ -103,7 +103,7 @@
           </div>
 
 			<h3 id="openLab">
-        <span class="subheading headingblock">See What's Cooking in:</span> <span class="headingblock">The Lab</span>
+        <span class="subheading headingblock">See What's Cooking:</span> <span class="headingblock">The Lab</span>
        </h3>
           <div id="lab" class="clear"> 
 						 <?php include 'includes/lab.html' ?>
