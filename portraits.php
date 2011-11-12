@@ -6,9 +6,7 @@
 
 <div id="portraits" class="page gallery">
 
-  <div id="header">
       <?php include './includes/header.html'; ?>
-  </div>
 
    <?php include './includes/photo-nav.html'; ?>
       
@@ -25,9 +23,8 @@
 
   <?php include './includes/photo-nav.html'; ?>
 
-  <div id="footer" class="clear">
   <?php include 'includes/footer.html' ?> 
-  </div>
+
 </div>  
 </body>
 </html>

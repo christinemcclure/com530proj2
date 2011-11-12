@@ -5,9 +5,7 @@
 <body>
 
 <div id="resume" class="page resume">
-<div id="header">
 		<?php include './includes/header.html'; ?> 
-</div>
 
 	<?php include './includes/lib-nav.html'; ?>
   
@@ -194,9 +192,9 @@
 
   </div>
   <?php include './includes/lib-nav.html'; ?>
-  <div id="footer" class="clear">
+
   <?php include 'includes/footer.html' ?> 
-  </div>
+
 </div>
 
 </body>

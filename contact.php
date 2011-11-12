@@ -62,9 +62,9 @@ if (isset($_POST['submitted'])) {
 
 <body>
 <div id="contactFormPage" class="page">
-	<div id="header">
+
 		<?php include './includes/header.html'; ?>
-	</div>
+
 
 	<?php include './includes/contact-nav.html'; ?>  
 
@@ -87,9 +87,7 @@ if (isset($_POST['submitted'])) {
       <input type="hidden" name="submitted" value="TRUE" /></p>
     </form>
 		</div>
-  <div id="footer">
   <?php include 'includes/footer.html' ?> 
-  </div>
 </div>    
 </body>
 </html>

@@ -1,13 +1,11 @@
 <?php include './includes/html-head-stub.html'; ?>
-  <title>Resume: Christine McClure</title>
+  <title>Portfolio: Christine McClure</title>
 </head>
 
 <body>
 
 <div id="portfolio" class="page">
-<div id="header">
-		<?php include './includes/header.html'; ?>
-</div>
+	<?php include './includes/header.html'; ?>
 
  	<?php include './includes/lib-nav.html'; ?>
  
@@ -43,9 +41,7 @@
 
 	<?php include './includes/lib-nav.html'; ?>
  
-  <div id="footer" class="clear">
   <?php include 'includes/footer.html' ?> 
-  </div>
 
 
 </div>

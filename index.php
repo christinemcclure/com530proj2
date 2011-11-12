@@ -6,9 +6,7 @@
 <body>
 
 <div id="homePage" class="page">
-	<div id="header">
    <?php include './includes/header.html' ?>
-	</div>
   <div id="content">
     <div id="photo">
 		  <img src="/img/boqueteForest.jpg" alt="Macro photo of plant from Boquete, Panama forest." />
@@ -82,22 +80,15 @@
 		<div id="libNav">          
       <h3><a href="/resume.php" id="openResume"><span class="subheading headingblock">Experience/Skills:</span><span class="headingblock">Resume</span></a></h3>
           
-      <h3><a href="/portfolio.php" id="openResume"><span class="subheading headingblock">Design Examples:</span><span class="headingblock">Portfolio</span></a></h3>
-            
-			<h3 id="openLab">
-        <span class="subheading headingblock">See What's Cooking:</span> <span class="headingblock">The Lab</span>
-       </h3>
-          <div id="lab" class="clear"> 
-						 <?php include 'includes/lab.html' ?>
-          </div>
-          
+      <h3><a href="/portfolio.php" id="openPortfolio"><span class="subheading headingblock">Design Examples:</span><span class="headingblock">Portfolio</span></a></h3>
+
+      <h3><a href="/lab.php" id="openTheLab"><span class="subheading headingblock">See What's Cooking:</span><span class="headingblock">The Lab</span></a></h3>
+
       <h3><a href="/contact.php" id="openContactLib"><span class="subheading headingblock">Need More Info?</span><span class="headingblock">Contact</span></a></h3>
       </div>
   </div>
 	</div>
-    <div id="footer" class="clear">
-		  <?php include 'includes/footer.html' ?>
-		</div>
+	<?php include 'includes/footer.html' ?>
 </div>
 
 
