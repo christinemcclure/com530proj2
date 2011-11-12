@@ -1,7 +1,7 @@
 <?php // this script creates the  email form
 
 $contact_email="christine@christinemcclure.com";
-$feedback= "<p>I look forward to discussing any opportunities with you; simply fill out the form below.</p><br/>";
+$feedback= "<p class=\"clear\">I look forward to discussing any opportunities with you; simply fill out the form below.</p><br/>";
 $cssclass = "showForm";
 
 
@@ -41,7 +41,7 @@ if (isset($_POST['submitted'])) {
 		mail($contact_email, "Mail from ChristineMcClure.com", $body, "From: {$scrubbed['email']}");
 
 	$cssclass = "hideForm";
-	$feedback= "<p>Thank you for your message; I'll be in touch soon. Enjoy your day.</p>
+	$feedback= "<p class=\"clear\">Thank you for your message; I'll be in touch soon. Enjoy your day.</p>
             <div class=\"push\"></div>";
 		
 		
