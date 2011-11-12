@@ -1,5 +1,5 @@
 <?php include './includes/html-head-stub.html'; ?>
-  <title>Fine Art: Christine McClure</title>
+  <title>Resume: Christine McClure</title>
 </head>
 
 <body>
