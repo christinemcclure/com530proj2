@@ -241,7 +241,14 @@ p {
   display:none;
 }
 
-img.floatRight {
-  float:right;
+#homePage img {
   margin: 4px;
+}
+
+.floatRight{
+  float:right;
+}
+
+.floatLeft {
+  float:left;
 }
