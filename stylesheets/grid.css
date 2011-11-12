@@ -98,9 +98,9 @@ p {
 	margin: 4px 0 0 0;
 }
 
-#homePage h2, #homePage #library h2 {
+#homePage #photo h2, #homePage #library h2 {
   text-align:left;
-  margin: 0 0 22px 0;
+  margin: 0 0 16px 0;
 	padding:0;
 }
 
@@ -125,15 +125,20 @@ p {
 	display:block;
   font-size: 14px;
 	float:left;
-	margin: 25px 0 0 25px;
+	margin: 22px 0 0 25px;
+}
+
+
+#libNav	 {
+	margin: 22px 0 0 0;
 }
 
 #libNav h3, #library .headingblock {
-	margin: 4px 0 0 0;
+	margin: 4px 0 2px 0;
 }
 
-#library p {
-	margin: 20px 0 0px 0;
+#photoNav {
+	margin: 72px 0 0 0;
 }
 
 #library p.intro{
@@ -148,7 +153,45 @@ p {
 
 #nav a {
 	font-size: 18px;
+  margin: 0 10x 40px 10px;
 }
+
+#resume h3 {
+	margin: 22px 0 2px 0;
+}
+
+#resume #content p {
+	margin: -6px 0 2px 0;
+}
+
+#resume h4, #resume #content ul li  {
+	margin: 0 24px 0 380px;
+}
+
+#resume h4 {
+	margin: -48px 0 0 338px;
+}
+
+#resume ul  {
+
+margin: 0 0 64px 0;
+
+}
+
+
+
+#resume #nav, #portfolio #nav{
+  width: 600px;
+	margin: 0 auto;
+	right:0;
+}
+
+
+#nav ul{
+	position:relative;
+  margin: 0;
+}
+
 
 .hideMobile{
 	display: block;
@@ -157,4 +200,5 @@ p {
 .hideDesktop {
 	display:none;
 }
+
 

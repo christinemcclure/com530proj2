@@ -4,8 +4,8 @@
 
 <body>
 
-<div id="resume" class="page resume">
-		<?php include './includes/header.html'; ?> 
+<div id="resume" class="page">
+	<?php include './includes/header.html'; ?> 
 
 	<?php include './includes/lib-nav.html'; ?>
   
@@ -35,7 +35,8 @@
           <li>Developing instruction sessions on citation management, advanced search techniques and other digital skills using <strong>active learning techniques</strong>.</li>
         </ul>
 
-    <h3>Reference Librarian for Business and Design</h3>
+    <h3>Reference Librarian</h3>
+    <h3>for Business and Design</h3>
       <p>Illinois Institute of Technology</p>
 
         <h4>Subject Liaison / Instruction</h4>

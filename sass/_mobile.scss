@@ -41,7 +41,7 @@
 
 
 #header p{
- margin: 0 0 10px 0;
+ margin: 0;
 }
 
 #footer {
@@ -87,6 +87,11 @@ p {
 
 
 /* HOME PAGE */
+
+#homePage #photo h2 {
+	margin: 0;
+}
+
 
 #homePage #library h2 {
 /*  color: $paleGreen; */
@@ -194,10 +199,6 @@ p {
 	padding: 0 10px;
 }
 
-#resume #content ul li {
-  list-style-type: disc;
-  margin: 0 10px 10px 30px;
-}
 
 
 /* NAVIGATION  -- from http://www.visibilityinherit.com/code/center-nav.php 
