@@ -36,7 +36,6 @@
         </ul>
 
     <h3>Reference Librarian</h3>
-    <h3>for Business and Design</h3>
       <p>Illinois Institute of Technology</p>
 
         <h4>Subject Liaison / Instruction</h4>

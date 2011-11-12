@@ -160,35 +160,49 @@ p {
   margin: 0 10x 40px 10px;
 }
 
-#resume h3 {
-	margin: 22px 0 2px 0;
+ul + h3 {
+	margin: -44px 0 2px 0;
 }
+
+#resume #content ul + h3 + p {
+margin: -4px 0 0 0;
+}
+
 
 #resume #content p {
-	margin: -6px 0 2px 0;
+	margin: -2px 0 0 0;
 }
 
-#resume h4, #resume #content ul li  {
+
+#resume #content ul li  {
 	margin: 0 24px 0 380px;
 }
 
 #resume h4 {
-	margin: -48px 0 0 338px;
-}
-
-#resume ul  {
-
-margin: 0 0 72px 0;
-
+	margin: -44px 0 0 338px;
 }
 
 
+#resume h4 + ul, #resume ul + ul  {
+
+margin: 0 0 64px 0;
+
+}
+
+#resume h4 + ul + h4 + ul + h4 {
+	margin-top: -42px;
+}
+
+#resume h4 + ul + h4 + ul + h4 ul {
+	margin-bottom: 58px;
+}
 
 #resume #nav, #portfolio #nav{
   width: 600px;
 	margin: 0 auto;
 	right:0;
 }
+
 
 
 #nav ul{
