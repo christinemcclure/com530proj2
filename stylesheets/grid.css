@@ -129,6 +129,10 @@ p {
 }
 
 
+#resume #content, #resume #content {
+	margin: 92px 0 0 0;
+}
+
 #libNav	 {
 	margin: 22px 0 0 0;
 }
@@ -174,7 +178,7 @@ p {
 
 #resume ul  {
 
-margin: 0 0 64px 0;
+margin: 0 0 72px 0;
 
 }
 
@@ -189,7 +193,7 @@ margin: 0 0 64px 0;
 
 #nav ul{
 	position:relative;
-  margin: 0;
+  margin: 0 0 40px 0;
 }
 
 
