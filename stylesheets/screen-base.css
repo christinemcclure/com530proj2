@@ -408,24 +408,3 @@ input, textarea {
 .floatLeft {
   float: left;
 }
-
-/* OBSOLETED - Now creating sep stylesheets to avoid mobile from downloading all
-
-###############  Start of Mobile CSS ################## 
-
-
-@import "_mobile.scss";
-
-
-###############  Start of Minimum 400px ################## 
-@import "_min400.scss"; take out for now - not being overwritten by grid
-
-
-
-
-###############  Start of Minimum 1000px (for 978 grid) ################## 
-
-
-@import "_min1010.scss";
-
-*/

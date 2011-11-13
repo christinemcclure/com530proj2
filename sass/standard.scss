@@ -154,8 +154,66 @@ margin: -4px 0 0 0;
 	margin: 0 24px 0 380px;
 }
 
-h2 {
+h2{
   margin-top:46px;
+}
+
+.gallery img {
+ margin:0;
+}
+
+.gallery h2 {
+  margin:46px 0 22px 0;
+	font-size: 24px;
+	clear:both;
+}
+
+.gallery h2 + img + p{
+
+	margin: 0 0 20px 0;
+}
+
+.gallery h2 + img{
+  margin: 0 10px 0 0;
+	float:left;
+}
+
+.gallery h3 {
+  clear:both;
+	margin: 42px 0 0 0;
+}
+
+.gallery h4 {
+  margin: -2px 0 0 0;
+}
+
+
+
+.gallery #content ul li{
+  width: 306px;
+	float:left;
+	margin: 0 30px 16px 0;
+}
+
+.gallery #content ul li:last-child{
+ margin: 0 0px 16px 0;
+}
+
+
+.gallery li p {
+ margin: 0 0 0 0;
+}
+
+.gallery h3 {
+  clear:both;
+}
+
+.gallery h3 + ul {
+  margin: 18px 0 0 0;
+}
+
+.gallery #content ul li:last-child{
+ margin-bottom: 54px;
 }
 
 #resume h2.altResume {
@@ -265,14 +323,26 @@ p #submitButton {
 	right:0;
 }
 
+.gallery #nav {
+position: relative;
+right: -5%;
+clear: both;
+}
+
 #nav ul{
 	position:relative;
   margin: 0 0 40px 0;
 }
 
-#nav a {
+#nav a, #nav a.firstNav {
   margin: 0 0 32px 0;
+	border-right: 1px solid black;
 }
+
+#nav a.firstNav {
+  border-left: 1px solid black;
+}
+
 
 .hideMobile{
 	display: block;
