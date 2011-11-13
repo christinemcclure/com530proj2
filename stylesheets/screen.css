@@ -615,7 +615,7 @@ input, textarea {
   }
 
   /* line 157, ../sass/_min1010.scss */
-  #resume h2, #portfolio h2 {
+  h2 {
     margin-top: 46px;
   }
 

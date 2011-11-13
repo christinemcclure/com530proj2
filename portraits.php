@@ -6,7 +6,7 @@
 
 <div id="portraits" class="page gallery">
 
-      <?php include './includes/header.html'; ?>
+   <?php include './includes/header.html'; ?>
 
    <?php include './includes/photo-nav.html'; ?>
       

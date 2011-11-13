@@ -4,7 +4,8 @@
 
 <body>
 
-<div id="art" class-"page gallery">
+<div id="art" class="page gallery">
+
 		<?php include './includes/header.html'; ?>
 
 		<?php include './includes/photo-nav.html'; ?>
