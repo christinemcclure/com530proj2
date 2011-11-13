@@ -369,14 +369,14 @@ li p {
 }
 
 /* line 191, ../sass/_mobile.scss */
-/* line 226, ../sass/_mobile.scss */
+/* line 228, ../sass/_mobile.scss */
 #nav ul {
   list-style: none;
 }
 
 /* line 202, ../sass/_mobile.scss */
 /* line 196, ../sass/_mobile.scss */
-/* line 232, ../sass/_mobile.scss */
+/* line 234, ../sass/_mobile.scss */
 #nav a {
   width: 80px;
   /* lines up better in mobile*/
@@ -388,27 +388,27 @@ li p {
 }
 
 /* MISC */
-/* line 243, ../sass/_mobile.scss */
+/* line 245, ../sass/_mobile.scss */
 input, textarea {
   width: 200px;
 }
 
-/* line 246, ../sass/_mobile.scss */
+/* line 248, ../sass/_mobile.scss */
 .hideMobile {
   display: none;
 }
 
-/* line 250, ../sass/_mobile.scss */
+/* line 252, ../sass/_mobile.scss */
 #homePage img {
   margin: 4px;
 }
 
-/* line 254, ../sass/_mobile.scss */
+/* line 256, ../sass/_mobile.scss */
 .floatRight {
   float: right;
 }
 
-/* line 258, ../sass/_mobile.scss */
+/* line 260, ../sass/_mobile.scss */
 .floatLeft {
   float: left;
 }
@@ -586,175 +586,184 @@ input, textarea {
   }
 
   /* line 128, ../sass/_min1010.scss */
+  #contactFormPage #nav {
+    /* IE6 needs this */
+    position: relative;
+    right: -20%;
+    /* this gives better centering results, but check in IE*/
+    clear: both;
+  }
+
+  /* line 138, ../sass/_min1010.scss */
   ul + h3 {
     margin: -44px 0 2px 0;
   }
 
-  /* line 133, ../sass/_min1010.scss */
+  /* line 143, ../sass/_min1010.scss */
   #resume #content ul + h3 + p {
     margin: -4px 0 0 0;
   }
 
-  /* line 138, ../sass/_min1010.scss */
+  /* line 148, ../sass/_min1010.scss */
   #resume #content p, #portfolio #content p {
     margin: -2px 0 0 0;
   }
 
-  /* line 143, ../sass/_min1010.scss */
+  /* line 153, ../sass/_min1010.scss */
   #resume #content ul li {
     margin: 0 24px 0 380px;
   }
 
-  /* line 147, ../sass/_min1010.scss */
+  /* line 157, ../sass/_min1010.scss */
   #resume h2, #portfolio h2 {
     margin-top: 46px;
   }
 
-  /* line 151, ../sass/_min1010.scss */
+  /* line 161, ../sass/_min1010.scss */
   #resume h2.altResume {
     margin-top: 44px;
   }
 
-  /* line 155, ../sass/_min1010.scss */
+  /* line 165, ../sass/_min1010.scss */
   #resume ul + h2 {
     margin: -20px 0 0 0;
   }
 
-  /* line 159, ../sass/_min1010.scss */
+  /* line 169, ../sass/_min1010.scss */
   #resume h2 + ul {
     margin-top: -22px;
   }
 
-  /* line 162, ../sass/_min1010.scss */
+  /* line 172, ../sass/_min1010.scss */
   #resume h2:first-child {
     margin-top: 114px;
   }
 
-  /* line 166, ../sass/_min1010.scss */
+  /* line 176, ../sass/_min1010.scss */
   #resume ul {
     margin: -44px 0 0 0;
   }
 
-  /* line 171, ../sass/_min1010.scss */
+  /* line 181, ../sass/_min1010.scss */
   #resume h4 {
     margin: -44px 0 0 338px;
   }
 
-  /* line 176, ../sass/_min1010.scss */
+  /* line 186, ../sass/_min1010.scss */
   #resume h4 + ul, #resume h3 + ul, #resume ul + ul {
     margin: 0 0 64px 0;
   }
 
-  /* line 182, ../sass/_min1010.scss */
+  /* line 192, ../sass/_min1010.scss */
   #resume h4 + ul + h4 + ul + h4 {
     margin-top: -42px;
   }
 
-  /* line 186, ../sass/_min1010.scss */
+  /* line 196, ../sass/_min1010.scss */
   #resume h4 + ul + h4 + ul + h4 ul {
     margin-bottom: 58px;
   }
 
-  /* line 190, ../sass/_min1010.scss */
+  /* line 200, ../sass/_min1010.scss */
   #resume h3 + ul + h3 {
     margin-top: -40px;
   }
 
-  /* line 194, ../sass/_min1010.scss */
+  /* line 204, ../sass/_min1010.scss */
   #resume h3.altResume {
     margin: 20px 0 0 0;
   }
 
-  /* line 198, ../sass/_min1010.scss */
+  /* line 208, ../sass/_min1010.scss */
   #resume h3.altResume + h4 {
     margin-top: -24px;
   }
 
-  /* line 202, ../sass/_min1010.scss */
+  /* line 212, ../sass/_min1010.scss */
   #resume h3.altResume + ul {
     margin: -26px 0 64px 0;
   }
 
-  /* line 206, ../sass/_min1010.scss */
+  /* line 216, ../sass/_min1010.scss */
   #resume strong, #portfolio strong {
     border: 1px solid black;
   }
 
-  /* line 210, ../sass/_min1010.scss */
+  /* line 220, ../sass/_min1010.scss */
   #resume ul.subList {
     margin: 0 0 0 -348px;
   }
 
-  /* line 214, ../sass/_min1010.scss */
+  /* line 224, ../sass/_min1010.scss */
   #portfolio ul li ul li {
     width: 308px;
     margin: 24px 28px 20px 0px;
     float: left;
   }
 
-  /* line 220, ../sass/_min1010.scss */
+  /* line 230, ../sass/_min1010.scss */
   #portfolio ul + h2 + ul li {
     float: left;
     width: 306px;
     margin: 24px 30px 20px 0px;
   }
 
-  /* line 226, ../sass/_min1010.scss */
+  /* line 236, ../sass/_min1010.scss */
   #contactFormPage #content {
     width: 600px;
   }
 
-  /* line 230, ../sass/_min1010.scss */
+  /* line 240, ../sass/_min1010.scss */
   #contactFormPage p.clear {
     margin: 0 0 22px 0;
   }
 
-  /* line 234, ../sass/_min1010.scss */
+  /* line 244, ../sass/_min1010.scss */
   #contactFormPage #content #showContactForm {
-    margin: 0 auto;
+    margin-left: 20%;
   }
 
-  /* line 238, ../sass/_min1010.scss */
+  /* line 248, ../sass/_min1010.scss */
   input, textarea {
     width: 300px;
     font-size: 16px;
   }
 
-  /* line 243, ../sass/_min1010.scss */
+  /* line 253, ../sass/_min1010.scss */
   form p input, textarea {
     margin: 0 0 22px 0;
   }
 
-  /* line 247, ../sass/_min1010.scss */
+  /* line 257, ../sass/_min1010.scss */
   p #submitButton {
     width: 100px;
     text-align: center;
   }
 
-  /* line 252, ../sass/_min1010.scss */
+  /* line 262, ../sass/_min1010.scss */
   #nav {
     width: 800px;
     margin: 0 auto;
     right: 0;
   }
 
-  /* line 258, ../sass/_min1010.scss */
+  /* line 268, ../sass/_min1010.scss */
   #nav ul {
     position: relative;
     margin: 0 0 40px 0;
   }
 
-  /* line 263, ../sass/_min1010.scss */
+  /* line 273, ../sass/_min1010.scss */
   #nav a {
     margin: 0 0 32px 0;
   }
 
-  /* line 267, ../sass/_min1010.scss */
+  /* line 277, ../sass/_min1010.scss */
   .hideMobile {
     display: block;
   }
 
-  /* line 271, ../sass/_min1010.scss */
+  /* line 281, ../sass/_min1010.scss */
   .hideDesktop {
     display: none;
   }

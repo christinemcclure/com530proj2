@@ -125,6 +125,16 @@ ul + h2 {
 	font-size: 18px;
 }
 
+#contactFormPage #nav {
+  /* IE6 needs this */
+  position: relative;
+  right: -20%;
+  /* this gives better centering results, but check in IE*/
+  clear:both;
+
+}
+
+
 ul + h3 {
 	margin: -44px 0 2px 0;
 }
@@ -232,7 +242,7 @@ margin: 0 0 64px 0;
 }
 
 #contactFormPage #content #showContactForm {
- margin: 0 auto;
+  margin-left: 20%;
 }
 
 input, textarea {
