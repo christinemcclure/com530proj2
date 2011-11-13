@@ -174,14 +174,14 @@
     	<ul>
       	<li>Master Certificate in <strong>Web Design &amp; Application Development</strong> (2012)</li>
       	<li>Master of <strong>Library and Information Science</strong>, Dominican University, River Forest, IL. 
-        	<ul>
+        	<ul class="subList">
           	<li>Beta Phi Mu honor society member</li>
           </ul>
         </li>
         <li>Bachelor of Science, Eastern Michigan University, Ypsilanti, MI</li>
       </ul>
 
-	  <h2>Activities / Interests</h2>
+	  <h2 class="altResume">Activities / Interests</h2>
     	<ul>
 			  <li>Active member of ALA, RUSA, and LITA</li>
 			  <li><strong>Photography</strong> (fine art, portraiture and event photography)</li>

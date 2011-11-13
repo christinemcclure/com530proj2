@@ -160,7 +160,6 @@ ul + h2 {
 
 #nav a {
 	font-size: 18px;
-  margin: 0 10x 40px 10px;
 }
 
 ul + h3 {
@@ -181,6 +180,30 @@ margin: -4px 0 0 0;
 #resume #content ul li  {
 	margin: 0 24px 0 380px;
 }
+
+#resume h2 {
+  margin-top:46px;
+}
+
+#resume h2.altResume {
+	margin-top: 44px;
+}
+
+#resume ul + h2 {
+  margin: -20px 0 0 0;
+}
+
+#resume h2 + ul {
+	margin-top: -22px;
+}
+#resume h2:first-child {
+  margin-top:114px;
+}
+
+#resume ul {
+  margin: -44px 0 0 0;
+}
+
 
 #resume h4 {
 	margin: -44px 0 0 338px;
@@ -205,14 +228,21 @@ margin: 0 0 64px 0;
   margin-top: -40px;
 }
 
+#resume h3.altResume {
+	margin: 20px 0 0 0;
+}
+
 #resume h3.altResume + h4{
  margin-top: -24px;
 }
 
 #resume h3.altResume + ul{
-  margin: -26px 0 58px 0;
+  margin: -26px 0 64px 0;
 }
 
+#resume strong {
+  border: 1px solid black;
+}
 
 #resume #nav, #portfolio #nav{
   width: 600px;
@@ -220,13 +250,17 @@ margin: 0 0 64px 0;
 	right:0;
 }
 
+#resume ul.subList {
+  margin: 0 0 0 -348px;
+}
 
 
 #nav ul{
 	position:relative;
   margin: 0 0 40px 0;
 }
-
+#content + #nav a {
+}
 
 .hideMobile{
 	display: block;
