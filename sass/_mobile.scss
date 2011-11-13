@@ -178,7 +178,7 @@ p {
   margin: 0 0 15px 0;
 }
 
-#resume #content ul li, #libNav ul li {
+#resume #content ul li{
   list-style-type:disc;
   margin: 0 10px 10px 30px;
 }
@@ -200,24 +200,26 @@ p {
 }
 
 
-
 /* NAVIGATION  -- from http://www.visibilityinherit.com/code/center-nav.php 
                    with some tweaks
 */
 
 /* line 186, ../sass/_mobile.scss */
-#nav {
+#Xnav {
   /* IE6 needs this */
   position: relative;
   right: -5%; /* this gives better centering results, but check in IE*/
   margin: 0 0 100px 0;
+	width: 100%;
+	clear:both;
 }
 
-#resume #nav, #portfolio #nav {
+.page #nav {
   /* IE6 needs this */
   position: relative;
   right: -10%;
   /* this gives better centering results, but check in IE*/
+  clear:both;
 }
 
 /* line 191, ../sass/_mobile.scss */
@@ -238,6 +240,9 @@ p {
 
 /* MISC */
 
+input, textarea {
+  width: 200px;
+}
 .hideMobile{
   display:none;
 }

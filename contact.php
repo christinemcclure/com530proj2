@@ -1,7 +1,7 @@
 <?php // this script creates the  email form
 
 $contact_email="christine@christinemcclure.com";
-$feedback= "<p class=\"clear\">I look forward to discussing any opportunities with you; simply fill out the form below.</p><br/>";
+$feedback= "<p class=\"clear\">I look forward to discussing any opportunities with you; simply fill out the form below.</p>";
 $cssclass = "showForm";
 
 
@@ -41,8 +41,7 @@ if (isset($_POST['submitted'])) {
 		mail($contact_email, "Mail from ChristineMcClure.com", $body, "From: {$scrubbed['email']}");
 
 	$cssclass = "hideForm";
-	$feedback= "<p class=\"clear\">Thank you for your message; I'll be in touch soon. Enjoy your day.</p>
-            <div class=\"push\"></div>";
+	$feedback= "<p class=\"clear\">Thank you for your message; I'll be in touch soon. Enjoy your day.</p>";
 		
 		
 		// Clear $_POST (so that the form's not sticky):
@@ -63,14 +62,13 @@ if (isset($_POST['submitted'])) {
 <body>
 <div id="contactFormPage" class="page">
 
-		<?php include './includes/header.html'; ?>
+	<?php include './includes/header.html'; ?>
 
 
 	<?php include './includes/contact-nav.html'; ?>  
-
+<div id="content" class="clear">
   <?php echo $feedback; ?>  
     <div id="showContactForm" class="<?php echo $cssclass; ?>"> <!--showForm to start-->	
-    </div>
     <form method="post" action="contact.php" id="contactForm">
       <p>Name:</p>
       <p><input type="text" name="name" id="name" /></p>
@@ -86,6 +84,7 @@ if (isset($_POST['submitted'])) {
       <p><input class="button" type="submit" name="submit" value="Send" id="submitButton" />
       <input type="hidden" name="submitted" value="TRUE" /></p>
     </form>
+    </div>
 		</div>
   <?php include 'includes/footer.html' ?> 
 </div>    
