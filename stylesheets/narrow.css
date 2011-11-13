@@ -1,0 +1,9 @@
+/* Basic Media Query for Screens wider than 600 pixels (tablets and up) */
+@media screen and (min-width: 600px) {
+  /* line 5, ../sass/narrow.scss */
+  .page {
+    width: 600px;
+    margin: 0 auto;
+    text-align: left;
+  }
+}

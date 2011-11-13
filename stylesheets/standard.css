@@ -1,0 +1,344 @@
+/* Basic Media Query for Screens wider than 1000 pixels */
+@media screen and (min-width: 1010px) {
+  /* line 4, ../sass/standard.scss */
+  * {
+    margin: 0;
+    padding: 0;
+  }
+
+  /* line 6, ../sass/standard.scss */
+  .t22 {
+    line-height: 22px;
+    font-size: 14px;
+    background-image: url("img/22px-baseline.png");
+  }
+
+  /* line 12, ../sass/standard.scss */
+  body {
+    /*  .t22 from above  */
+    line-height: 22px;
+    font-size: 14px;
+  }
+
+  /* line 16, ../sass/standard.scss */
+  .g960 #page {
+    width: 940px;
+    /*Total width works out to 960*/
+    padding: 0px 10px 0px 10px;
+    background-image: url("img/960px-10-60-10-unit.png");
+  }
+
+  /* See http://978.gs/ */
+  /* line 22, ../sass/standard.scss */
+  .g978 .page {
+    /* width: 978px; Total with works out to 1008*/
+    width: 978px;
+    padding: 0px 15px 0px 15px;
+    background-image: url("img/978px-15-54-15-unit.png");
+    margin: 0 auto;
+  }
+
+  /* line 30, ../sass/standard.scss */
+  p {
+    line-height: 22px;
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+  }
+
+  /* line 37, ../sass/standard.scss */
+  #homePage img {
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+  }
+
+  /* line 43, ../sass/standard.scss */
+  #photo, #library {
+    padding: 10px;
+  }
+
+  /*  Use Golden Ratio for photo/lib widths: 1.618  */
+  /* line 48, ../sass/standard.scss */
+  #photo {
+    width: 640px;
+    /* 1010 / 1.618  */
+    float: right;
+    background-color: red;
+    opacity: 0.4;
+  }
+
+  /* line 54, ../sass/standard.scss */
+  #library {
+    width: 286px;
+    background-color: fuchsia;
+    opacity: 0.4;
+  }
+
+  /* line 59, ../sass/standard.scss */
+  #libNav {
+    float: left;
+    /* Need otherwise h3 get pushed to bottom*/
+    margin: 4px 0 0 0;
+  }
+
+  /* line 64, ../sass/standard.scss */
+  #homePage #photo h2, #homePage #library h2 {
+    text-align: left;
+    margin: 0 0 16px 0;
+    padding: 0;
+  }
+
+  /* line 70, ../sass/standard.scss */
+  #homePage #library h2 {
+    text-align: right;
+  }
+
+  /* line 74, ../sass/standard.scss */
+  #header {
+    background-color: aqua;
+    opacity: 0.4;
+    background-color: white;
+    padding: 20px 0 70px 80px;
+    margin: 0 0 25px 0;
+  }
+
+  /* line 80, ../sass/standard.scss */
+  #header h1 {
+    display: block;
+    font-size: 72px;
+    float: left;
+  }
+
+  /* line 87, ../sass/standard.scss */
+  #header p {
+    display: block;
+    font-size: 14px;
+    float: left;
+    margin: 22px 0 0 25px;
+  }
+
+  /* line 95, ../sass/standard.scss */
+  #resume #content, #resume #content {
+    margin: 92px 0 0 0;
+  }
+
+  /* line 99, ../sass/standard.scss */
+  #libNav {
+    margin: 22px 0 0 0;
+  }
+
+  /* line 103, ../sass/standard.scss */
+  #libNav h3, #library .headingblock {
+    margin: 4px 0 2px 0;
+  }
+
+  /* line 107, ../sass/standard.scss */
+  #photoNav {
+    margin: 72px 0 0 0;
+  }
+
+  /* line 111, ../sass/standard.scss */
+  #library p.intro {
+    line-height: 20px;
+    margin: 42px 0 24px 0;
+  }
+
+  /* line 116, ../sass/standard.scss */
+  #homePage h4 {
+    margin: 0 0 0 0;
+  }
+
+  /* line 120, ../sass/standard.scss */
+  ul + h2 {
+    margin-top: -42px;
+  }
+
+  /* line 124, ../sass/standard.scss */
+  #nav a {
+    font-size: 18px;
+  }
+
+  /* line 128, ../sass/standard.scss */
+  #contactFormPage #nav {
+    /* IE6 needs this */
+    position: relative;
+    right: -20%;
+    /* this gives better centering results, but check in IE*/
+    clear: both;
+  }
+
+  /* line 138, ../sass/standard.scss */
+  ul + h3 {
+    margin: -44px 0 2px 0;
+  }
+
+  /* line 143, ../sass/standard.scss */
+  #resume #content ul + h3 + p {
+    margin: -4px 0 0 0;
+  }
+
+  /* line 148, ../sass/standard.scss */
+  #resume #content p, #portfolio #content p {
+    margin: -2px 0 0 0;
+  }
+
+  /* line 153, ../sass/standard.scss */
+  #resume #content ul li {
+    margin: 0 24px 0 380px;
+  }
+
+  /* line 157, ../sass/standard.scss */
+  h2 {
+    margin-top: 46px;
+  }
+
+  /* line 161, ../sass/standard.scss */
+  #resume h2.altResume {
+    margin-top: 44px;
+  }
+
+  /* line 165, ../sass/standard.scss */
+  #resume ul + h2 {
+    margin: -20px 0 0 0;
+  }
+
+  /* line 169, ../sass/standard.scss */
+  #resume h2 + ul {
+    margin-top: -22px;
+  }
+
+  /* line 172, ../sass/standard.scss */
+  #resume h2:first-child {
+    margin-top: 114px;
+  }
+
+  /* line 176, ../sass/standard.scss */
+  #resume ul {
+    margin: -44px 0 0 0;
+  }
+
+  /* line 181, ../sass/standard.scss */
+  #resume h4 {
+    margin: -44px 0 0 338px;
+  }
+
+  /* line 186, ../sass/standard.scss */
+  #resume h4 + ul, #resume h3 + ul, #resume ul + ul {
+    margin: 0 0 64px 0;
+  }
+
+  /* line 192, ../sass/standard.scss */
+  #resume h4 + ul + h4 + ul + h4 {
+    margin-top: -42px;
+  }
+
+  /* line 196, ../sass/standard.scss */
+  #resume h4 + ul + h4 + ul + h4 ul {
+    margin-bottom: 58px;
+  }
+
+  /* line 200, ../sass/standard.scss */
+  #resume h3 + ul + h3 {
+    margin-top: -40px;
+  }
+
+  /* line 204, ../sass/standard.scss */
+  #resume h3.altResume {
+    margin: 20px 0 0 0;
+  }
+
+  /* line 208, ../sass/standard.scss */
+  #resume h3.altResume + h4 {
+    margin-top: -24px;
+  }
+
+  /* line 212, ../sass/standard.scss */
+  #resume h3.altResume + ul {
+    margin: -26px 0 64px 0;
+  }
+
+  /* line 216, ../sass/standard.scss */
+  #resume strong, #portfolio strong {
+    border: 1px solid black;
+  }
+
+  /* line 220, ../sass/standard.scss */
+  #resume ul.subList {
+    margin: 0 0 0 -348px;
+  }
+
+  /* line 224, ../sass/standard.scss */
+  #portfolio ul li ul li {
+    width: 308px;
+    margin: 24px 28px 20px 0px;
+    float: left;
+  }
+
+  /* line 230, ../sass/standard.scss */
+  #portfolio ul + h2 + ul li {
+    float: left;
+    width: 306px;
+    margin: 24px 30px 20px 0px;
+  }
+
+  /* line 236, ../sass/standard.scss */
+  #contactFormPage #content {
+    width: 600px;
+  }
+
+  /* line 240, ../sass/standard.scss */
+  #contactFormPage p.clear {
+    margin: 0 0 22px 0;
+  }
+
+  /* line 244, ../sass/standard.scss */
+  #contactFormPage #content #showContactForm {
+    margin-left: 20%;
+  }
+
+  /* line 248, ../sass/standard.scss */
+  input, textarea {
+    width: 300px;
+    font-size: 16px;
+  }
+
+  /* line 253, ../sass/standard.scss */
+  form p input, textarea {
+    margin: 0 0 22px 0;
+  }
+
+  /* line 257, ../sass/standard.scss */
+  p #submitButton {
+    width: 100px;
+    text-align: center;
+  }
+
+  /* line 262, ../sass/standard.scss */
+  #nav {
+    width: 800px;
+    margin: 0 auto;
+    right: 0;
+  }
+
+  /* line 268, ../sass/standard.scss */
+  #nav ul {
+    position: relative;
+    margin: 0 0 40px 0;
+  }
+
+  /* line 273, ../sass/standard.scss */
+  #nav a {
+    margin: 0 0 32px 0;
+  }
+
+  /* line 277, ../sass/standard.scss */
+  .hideMobile {
+    display: block;
+  }
+
+  /* line 281, ../sass/standard.scss */
+  .hideDesktop {
+    display: none;
+  }
+}
