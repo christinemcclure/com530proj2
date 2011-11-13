@@ -139,8 +139,7 @@
           </ul>
 
     <h2>Technical Skills</h2>
-    	<h3>Software</h3>
-
+    	<h3 class="altResume">Software</h3>
       	<h4>Library Systems</h4>
         	<ul>
            	<li>Primo Discovery + Delivery, Voyager ILS, Meridian ERM, SFX, MetaLib federated search, ContentDM, ENCompass digital repository</li>
@@ -161,12 +160,12 @@
           	<li>Adobe Creative Suite (Photoshop, Illustrator, InDesign)</li>
         </ul>
 
-      <h3>Operating Systems</h3>
+      <h3 class="altResume">Operating Systems</h3>
         <ul>
           <li>Windows 7/XP/NT, UNIX, Linux, Mac OSX</li>
         </ul>
 
-      <h3>Programming Languages</h3>
+      <h3 class="altResume">Programming Languages</h3>
         <ul>
           <li>HTML, PHP, <strong>JavaScript/jQuery, Ruby on Rails,</strong> MySQL, Perl</li>
         </ul>

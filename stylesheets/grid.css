@@ -154,6 +154,9 @@ p {
   margin: 0 0 0 0;
 }
 
+ul + h2 {
+  margin-top: -42px;
+}
 
 #nav a {
 	font-size: 18px;
@@ -163,6 +166,7 @@ p {
 ul + h3 {
 	margin: -44px 0 2px 0;
 }
+
 
 #resume #content ul + h3 + p {
 margin: -4px 0 0 0;
@@ -183,7 +187,7 @@ margin: -4px 0 0 0;
 }
 
 
-#resume h4 + ul, #resume ul + ul  {
+#resume h4 + ul, #resume h3 + ul, #resume ul + ul  {
 
 margin: 0 0 64px 0;
 
@@ -196,6 +200,19 @@ margin: 0 0 64px 0;
 #resume h4 + ul + h4 + ul + h4 ul {
 	margin-bottom: 58px;
 }
+
+#resume h3 + ul + h3 {
+  margin-top: -40px;
+}
+
+#resume h3.altResume + h4{
+ margin-top: -24px;
+}
+
+#resume h3.altResume + ul{
+  margin: -26px 0 58px 0;
+}
+
 
 #resume #nav, #portfolio #nav{
   width: 600px;
