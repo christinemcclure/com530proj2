@@ -211,7 +211,13 @@ h2, h3 {
   margin-right:0;
 }
 
+#resume #content h2 + ul li{
+  margin: 0 0 0 16px;
+}
 
+.columnBlock + h2 {
+  margin: 22px 0 22px 0;
+}
 #resume  h3 {
   margin: 0 0 0 0;
 	line-height:22px;
@@ -226,11 +232,10 @@ h2, h3 {
 	clear:both;
 }
 
-#resume #content h3 + div.columnBlock + div.columnBlock + div.columnBlock + div.columnBlock{
+#resume #content .columnBlock h4 + ul + li{
   background-color:red;
 }
 
-/*#resume #content h3 + div.columnBlock + div.columnBlock*/
 
 #resume #content ul.columnBlock  li {
   width:306px;

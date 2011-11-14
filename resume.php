@@ -141,39 +141,39 @@
     	<h3>Software</h3>
       <div class="columnBlock">
       	<h4>Library Systems</h4>
-        <ul>
+        <ul class="columnBlock">
            	<li>Primo Discovery + Delivery, Voyager ILS, Meridian ERM, SFX, MetaLib federated search, ContentDM, ENCompass digital repository</li>
           </ul>
 			</div>
       
       <div class="columnBlock">
 			  <h4>Software Development</h4>
-        <ul>
+        <ul class="columnBlock">
           	<li>Dreamweaver, BBEdit, NetBeans, <strong>GitHub</strong></li>
           </ul>
 			</div>
 
       <div class="columnBlock">
         <h4>General</h4>
-        <ul>
+        <ul class="columnBlock">
           	<li>Microsoft Office (including macro and VBA programming)</li>
           </ul>
 			</div>
       
       <div class="columnBlock">
         <h4>Graphic Design</h4>
-        <ul>
+        <ul class="columnBlock">
           	<li>Adobe Creative Suite (Photoshop, Illustrator, InDesign)</li>
         </ul>
 			</div>
             
       <h3>Operating Systems</h3>
-        <ul>
+        <ul class="columnBlock">
           <li>Windows 7/XP/NT, UNIX, Linux, Mac OSX</li>
         </ul>
 
       <h3>Programming Languages</h3>
-        <ul>
+        <ul class="columnBlock">
           <li>HTML, PHP, <strong>JavaScript/jQuery, Ruby on Rails,</strong> MySQL, Perl</li>
         </ul>
 
@@ -191,7 +191,7 @@
 			</div>
       
 	  <h2>Activities / Interests</h2>
-    	<ul>
+    	<ul class="columnBlock">
 			  <li>Active member of ALA, RUSA, and LITA</li>
 			  <li><strong>Photography</strong> (fine art, portraiture and event photography)</li>
 			  <li>Graphic design</li>

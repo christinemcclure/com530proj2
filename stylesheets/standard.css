@@ -251,54 +251,63 @@ h2, h3 {
   margin-right: 0;
 }
 
-/* line 215, ../sass/standard.scss */
+/* line 214, ../sass/standard.scss */
+#resume #content h2 + ul li {
+  margin: 0 0 0 16px;
+}
+
+/* line 218, ../sass/standard.scss */
+.columnBlock + h2 {
+  margin: 22px 0 22px 0;
+}
+
+/* line 221, ../sass/standard.scss */
 #resume h3 {
   margin: 0 0 0 0;
   line-height: 22px;
 }
 
-/* line 220, ../sass/standard.scss */
+/* line 226, ../sass/standard.scss */
 #resume h3 + p {
   margin: 0px 0 0 0;
 }
 
-/* line 224, ../sass/standard.scss */
+/* line 230, ../sass/standard.scss */
 #resume h4 {
   margin: 22px 0 22px 0;
   clear: both;
 }
 
-/* line 229, ../sass/standard.scss */
-#resume #content h3 + div.columnBlock + div.columnBlock + div.columnBlock + div.columnBlock {
+/* line 235, ../sass/standard.scss */
+#resume #content .columnBlock h4 + ul + li {
   background-color: red;
 }
 
-/*#resume #content h3 + div.columnBlock + div.columnBlock*/
-/* line 235, ../sass/standard.scss */
+/* line 240, ../sass/standard.scss */
 #resume #content ul.columnBlock li {
   width: 306px;
   float: left;
   margin: 0 114px 22px 16px;
 }
 
-/* line 241, ../sass/standard.scss */
+/* line 246, ../sass/standard.scss */
 #resume #content ul.columnBlock li:nth-child(2n+2) {
   margin-right: 0;
 }
 
-/* line 246, ../sass/standard.scss */
+/* line 251, ../sass/standard.scss */
 #theLab #content {
   width: 612px;
   margin: 0 0 0 30px;
 }
 
 /*      background-color:red;       */
-/* line 252, ../sass/standard.scss */
+/* line 257, ../sass/standard.scss */
 #nav {
   width: 138px;
 }
 
-/* line 258, ../sass/standard.scss */
+/* line 263, ../sass/standard.scss */
 #nav ul li, #nav ul li a {
   font-size: 16px;
   line-height: 22px;
@@ -309,7 +318,7 @@ h2, h3 {
   margin: 0;
 }
 
-/* line 268, ../sass/standard.scss */
+/* line 273, ../sass/standard.scss */
 #nav ul li ul li a {
   background-color: green;
   border: none;
