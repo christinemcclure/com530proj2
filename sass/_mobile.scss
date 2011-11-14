@@ -83,6 +83,9 @@ p {
   margin: 40px 0 10px 0;
 }
 
+.gallery li p {
+  margin: 0;
+}
 /* SPECIAL HANDLERS */
 
 
@@ -162,6 +165,10 @@ p {
   font-family: $headingFont;
 	font-style:italic;
 	font-weight: bold;
+}
+
+.gallery #content ul li img {
+  border: 4px solid black;
 }
 
 .gallery img {

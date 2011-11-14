@@ -1,6 +1,7 @@
 /* Basic Media Query for Screens wider than 1000 pixels */
 
 @media screen and (min-width: 1010px) {
+
 *{margin: 0; padding: 0;}
 
 .t22 {
@@ -188,16 +189,20 @@ h2{
 }
 
 
-
-.gallery #content ul li{
-  width: 306px;
-	float:left;
-	margin: 0 30px 16px 0;
-  overflow: hidden;
+.gallery #content ul li p {
+  line-height:16px;
 }
 
-.gallery #content ul li:last-child{
- margin: 0 0px 16px 0;
+
+.gallery #content ul li, #portfolio #content ul li:nth-child(3n+3) {
+  width: 298px; /* 306 width with 4px border on each side*/
+	float:left;
+	margin: 0 38px 16px 0;
+}
+
+
+.gallery #content ul li:nth-child(3n+3), #portfolio #content ul li:nth-child(3n+3), #portfolio #content li ul li:nth-child(3n+3)  {
+  margin-right:0;
 }
 
 

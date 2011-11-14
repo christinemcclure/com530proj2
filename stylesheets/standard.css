@@ -1,26 +1,26 @@
 /* Basic Media Query for Screens wider than 1000 pixels */
 @media screen and (min-width: 1010px) {
-  /* line 4, ../sass/standard.scss */
+  /* line 5, ../sass/standard.scss */
   * {
     margin: 0;
     padding: 0;
   }
 
-  /* line 6, ../sass/standard.scss */
+  /* line 7, ../sass/standard.scss */
   .t22 {
     line-height: 22px;
     font-size: 14px;
     background-image: url("img/22px-baseline.png");
   }
 
-  /* line 12, ../sass/standard.scss */
+  /* line 13, ../sass/standard.scss */
   body {
     /*  .t22 from above  */
     line-height: 22px;
     font-size: 14px;
   }
 
-  /* line 16, ../sass/standard.scss */
+  /* line 17, ../sass/standard.scss */
   .g960 #page {
     width: 940px;
     /*Total width works out to 960*/
@@ -29,7 +29,7 @@
   }
 
   /* See http://978.gs/ */
-  /* line 22, ../sass/standard.scss */
+  /* line 23, ../sass/standard.scss */
   .g978 .page {
     /* width: 978px; Total with works out to 1008*/
     width: 978px;
@@ -38,7 +38,7 @@
     margin: 0 auto;
   }
 
-  /* line 30, ../sass/standard.scss */
+  /* line 31, ../sass/standard.scss */
   p {
     line-height: 22px;
     font-size: 14px;
@@ -46,20 +46,20 @@
     padding: 0;
   }
 
-  /* line 37, ../sass/standard.scss */
+  /* line 38, ../sass/standard.scss */
   #homePage img {
     -webkit-border-radius: 20px;
     -moz-border-radius: 20px;
     border-radius: 20px;
   }
 
-  /* line 43, ../sass/standard.scss */
+  /* line 44, ../sass/standard.scss */
   #photo, #library {
     padding: 10px;
   }
 
   /*  Use Golden Ratio for photo/lib widths: 1.618  */
-  /* line 48, ../sass/standard.scss */
+  /* line 49, ../sass/standard.scss */
   #photo {
     width: 640px;
     /* 1010 / 1.618  */
@@ -68,33 +68,33 @@
     opacity: 0.4;
   }
 
-  /* line 54, ../sass/standard.scss */
+  /* line 55, ../sass/standard.scss */
   #library {
     width: 286px;
     background-color: fuchsia;
     opacity: 0.4;
   }
 
-  /* line 59, ../sass/standard.scss */
+  /* line 60, ../sass/standard.scss */
   #libNav {
     float: left;
     /* Need otherwise h3 get pushed to bottom*/
     margin: 4px 0 0 0;
   }
 
-  /* line 64, ../sass/standard.scss */
+  /* line 65, ../sass/standard.scss */
   #homePage #photo h2, #homePage #library h2 {
     text-align: left;
     margin: 0 0 16px 0;
     padding: 0;
   }
 
-  /* line 70, ../sass/standard.scss */
+  /* line 71, ../sass/standard.scss */
   #homePage #library h2 {
     text-align: right;
   }
 
-  /* line 74, ../sass/standard.scss */
+  /* line 75, ../sass/standard.scss */
   #header {
     background-color: aqua;
     opacity: 0.4;
@@ -103,14 +103,14 @@
     margin: 0 0 25px 0;
   }
 
-  /* line 80, ../sass/standard.scss */
+  /* line 81, ../sass/standard.scss */
   #header h1 {
     display: block;
     font-size: 72px;
     float: left;
   }
 
-  /* line 87, ../sass/standard.scss */
+  /* line 88, ../sass/standard.scss */
   #header p {
     display: block;
     font-size: 14px;
@@ -118,48 +118,48 @@
     margin: 22px 0 0 25px;
   }
 
-  /* line 95, ../sass/standard.scss */
+  /* line 96, ../sass/standard.scss */
   #resume #content, #resume #content {
     margin: 92px 0 0 0;
   }
 
-  /* line 99, ../sass/standard.scss */
+  /* line 100, ../sass/standard.scss */
   #libNav {
     margin: 22px 0 0 0;
   }
 
-  /* line 103, ../sass/standard.scss */
+  /* line 104, ../sass/standard.scss */
   #libNav h3, #library .headingblock {
     margin: 4px 0 2px 0;
   }
 
-  /* line 107, ../sass/standard.scss */
+  /* line 108, ../sass/standard.scss */
   #photoNav {
     margin: 72px 0 0 0;
   }
 
-  /* line 111, ../sass/standard.scss */
+  /* line 112, ../sass/standard.scss */
   #library p.intro {
     line-height: 20px;
     margin: 42px 0 24px 0;
   }
 
-  /* line 116, ../sass/standard.scss */
+  /* line 117, ../sass/standard.scss */
   #homePage h4 {
     margin: 0 0 0 0;
   }
 
-  /* line 120, ../sass/standard.scss */
+  /* line 121, ../sass/standard.scss */
   ul + h2 {
     margin-top: -42px;
   }
 
-  /* line 124, ../sass/standard.scss */
+  /* line 125, ../sass/standard.scss */
   #nav a {
     font-size: 18px;
   }
 
-  /* line 128, ../sass/standard.scss */
+  /* line 129, ../sass/standard.scss */
   #contactFormPage #nav {
     /* IE6 needs this */
     position: relative;
@@ -168,256 +168,261 @@
     clear: both;
   }
 
-  /* line 138, ../sass/standard.scss */
+  /* line 139, ../sass/standard.scss */
   ul + h3 {
     margin: -44px 0 2px 0;
   }
 
-  /* line 143, ../sass/standard.scss */
+  /* line 144, ../sass/standard.scss */
   #resume #content ul + h3 + p {
     margin: -4px 0 0 0;
   }
 
-  /* line 148, ../sass/standard.scss */
+  /* line 149, ../sass/standard.scss */
   #resume #content p, #portfolio #content p {
     margin: -2px 0 0 0;
   }
 
-  /* line 153, ../sass/standard.scss */
+  /* line 154, ../sass/standard.scss */
   #resume #content ul li {
     margin: 0 24px 0 380px;
   }
 
-  /* line 157, ../sass/standard.scss */
+  /* line 158, ../sass/standard.scss */
   h2 {
     margin-top: 46px;
   }
 
-  /* line 161, ../sass/standard.scss */
+  /* line 162, ../sass/standard.scss */
   .gallery img {
     margin: 0;
   }
 
-  /* line 165, ../sass/standard.scss */
+  /* line 166, ../sass/standard.scss */
   .gallery h2 {
     margin: 46px 0 22px 0;
     font-size: 24px;
     clear: both;
   }
 
-  /* line 171, ../sass/standard.scss */
+  /* line 172, ../sass/standard.scss */
   .gallery h2 + img + p {
     margin: 0 0 20px 0;
   }
 
-  /* line 176, ../sass/standard.scss */
+  /* line 177, ../sass/standard.scss */
   .gallery h2 + img {
     margin: 0 10px 0 0;
     float: left;
   }
 
-  /* line 181, ../sass/standard.scss */
+  /* line 182, ../sass/standard.scss */
   .gallery h3 {
     clear: both;
     margin: 42px 0 0 0;
   }
 
-  /* line 186, ../sass/standard.scss */
+  /* line 187, ../sass/standard.scss */
   .gallery h4 {
     margin: -2px 0 0 0;
   }
 
   /* line 192, ../sass/standard.scss */
-  .gallery #content ul li {
-    width: 306px;
-    float: left;
-    margin: 0 30px 16px 0;
-    overflow: hidden;
+  .gallery #content ul li p {
+    line-height: 16px;
   }
 
-  /* line 199, ../sass/standard.scss */
-  .gallery #content ul li:last-child {
-    margin: 0 0px 16px 0;
+  /* line 197, ../sass/standard.scss */
+  .gallery #content ul li, #portfolio #content ul li:nth-child(3n+3) {
+    width: 298px;
+    /* 306 width with 4px border on each side*/
+    float: left;
+    margin: 0 38px 16px 0;
   }
 
   /* line 204, ../sass/standard.scss */
+  .gallery #content ul li:nth-child(3n+3), #portfolio #content ul li:nth-child(3n+3), #portfolio #content li ul li:nth-child(3n+3) {
+    margin-right: 0;
+  }
+
+  /* line 209, ../sass/standard.scss */
   .gallery li p {
     margin: 0 0 0 0;
   }
 
-  /* line 208, ../sass/standard.scss */
+  /* line 213, ../sass/standard.scss */
   .gallery h3 {
     clear: both;
   }
 
-  /* line 212, ../sass/standard.scss */
+  /* line 217, ../sass/standard.scss */
   .gallery h3 + ul {
     margin: 18px 0 0 0;
   }
 
-  /* line 216, ../sass/standard.scss */
+  /* line 221, ../sass/standard.scss */
   .gallery #content ul li:last-child {
     margin-bottom: 54px;
   }
 
-  /* line 220, ../sass/standard.scss */
+  /* line 225, ../sass/standard.scss */
   #resume h2.altResume {
     margin-top: 44px;
   }
 
-  /* line 224, ../sass/standard.scss */
+  /* line 229, ../sass/standard.scss */
   #resume ul + h2 {
     margin: -20px 0 0 0;
   }
 
-  /* line 228, ../sass/standard.scss */
+  /* line 233, ../sass/standard.scss */
   #resume h2 + ul {
     margin-top: -22px;
   }
 
-  /* line 231, ../sass/standard.scss */
+  /* line 236, ../sass/standard.scss */
   #resume h2:first-child {
     margin-top: 114px;
   }
 
-  /* line 235, ../sass/standard.scss */
+  /* line 240, ../sass/standard.scss */
   #resume ul {
     margin: -44px 0 0 0;
   }
 
-  /* line 240, ../sass/standard.scss */
+  /* line 245, ../sass/standard.scss */
   #resume h4 {
     margin: -44px 0 0 338px;
   }
 
-  /* line 245, ../sass/standard.scss */
+  /* line 250, ../sass/standard.scss */
   #resume h4 + ul, #resume h3 + ul, #resume ul + ul {
     margin: 0 0 64px 0;
   }
 
-  /* line 251, ../sass/standard.scss */
+  /* line 256, ../sass/standard.scss */
   #resume h4 + ul + h4 + ul + h4 {
     margin-top: -42px;
   }
 
-  /* line 255, ../sass/standard.scss */
+  /* line 260, ../sass/standard.scss */
   #resume h4 + ul + h4 + ul + h4 ul {
     margin-bottom: 58px;
   }
 
-  /* line 259, ../sass/standard.scss */
+  /* line 264, ../sass/standard.scss */
   #resume h3 + ul + h3 {
     margin-top: -40px;
   }
 
-  /* line 263, ../sass/standard.scss */
+  /* line 268, ../sass/standard.scss */
   #resume h3.altResume {
     margin: 20px 0 0 0;
   }
 
-  /* line 267, ../sass/standard.scss */
+  /* line 272, ../sass/standard.scss */
   #resume h3.altResume + h4 {
     margin-top: -24px;
   }
 
-  /* line 271, ../sass/standard.scss */
+  /* line 276, ../sass/standard.scss */
   #resume h3.altResume + ul {
     margin: -26px 0 64px 0;
   }
 
-  /* line 275, ../sass/standard.scss */
+  /* line 280, ../sass/standard.scss */
   #resume strong, #portfolio strong {
     border: 1px solid black;
   }
 
-  /* line 279, ../sass/standard.scss */
+  /* line 284, ../sass/standard.scss */
   #resume ul.subList {
     margin: 0 0 0 -348px;
   }
 
-  /* line 283, ../sass/standard.scss */
+  /* line 288, ../sass/standard.scss */
   #portfolio ul li ul li {
     width: 308px;
     margin: 24px 28px 20px 0px;
     float: left;
   }
 
-  /* line 289, ../sass/standard.scss */
+  /* line 294, ../sass/standard.scss */
   #portfolio ul + h2 + ul li {
     float: left;
     width: 306px;
     margin: 24px 30px 20px 0px;
   }
 
-  /* line 295, ../sass/standard.scss */
+  /* line 300, ../sass/standard.scss */
   #contactFormPage #content {
     width: 600px;
   }
 
-  /* line 299, ../sass/standard.scss */
+  /* line 304, ../sass/standard.scss */
   #contactFormPage p.clear {
     margin: 0 0 22px 0;
   }
 
-  /* line 303, ../sass/standard.scss */
+  /* line 308, ../sass/standard.scss */
   #contactFormPage #content #showContactForm {
     margin-left: 20%;
   }
 
-  /* line 307, ../sass/standard.scss */
+  /* line 312, ../sass/standard.scss */
   input, textarea {
     width: 300px;
     font-size: 16px;
   }
 
-  /* line 312, ../sass/standard.scss */
+  /* line 317, ../sass/standard.scss */
   form p input, textarea {
     margin: 0 0 22px 0;
   }
 
-  /* line 316, ../sass/standard.scss */
+  /* line 321, ../sass/standard.scss */
   p #submitButton {
     width: 100px;
     text-align: center;
   }
 
-  /* line 321, ../sass/standard.scss */
+  /* line 326, ../sass/standard.scss */
   #nav {
     width: 800px;
     margin: 0 auto;
     right: 0;
   }
 
-  /* line 327, ../sass/standard.scss */
+  /* line 332, ../sass/standard.scss */
   .gallery #nav {
     position: relative;
     right: -5%;
     clear: both;
   }
 
-  /* line 333, ../sass/standard.scss */
+  /* line 338, ../sass/standard.scss */
   #nav ul {
     position: relative;
     margin: 0 0 40px 0;
   }
 
-  /* line 338, ../sass/standard.scss */
+  /* line 343, ../sass/standard.scss */
   #nav a, #nav a.firstNav {
     margin: 0 0 32px 0;
     border-right: 1px solid black;
   }
 
-  /* line 343, ../sass/standard.scss */
+  /* line 348, ../sass/standard.scss */
   #nav a.firstNav {
     border-left: 1px solid black;
   }
 
-  /* line 348, ../sass/standard.scss */
+  /* line 353, ../sass/standard.scss */
   .hideMobile {
     display: block;
   }
 
-  /* line 352, ../sass/standard.scss */
+  /* line 357, ../sass/standard.scss */
   .hideDesktop {
     display: none;
   }
