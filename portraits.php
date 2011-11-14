@@ -8,7 +8,8 @@
 
    <?php include './includes/header.html'; ?>
 
-   <?php include './includes/photo-nav.html'; ?>
+		<?php include './includes/photo-nav.html'; ?>
+		<?php include './includes/nav.html'; ?>
       
   <div id="content" class="clear">
 

@@ -1,0 +1,426 @@
+/* Basic Media Query for Screens wider than 1000 pixels */
+/* line 3, ../sass/standardbk.scss */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* line 5, ../sass/standardbk.scss */
+.t22 {
+  line-height: 22px;
+  font-size: 14px;
+  background-image: url("img/22px-baseline.png");
+}
+
+/* line 11, ../sass/standardbk.scss */
+body {
+  /*  .t22 from above  */
+  line-height: 22px;
+  font-size: 14px;
+}
+
+/* line 15, ../sass/standardbk.scss */
+.g960 #page {
+  width: 940px;
+  /*Total width works out to 960*/
+  padding: 0px 10px 0px 10px;
+  background-image: url("img/960px-10-60-10-unit.png");
+}
+
+/* See http://978.gs/ */
+/* line 21, ../sass/standardbk.scss */
+.g978 .page {
+  /* width: 978px; Total with works out to 1008*/
+  width: 978px;
+  padding: 0px 15px 0px 15px;
+  background-image: url("img/978px-15-54-15-unit.png");
+  margin: 0 auto;
+}
+
+/* line 29, ../sass/standardbk.scss */
+p {
+  line-height: 22px;
+  font-size: 14px;
+  margin: 0;
+  padding: 0;
+}
+
+/* line 36, ../sass/standardbk.scss */
+#homePage img {
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+}
+
+/* line 43, ../sass/standardbk.scss */
+#photo, #library {
+  padding: 10px;
+}
+
+/*  Use Golden Ratio for photo/lib widths: 1.618  */
+/* line 48, ../sass/standardbk.scss */
+#photo {
+  width: 640px;
+  /* 1010 / 1.618  */
+  float: right;
+  background-color: red;
+  opacity: 0.4;
+}
+
+/* line 54, ../sass/standardbk.scss */
+#library {
+  width: 286px;
+  background-color: fuchsia;
+  opacity: 0.4;
+}
+
+/* line 59, ../sass/standardbk.scss */
+#libNav {
+  float: left;
+  /* Need otherwise h3 get pushed to bottom*/
+  margin: 4px 0 0 0;
+}
+
+/* line 64, ../sass/standardbk.scss */
+#homePage #photo h2, #homePage #library h2 {
+  text-align: left;
+  margin: 0 0 16px 0;
+  padding: 0;
+}
+
+/* line 70, ../sass/standardbk.scss */
+#homePage #library h2 {
+  text-align: right;
+}
+
+/* line 74, ../sass/standardbk.scss */
+#header {
+  background-color: aqua;
+  opacity: 0.4;
+  background-color: white;
+  padding: 20px 0 70px 80px;
+  margin: 0 0 25px 0;
+}
+
+/* line 80, ../sass/standardbk.scss */
+#header h1 {
+  display: block;
+  font-size: 72px;
+  float: left;
+}
+
+/* line 87, ../sass/standardbk.scss */
+#header p {
+  display: block;
+  font-size: 14px;
+  float: left;
+  margin: 22px 0 0 25px;
+}
+
+/* line 95, ../sass/standardbk.scss */
+#resume #content, #resume #content {
+  margin: 92px 0 0 0;
+}
+
+/* line 99, ../sass/standardbk.scss */
+#libNav {
+  margin: 22px 0 0 0;
+}
+
+/* line 103, ../sass/standardbk.scss */
+#libNav h3, #library .headingblock {
+  margin: 4px 0 2px 0;
+}
+
+/* line 107, ../sass/standardbk.scss */
+#photoNav {
+  margin: 72px 0 0 0;
+}
+
+/* line 111, ../sass/standardbk.scss */
+#library p.intro {
+  line-height: 20px;
+  margin: 42px 0 24px 0;
+}
+
+/* line 116, ../sass/standardbk.scss */
+#homePage h4 {
+  margin: 0 0 0 0;
+}
+
+/* line 120, ../sass/standardbk.scss */
+ul + h2 {
+  margin-top: -42px;
+}
+
+/* line 124, ../sass/standardbk.scss */
+#nav a {
+  font-size: 18px;
+}
+
+/* line 128, ../sass/standardbk.scss */
+#contactFormPage #nav {
+  /* IE6 needs this */
+  position: relative;
+  right: -20%;
+  /* this gives better centering results, but check in IE*/
+  clear: both;
+}
+
+/* line 138, ../sass/standardbk.scss */
+ul + h3 {
+  margin: -44px 0 2px 0;
+}
+
+/* line 143, ../sass/standardbk.scss */
+#resume #content ul + h3 + p {
+  margin: -4px 0 0 0;
+}
+
+/* line 148, ../sass/standardbk.scss */
+#resume #content p, #portfolio #content p {
+  margin: -2px 0 0 0;
+}
+
+/* line 153, ../sass/standardbk.scss */
+#resume #content ul li {
+  margin: 0 24px 0 380px;
+}
+
+/* line 157, ../sass/standardbk.scss */
+h2 {
+  margin-top: 46px;
+}
+
+/* line 161, ../sass/standardbk.scss */
+.gallery img {
+  margin: 0;
+}
+
+/* line 165, ../sass/standardbk.scss */
+.gallery h2 {
+  margin: 46px 0 22px 0;
+  font-size: 24px;
+  clear: both;
+}
+
+/* line 171, ../sass/standardbk.scss */
+.gallery h2 + img + p {
+  margin: 0 0 20px 0;
+}
+
+/* line 176, ../sass/standardbk.scss */
+.gallery h2 + img {
+  margin: 0 10px 0 0;
+  float: left;
+}
+
+/* line 181, ../sass/standardbk.scss */
+.gallery h3 {
+  clear: both;
+  margin: 42px 0 0 0;
+}
+
+/* line 186, ../sass/standardbk.scss */
+.gallery h4 {
+  margin: -2px 0 0 0;
+}
+
+/* line 191, ../sass/standardbk.scss */
+.gallery #content ul li p {
+  line-height: 16px;
+}
+
+/* line 196, ../sass/standardbk.scss */
+.gallery #content ul li, #portfolio #content ul li:nth-child(3n+3) {
+  width: 298px;
+  /* 306 width with 4px border on each side*/
+  float: left;
+  margin: 0 38px 16px 0;
+}
+
+/* line 203, ../sass/standardbk.scss */
+.gallery #content ul li:nth-child(3n+3), #portfolio #content ul li:nth-child(3n+3), #portfolio #content li ul li:nth-child(3n+3) {
+  margin-right: 0;
+}
+
+/* line 208, ../sass/standardbk.scss */
+.gallery li p {
+  margin: 0 0 0 0;
+}
+
+/* line 212, ../sass/standardbk.scss */
+.gallery h3 {
+  clear: both;
+}
+
+/* line 216, ../sass/standardbk.scss */
+.gallery h3 + ul {
+  margin: 18px 0 0 0;
+}
+
+/* line 220, ../sass/standardbk.scss */
+.gallery #content ul li:last-child {
+  margin-bottom: 54px;
+}
+
+/* line 224, ../sass/standardbk.scss */
+#resume h2.altResume {
+  margin-top: 44px;
+}
+
+/* line 228, ../sass/standardbk.scss */
+#resume ul + h2 {
+  margin: -20px 0 0 0;
+}
+
+/* line 232, ../sass/standardbk.scss */
+#resume h2 + ul {
+  margin-top: -22px;
+}
+
+/* line 235, ../sass/standardbk.scss */
+#resume h2:first-child {
+  margin-top: 114px;
+}
+
+/* line 239, ../sass/standardbk.scss */
+#resume ul {
+  margin: -44px 0 0 0;
+}
+
+/* line 244, ../sass/standardbk.scss */
+#resume h4 {
+  margin: -44px 0 0 338px;
+}
+
+/* line 249, ../sass/standardbk.scss */
+#resume h4 + ul, #resume h3 + ul, #resume ul + ul {
+  margin: 0 0 64px 0;
+}
+
+/* line 255, ../sass/standardbk.scss */
+#resume h4 + ul + h4 + ul + h4 {
+  margin-top: -42px;
+}
+
+/* line 259, ../sass/standardbk.scss */
+#resume h4 + ul + h4 + ul + h4 ul {
+  margin-bottom: 58px;
+}
+
+/* line 263, ../sass/standardbk.scss */
+#resume h3 + ul + h3 {
+  margin-top: -40px;
+}
+
+/* line 267, ../sass/standardbk.scss */
+#resume h3.altResume {
+  margin: 20px 0 0 0;
+}
+
+/* line 271, ../sass/standardbk.scss */
+#resume h3.altResume + h4 {
+  margin-top: -24px;
+}
+
+/* line 275, ../sass/standardbk.scss */
+#resume h3.altResume + ul {
+  margin: -26px 0 64px 0;
+}
+
+/* line 279, ../sass/standardbk.scss */
+#resume strong, #portfolio strong {
+  border: 1px solid black;
+}
+
+/* line 283, ../sass/standardbk.scss */
+#resume ul.subList {
+  margin: 0 0 0 -348px;
+}
+
+/* line 287, ../sass/standardbk.scss */
+#portfolio ul li ul li {
+  width: 308px;
+  margin: 24px 28px 20px 0px;
+  float: left;
+}
+
+/* line 293, ../sass/standardbk.scss */
+#portfolio ul + h2 + ul li {
+  float: left;
+  width: 306px;
+  margin: 24px 30px 20px 0px;
+}
+
+/* line 299, ../sass/standardbk.scss */
+#contactFormPage #content {
+  width: 600px;
+}
+
+/* line 303, ../sass/standardbk.scss */
+#contactFormPage p.clear {
+  margin: 0 0 22px 0;
+}
+
+/* line 307, ../sass/standardbk.scss */
+#contactFormPage #content #showContactForm {
+  margin-left: 20%;
+}
+
+/* line 311, ../sass/standardbk.scss */
+input, textarea {
+  width: 300px;
+  font-size: 16px;
+}
+
+/* line 316, ../sass/standardbk.scss */
+form p input, textarea {
+  margin: 0 0 22px 0;
+}
+
+/* line 320, ../sass/standardbk.scss */
+p #submitButton {
+  width: 100px;
+  text-align: center;
+}
+
+/* line 326, ../sass/standardbk.scss */
+.hideMobile {
+  display: block;
+}
+
+/* line 330, ../sass/standardbk.scss */
+.hideDesktop {
+  display: none;
+}
+
+/* VERTICAL NAV*/
+/* line 338, ../sass/standardbk.scss */
+#header {
+  width: 100%;
+  float: left;
+  margin: 0;
+  padding: 20px 0;
+}
+
+/* line 345, ../sass/standardbk.scss */
+#header h1 {
+  margin: 0 0 0 124px;
+}
+
+/* line 349, ../sass/standardbk.scss */
+.page #nav {
+  width: 138px;
+  float: left;
+  background-color: yellow;
+  left: 0;
+  right: 0;
+}
+
+/* line 357, ../sass/standardbk.scss */
+.page #content {
+  width: 840px;
+  float: left;
+  background-color: orange;
+}

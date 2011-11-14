@@ -5,6 +5,7 @@
   padding: 10px;
 }
 
+
 #header, #footer, #homePage h2, .navContainer {
   text-align:center;
   padding: 5px 0;
@@ -266,4 +267,8 @@ input, textarea {
 
 .floatLeft {
   float:left;
+}
+
+#content {
+  clear:both; /* vertical display for mobile. float for desktop*/
 }

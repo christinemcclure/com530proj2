@@ -9,8 +9,9 @@
 		<?php include './includes/header.html'; ?>
 
 		<?php include './includes/photo-nav.html'; ?>
+		<?php include './includes/nav.html'; ?>
 
-  <div id="content" class="clear">
+  <div id="content">
   
     <h2>Portals</h2>
     <?php include './includes/about-portals.html'; ?>
@@ -38,7 +39,7 @@
       <li><img src="/img/fineart/persephone-3.jpg" alt="Digitally-manipulated image of a large fern-like plant in grayscale growing out of large red rocks (magnified pebbles)." /></li>    
     </ul>
   </div>
-	<?php include './includes/photo-nav.html'; ?>
+		<?php include './includes/photo-nav.html'; ?>
   <?php include 'includes/footer.html' ?> 
 </div>
 </body>

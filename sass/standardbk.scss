@@ -1,0 +1,361 @@
+/* Basic Media Query for Screens wider than 1000 pixels */
+
+*{margin: 0; padding: 0;}
+
+.t22 {
+  line-height: 22px;
+  font-size: 14px;
+  background-image: url('img/22px-baseline.png');
+}
+
+body { /*  .t22 from above  */
+  line-height: 22px;
+  font-size: 14px;	
+}	
+  .g960 #page {
+    width: 940px; /*Total width works out to 960*/
+    padding: 0px 10px 0px 10px;
+    background-image: url('img/960px-10-60-10-unit.png');
+  }
+  /* See http://978.gs/ */
+  .g978 .page {
+    /* width: 978px; Total with works out to 1008*/
+		width: 978px;
+    padding: 0px 15px 0px 15px;
+    background-image: url('img/978px-15-54-15-unit.png');
+    margin: 0 auto;
+  }
+
+p {
+  line-height: 22px;
+  font-size: 14px;
+	margin: 0;
+	padding:0;
+}
+
+#homePage img{
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	border-radius: 20px;
+}
+
+
+#photo, #library {
+	padding: 10px;
+}
+
+/*  Use Golden Ratio for photo/lib widths: 1.618  */
+#photo {
+	width: 640px; /* 1010 / 1.618  */
+	float: right;
+  background-color:rgb(255,0,0); opacity: 0.4;
+}
+
+#library {
+  width: 286px;
+  background-color:rgb(255,0,255); opacity: 0.4;
+}
+
+#libNav {
+	float:left; /* Need otherwise h3 get pushed to bottom*/
+	margin: 4px 0 0 0;
+}
+
+#homePage #photo h2, #homePage #library h2 {
+  text-align:left;
+  margin: 0 0 16px 0;
+	padding:0;
+}
+
+#homePage #library h2 {
+	text-align:right;
+}
+
+#header {
+  background-color:rgb(0,255,255); opacity: 0.4;
+  background-color:white;
+  padding: 20px 0 70px 80px;
+	margin: 0 0 25px 0;
+}
+#header h1{
+	display:block;
+	font-size: 72px;
+	float:left;
+}
+
+
+#header p {
+	display:block;
+  font-size: 14px;
+	float:left;
+	margin: 22px 0 0 25px;
+}
+
+
+#resume #content, #resume #content {
+	margin: 92px 0 0 0;
+}
+
+#libNav	 {
+	margin: 22px 0 0 0;
+}
+
+#libNav h3, #library .headingblock {
+	margin: 4px 0 2px 0;
+}
+
+#photoNav {
+	margin: 72px 0 0 0;
+}
+
+#library p.intro{
+  line-height: 20px;
+	margin: 42px 0 24px 0;
+}
+
+#homePage h4 {
+  margin: 0 0 0 0;
+}
+
+ul + h2 {
+  margin-top: -42px;
+}
+
+#nav a {
+	font-size: 18px;
+}
+
+#contactFormPage #nav {
+  /* IE6 needs this */
+  position: relative;
+  right: -20%;
+  /* this gives better centering results, but check in IE*/
+  clear:both;
+
+}
+
+
+ul + h3 {
+	margin: -44px 0 2px 0;
+}
+
+
+#resume #content ul + h3 + p {
+margin: -4px 0 0 0;
+}
+
+
+#resume #content p, #portfolio #content p {
+	margin: -2px 0 0 0;
+}
+
+
+#resume #content ul li  {
+	margin: 0 24px 0 380px;
+}
+
+h2{
+  margin-top:46px;
+}
+
+.gallery img {
+ margin:0;
+}
+
+.gallery h2 {
+  margin:46px 0 22px 0;
+	font-size: 24px;
+	clear:both;
+}
+
+.gallery h2 + img + p{
+
+	margin: 0 0 20px 0;
+}
+
+.gallery h2 + img{
+  margin: 0 10px 0 0;
+	float:left;
+}
+
+.gallery h3 {
+  clear:both;
+	margin: 42px 0 0 0;
+}
+
+.gallery h4 {
+  margin: -2px 0 0 0;
+}
+
+
+.gallery #content ul li p {
+  line-height:16px;
+}
+
+
+.gallery #content ul li, #portfolio #content ul li:nth-child(3n+3) {
+  width: 298px; /* 306 width with 4px border on each side*/
+	float:left;
+	margin: 0 38px 16px 0;
+}
+
+
+.gallery #content ul li:nth-child(3n+3), #portfolio #content ul li:nth-child(3n+3), #portfolio #content li ul li:nth-child(3n+3)  {
+  margin-right:0;
+}
+
+
+.gallery li p {
+ margin: 0 0 0 0;
+}
+
+.gallery h3 {
+  clear:both;
+}
+
+.gallery h3 + ul {
+  margin: 18px 0 0 0;
+}
+
+.gallery #content ul li:last-child{
+ margin-bottom: 54px;
+}
+
+#resume h2.altResume {
+	margin-top: 44px;
+}
+
+#resume ul + h2 {
+  margin: -20px 0 0 0;
+}
+
+#resume h2 + ul {
+	margin-top: -22px;
+}
+#resume h2:first-child {
+  margin-top:114px;
+}
+
+#resume ul {
+  margin: -44px 0 0 0;
+}
+
+
+#resume h4 {
+	margin: -44px 0 0 338px;
+}
+
+
+#resume h4 + ul, #resume h3 + ul, #resume ul + ul  {
+
+margin: 0 0 64px 0;
+
+}
+
+#resume h4 + ul + h4 + ul + h4 {
+	margin-top: -42px;
+}
+
+#resume h4 + ul + h4 + ul + h4 ul {
+	margin-bottom: 58px;
+}
+
+#resume h3 + ul + h3 {
+  margin-top: -40px;
+}
+
+#resume h3.altResume {
+	margin: 20px 0 0 0;
+}
+
+#resume h3.altResume + h4{
+ margin-top: -24px;
+}
+
+#resume h3.altResume + ul{
+  margin: -26px 0 64px 0;
+}
+
+#resume strong, #portfolio strong {
+  border: 1px solid black;
+}
+
+#resume ul.subList {
+  margin: 0 0 0 -348px;
+}
+
+#portfolio ul li ul li {
+ width: 308px;
+ margin: 24px 28px 20px 0px;
+ float:left;
+}
+
+#portfolio ul + h2 + ul li{
+  float:left;
+	width: 306px; 
+  margin: 24px 30px 20px 0px;
+}
+
+#contactFormPage #content {
+ width: 600px;
+}
+
+#contactFormPage  p.clear {
+  margin: 0 0 22px 0;
+}
+
+#contactFormPage #content #showContactForm {
+  margin-left: 20%;
+}
+
+input, textarea {
+  width: 300px;
+	font-size:16px;
+}
+
+form p input, textarea{
+  margin: 0 0 22px 0;
+}
+
+p #submitButton {
+  width: 100px;
+	text-align:center;
+}
+
+
+.hideMobile{
+	display: block;
+}
+
+.hideDesktop {
+	display:none;
+}
+
+
+/* VERTICAL NAV*/
+
+		
+#header {
+width: 100%;
+float:left;
+margin: 0;
+padding: 20px 0;
+}
+
+#header h1 {
+  margin: 0 0 0 124px;
+}
+
+.page #nav {
+width:138px;
+float:left;
+background-color:yellow;
+left:0;
+right:0;
+}
+
+.page #content {
+width:840px;
+float:left;
+background-color:orange;
+}

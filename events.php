@@ -11,14 +11,15 @@
       <?php include './includes/header.html'; ?>  
 
 	<?php include './includes/photo-nav.html'; ?>
+	<?php include './includes/nav.html'; ?>
   
   <div id="content" class="clear">
   <h3>Literature For All of Us, Honor Thy Mother Luncheon, 2011</h3>
     <ul>
       <li><img src="/img/events/IMG_1002.jpg" alt="Photo of centerpiece flower arrangement." /></li>
       <li><img src="/img/events/IMG_1008.jpg" alt="Photo of event site." /></li>
-      <li><img src="/img/events/IMG_1216.jpg" alt="Photo of registration table volunteers checking in attendees." /></li>
       <li><img src="/img/events/IMG_1143.jpg" alt="Photo of an upright bass misician playing in the reception area." /></li>
+      <li><img src="/img/events/IMG_1216.jpg" alt="Photo of registration table volunteers checking in attendees." /></li>
       <li><img src="/img/events/IMG_1231.jpg" alt="Photo of two attendees chatting during the reception." /></li>
       <li><img src="/img/events/LFAOU-DPP-05.jpg" alt="Photo of luncheon speaker." /></li>
       <li><img src="/img/events/IMG_1459.jpg" alt="Photo of luncheon audience listening attently to speaker." /></li>
