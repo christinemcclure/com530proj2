@@ -49,23 +49,6 @@ body { /*  .t22 from above  */
 }
 
 
-.page #nav {
-width:138px;
-float:left;
-background-color:yellow;
-left:0;
-right:0;
-}
-
-.page #content {
-	width:810px;
-	clear:none;
-	float:left;
-  background-color:rgb(255,0,255); opacity: 0.3;
-	padding: 22px 0 44px 30px;
-}
-
-
 
 p {
   line-height: 22px;
@@ -83,19 +66,19 @@ p {
 }
 
 #photo, #library {
-	padding: 10px;
+  padding: 12px;
 }
 
 /*  Use Golden Ratio for photo/lib widths: 1.618  */
 #homePage #photo {
 	width: 640px; /* 1010 / 1.618  */
 	float: right;
-  background-color:rgb(255,0,0); opacity: 0.4;
+  background-color:rgb(255,0,0); opacity: 0.8;
 }
 
 #homePage #library {
-  width: 276px;
-  background-color:rgb(255,0,255); opacity: 0.4;
+  width: 266px;
+  background-color:white; opacity: 0.8;
 	float:left;
 }
 
@@ -107,13 +90,44 @@ p {
 #homePage #photo h2, #homePage #library h2 {
   text-align:left;
   margin: 0 0 16px 0;
-	padding:0;
+	padding: 10px 0 4px 0;
 }
 
 #homePage #library h2 {
 	text-align:right;
 }
 
+#homePage #photo h2 + img + p {
+  margin: 0 0 78px 0;
+}
+
+#homePage #library h2 + img + p {
+  margin: 0 0 52px 0;
+}
+
+#homePage .homeNav h3 {
+  line-height: 22px;
+	margin:0 0 24px 0;
+}
+
+#homePage #photo .homeNav .headingblock {
+ margin: 0 5px 0 0;
+}
+.page #content {
+	width:810px;
+	clear:none;
+	float:left;
+  background-color:rgb(255,0,255); opacity: 0.3;
+	padding: 22px 0 44px 30px;
+}
+
+#homePage #content {
+	width:978px;
+}
+
+#homePage h4, #homePage h4 a {
+  margin:0;
+}
 
 .hideMobile{
 	display: block;
@@ -124,9 +138,7 @@ p {
 }
 
 
-/* VERTICAL NAV*/
-
-		
+	
 #art h2 + img {
   float:left;
 	margin: 0 20px 0 0;
@@ -158,11 +170,11 @@ h2, h3 {
   margin: -2px 0 0 0;
 }
 
-.gallery ul {
+.gallery #content ul {
   margin: 34px 0 0 0;
 }
 
-.gallery h3 + ul {
+.gallery #content h3 + ul {
   margin: 32px 0 0 0;
 }
 
@@ -253,26 +265,32 @@ h2, h3 {
 	margin: 0 0 0 30px;
 }
 
-/*      background-color:red;       */
-#nav {
+.page #nav {
+	float:left;
+	left:0;
+	right:0;
+	top:0;
 	width: 138px;
-}
-#nav ul {
-}
-
-#nav ul li, #nav ul li a {
-  font-size: 16px;
-	line-height: 22px;
-	text-align:right;
- background-color:red;
- border: 1px solid black;
-padding: 0;
-margin: 0;
+	clear:none;
+	position:relative;
+	text-align:left;
 }
 
-#nav ul li ul li a {
- background-color:green;
- border: none;
-padding: 0;
-margin: 0;
+/*      background-color:red;       */
+
+#nav a{
+  padding: 0 5px 0 0px;
+	text-align:left;
 }
+
+
+#nav ul li.mainNav, #nav ul li.mainNav a{
+	text-align:left;
+/* 	margin: 0 0 22px 0;   figure this out later*/
+}
+#nav ul.subNav li, #nav ul.subNav li a {
+  margin: 0 0 0 10px;
+	color:red;
+	text-align:left;
+} 
+

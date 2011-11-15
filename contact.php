@@ -65,7 +65,7 @@ if (isset($_POST['submitted'])) {
 	<?php include './includes/header.html'; ?>
 
 
-	<?php include './includes/contact-nav.html'; ?>  
+	<?php include './includes/nav.html'; ?>  
 <div id="content" class="clear">
   <?php echo $feedback; ?>  
     <div id="showContactForm" class="<?php echo $cssclass; ?>"> <!--showForm to start-->	

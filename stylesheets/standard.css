@@ -63,16 +63,85 @@ body {
   margin: 22px 0 0 25px;
 }
 
-/* line 52, ../sass/standard.scss */
-.page #nav {
-  width: 138px;
-  float: left;
-  background-color: yellow;
-  left: 0;
-  right: 0;
+/* line 53, ../sass/standard.scss */
+p {
+  line-height: 22px;
+  font-size: 14px;
+  margin: 0;
+  padding: 0;
 }
 
-/* line 60, ../sass/standard.scss */
+/* line 62, ../sass/standard.scss */
+#homePage img {
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+}
+
+/* line 68, ../sass/standard.scss */
+#photo, #library {
+  padding: 12px;
+}
+
+/*  Use Golden Ratio for photo/lib widths: 1.618  */
+/* line 73, ../sass/standard.scss */
+#homePage #photo {
+  width: 640px;
+  /* 1010 / 1.618  */
+  float: right;
+  background-color: red;
+  opacity: 0.8;
+}
+
+/* line 79, ../sass/standard.scss */
+#homePage #library {
+  width: 266px;
+  background-color: white;
+  opacity: 0.8;
+  float: left;
+}
+
+/* line 85, ../sass/standard.scss */
+#libNav {
+  float: left;
+  /* Need otherwise h3 get pushed to bottom*/
+  margin: 4px 0 0 0;
+}
+
+/* line 90, ../sass/standard.scss */
+#homePage #photo h2, #homePage #library h2 {
+  text-align: left;
+  margin: 0 0 16px 0;
+  padding: 10px 0 4px 0;
+}
+
+/* line 96, ../sass/standard.scss */
+#homePage #library h2 {
+  text-align: right;
+}
+
+/* line 100, ../sass/standard.scss */
+#homePage #photo h2 + img + p {
+  margin: 0 0 78px 0;
+}
+
+/* line 104, ../sass/standard.scss */
+#homePage #library h2 + img + p {
+  margin: 0 0 52px 0;
+}
+
+/* line 108, ../sass/standard.scss */
+#homePage .homeNav h3 {
+  line-height: 22px;
+  margin: 0 0 24px 0;
+}
+
+/* line 113, ../sass/standard.scss */
+#homePage #photo .homeNav .headingblock {
+  margin: 0 5px 0 0;
+}
+
+/* line 116, ../sass/standard.scss */
 .page #content {
   width: 810px;
   clear: none;
@@ -82,124 +151,76 @@ body {
   padding: 22px 0 44px 30px;
 }
 
-/* line 70, ../sass/standard.scss */
-p {
-  line-height: 22px;
-  font-size: 14px;
+/* line 124, ../sass/standard.scss */
+#homePage #content {
+  width: 978px;
+}
+
+/* line 128, ../sass/standard.scss */
+#homePage h4, #homePage h4 a {
   margin: 0;
-  padding: 0;
 }
 
-/* line 79, ../sass/standard.scss */
-#homePage img {
-  -webkit-border-radius: 20px;
-  -moz-border-radius: 20px;
-  border-radius: 20px;
-}
-
-/* line 85, ../sass/standard.scss */
-#photo, #library {
-  padding: 10px;
-}
-
-/*  Use Golden Ratio for photo/lib widths: 1.618  */
-/* line 90, ../sass/standard.scss */
-#homePage #photo {
-  width: 640px;
-  /* 1010 / 1.618  */
-  float: right;
-  background-color: red;
-  opacity: 0.4;
-}
-
-/* line 96, ../sass/standard.scss */
-#homePage #library {
-  width: 276px;
-  background-color: fuchsia;
-  opacity: 0.4;
-  float: left;
-}
-
-/* line 102, ../sass/standard.scss */
-#libNav {
-  float: left;
-  /* Need otherwise h3 get pushed to bottom*/
-  margin: 4px 0 0 0;
-}
-
-/* line 107, ../sass/standard.scss */
-#homePage #photo h2, #homePage #library h2 {
-  text-align: left;
-  margin: 0 0 16px 0;
-  padding: 0;
-}
-
-/* line 113, ../sass/standard.scss */
-#homePage #library h2 {
-  text-align: right;
-}
-
-/* line 118, ../sass/standard.scss */
+/* line 132, ../sass/standard.scss */
 .hideMobile {
   display: block;
 }
 
-/* line 122, ../sass/standard.scss */
+/* line 136, ../sass/standard.scss */
 .hideDesktop {
   display: none;
 }
 
-/* VERTICAL NAV*/
-/* line 130, ../sass/standard.scss */
+/* line 142, ../sass/standard.scss */
 #art h2 + img {
   float: left;
   margin: 0 20px 0 0;
 }
 
-/* line 135, ../sass/standard.scss */
+/* line 147, ../sass/standard.scss */
 h2, h3 {
   clear: both;
 }
 
-/* line 138, ../sass/standard.scss */
+/* line 150, ../sass/standard.scss */
 .page h2 {
   font-size: 24px;
   clear: both;
   margin: -2px 0 22px 0;
 }
 
-/* line 144, ../sass/standard.scss */
+/* line 156, ../sass/standard.scss */
 .gallery ul + h2 {
   margin: 100px 0 22px 0;
   background-color: red;
 }
 
-/* line 149, ../sass/standard.scss */
+/* line 161, ../sass/standard.scss */
 .gallery h3 {
   margin: 18px 0 0 0;
 }
 
-/* line 153, ../sass/standard.scss */
+/* line 165, ../sass/standard.scss */
 .gallery ul + h3 {
   margin: 282px 0 0 0;
 }
 
-/* line 157, ../sass/standard.scss */
+/* line 169, ../sass/standard.scss */
 .gallery h3 + h4 {
   margin: -2px 0 0 0;
 }
 
-/* line 161, ../sass/standard.scss */
-.gallery ul {
+/* line 173, ../sass/standard.scss */
+.gallery #content ul {
   margin: 34px 0 0 0;
 }
 
-/* line 165, ../sass/standard.scss */
-.gallery h3 + ul {
+/* line 177, ../sass/standard.scss */
+.gallery #content h3 + ul {
   margin: 32px 0 0 0;
 }
 
-/* line 169, ../sass/standard.scss */
+/* line 181, ../sass/standard.scss */
 .gallery #content ul li, #content ul.gallery li {
   width: 214px;
   /* 306 width with 4px border on each side*/
@@ -207,121 +228,128 @@ h2, h3 {
   margin: 0 38px 0 0;
 }
 
-/* line 175, ../sass/standard.scss */
+/* line 187, ../sass/standard.scss */
 .gallery #content ul li:nth-child(3n+3), #content ul.gallery li:nth-child(3n+3) {
   margin-right: 0;
   margin-bottom: 88px;
 }
 
-/* line 180, ../sass/standard.scss */
+/* line 192, ../sass/standard.scss */
 #travel ul li:nth-child(3n+3) {
   margin-bottom: 30px;
 }
 
-/* line 185, ../sass/standard.scss */
+/* line 197, ../sass/standard.scss */
 .page #content ul li img + p {
   margin: -10px 0 0 0;
   line-height: 16px;
 }
 
-/* line 191, ../sass/standard.scss */
+/* line 203, ../sass/standard.scss */
 #content p:first-child {
   margin: 0 0 44px 0;
 }
 
-/* line 195, ../sass/standard.scss */
+/* line 207, ../sass/standard.scss */
 #portfolio strong, #resume strong {
   border: 1px solid black;
 }
 
-/* line 200, ../sass/standard.scss */
+/* line 212, ../sass/standard.scss */
 #portfolio ul + h2 {
   margin: 44px 0 0 0;
 }
 
-/* line 204, ../sass/standard.scss */
+/* line 216, ../sass/standard.scss */
 #portfolio #content ul li ul.columnBlock li {
   width: 222px;
   float: left;
   margin: 22px 30px 44px 0;
 }
 
-/* line 210, ../sass/standard.scss */
+/* line 222, ../sass/standard.scss */
 #portfolio #content ul li ul.columnBlock li:nth-child(3n+3) {
   margin-right: 0;
 }
 
-/* line 214, ../sass/standard.scss */
+/* line 226, ../sass/standard.scss */
 #resume #content h2 + ul li {
   margin: 0 0 0 16px;
 }
 
-/* line 218, ../sass/standard.scss */
+/* line 230, ../sass/standard.scss */
 .columnBlock + h2 {
   margin: 22px 0 22px 0;
 }
 
-/* line 221, ../sass/standard.scss */
+/* line 233, ../sass/standard.scss */
 #resume h3 {
   margin: 0 0 0 0;
   line-height: 22px;
 }
 
-/* line 226, ../sass/standard.scss */
+/* line 238, ../sass/standard.scss */
 #resume h3 + p {
   margin: 0px 0 0 0;
 }
 
-/* line 230, ../sass/standard.scss */
+/* line 242, ../sass/standard.scss */
 #resume h4 {
   margin: 22px 0 22px 0;
   clear: both;
 }
 
-/* line 235, ../sass/standard.scss */
+/* line 247, ../sass/standard.scss */
 #resume #content .columnBlock h4 + ul + li {
   background-color: red;
 }
 
-/* line 240, ../sass/standard.scss */
+/* line 252, ../sass/standard.scss */
 #resume #content ul.columnBlock li {
   width: 306px;
   float: left;
   margin: 0 114px 22px 16px;
 }
 
-/* line 246, ../sass/standard.scss */
+/* line 258, ../sass/standard.scss */
 #resume #content ul.columnBlock li:nth-child(2n+2) {
   margin-right: 0;
 }
 
-/* line 251, ../sass/standard.scss */
+/* line 263, ../sass/standard.scss */
 #theLab #content {
   width: 612px;
   margin: 0 0 0 30px;
 }
 
-/*      background-color:red;       */
-/* line 257, ../sass/standard.scss */
-#nav {
+/* line 268, ../sass/standard.scss */
+.page #nav {
+  float: left;
+  left: 0;
+  right: 0;
+  top: 0;
   width: 138px;
+  clear: none;
+  position: relative;
+  text-align: left;
 }
 
-/* line 263, ../sass/standard.scss */
-#nav ul li, #nav ul li a {
-  font-size: 16px;
-  line-height: 22px;
-  text-align: right;
-  background-color: red;
-  border: 1px solid black;
-  padding: 0;
-  margin: 0;
+/*      background-color:red;       */
+/* line 281, ../sass/standard.scss */
+#nav a {
+  padding: 0 5px 0 0px;
+  text-align: left;
 }
 
-/* line 273, ../sass/standard.scss */
-#nav ul li ul li a {
-  background-color: green;
-  border: none;
-  padding: 0;
-  margin: 0;
+/* line 287, ../sass/standard.scss */
+#nav ul li.mainNav, #nav ul li.mainNav a {
+  text-align: left;
+  /* 	margin: 0 0 22px 0;   figure this out later*/
+}
+
+/* line 291, ../sass/standard.scss */
+#nav ul.subNav li, #nav ul.subNav li a {
+  margin: 0 0 0 10px;
+  color: red;
+  text-align: left;
 }
