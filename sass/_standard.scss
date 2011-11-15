@@ -86,19 +86,29 @@ background-color: transparent;
 		background-color:white; opacity: 0.8;
 		float:left;
 		margin:0 30px 0 0;
-		padding: 22px 15px 22px 15px;
+/*		padding: 22px 15px 22px 15px; */
+		padding: 2.24948% .10224% 2.24948% .10224%;
 	}
 	
 	#homePage #libNav h3 .subheading {
-		margin-right:4px;
+/*		margin-right:4px; take from 276px container, not full page*/
+   margin-right: 1.44927536231884%;
 	}
 	
 	#homePage #photo h2, #homePage #library h2 {
 		text-align:left;
-		margin:0 0 22px 0;
+/*		margin:0 0 22px 0; */
+		margin: 0 0  2.24948% 0;
 		padding:0;
 	}
+
+	#homePage #photo h2, #homePage #photo h2 + img, #homePage #photo #photoNav {
+/*	  padding-left: 15px;  need padding for left-flush photo elements except border pictures*/
+/* take from 642px container, not full page*/
+   padding-left: 2.33644859813084%;
+	}
 	
+		
 	#homePage #library h2 {
 		text-align:right;
 	}
