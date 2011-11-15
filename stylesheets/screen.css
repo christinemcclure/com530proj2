@@ -662,40 +662,46 @@ input, textarea {
   }
 
   /* line 101, ../sass/_standard.scss */
+  #homePage #photo h2, #homePage #photo h2 + img, #homePage #photo #photoNav {
+    padding-left: 15px;
+    /* need padding for left-flush photo elements except border pictures*/
+  }
+
+  /* line 105, ../sass/_standard.scss */
   #homePage #library h2 {
     text-align: right;
   }
 
-  /* line 105, ../sass/_standard.scss */
+  /* line 109, ../sass/_standard.scss */
   #homePage #photo h2 + img + p {
     margin: 44px 0 0 252px;
   }
 
-  /* line 109, ../sass/_standard.scss */
+  /* line 113, ../sass/_standard.scss */
   #homePage h2 + img {
     height: 198px;
     margin: 0 0 22px 0;
   }
 
-  /* line 113, ../sass/_standard.scss */
+  /* line 117, ../sass/_standard.scss */
   #homePage #library h2 + img + p {
     clear: both;
     margin: 0 0 44px 0;
   }
 
-  /* line 120, ../sass/_standard.scss */
+  /* line 124, ../sass/_standard.scss */
   #homePage h3 .headingblock {
     margin: -10px 0 22px 0;
     padding: 0;
     line-height: 22px;
   }
 
-  /* line 127, ../sass/_standard.scss */
+  /* line 131, ../sass/_standard.scss */
   #homePage h3 .subheading {
     margin: -10px 0 22px 4px;
   }
 
-  /* line 132, ../sass/_standard.scss */
+  /* line 136, ../sass/_standard.scss */
   .page #content {
     width: 810px;
     clear: none;
@@ -705,32 +711,32 @@ input, textarea {
     padding: 22px 0 44px 30px;
   }
 
-  /* line 140, ../sass/_standard.scss */
+  /* line 144, ../sass/_standard.scss */
   #homePage #content {
     width: 978px;
   }
 
-  /* line 145, ../sass/_standard.scss */
+  /* line 149, ../sass/_standard.scss */
   #homePage .homeNav h4 a, #photo h4:first-child {
     margin: 0 0 22px 10px;
   }
 
-  /* line 149, ../sass/_standard.scss */
+  /* line 153, ../sass/_standard.scss */
   #galleries h4:last-child {
     margin-bottom: 20px;
   }
 
-  /* line 153, ../sass/_standard.scss */
+  /* line 157, ../sass/_standard.scss */
   #about p:last-child {
     margin-bottom: 22px;
   }
 
-  /* line 157, ../sass/_standard.scss */
+  /* line 161, ../sass/_standard.scss */
   #homePage .homeNav p {
     margin-left: 10px;
   }
 
-  /* line 161, ../sass/_standard.scss */
+  /* line 165, ../sass/_standard.scss */
   .homeNav p.showtitle, .homeNav p strong {
     color: yellow;
     padding: 0;
@@ -738,30 +744,30 @@ input, textarea {
     line-height: 22px;
   }
 
-  /* line 169, ../sass/_standard.scss */
+  /* line 173, ../sass/_standard.scss */
   .homeNav p.showtitle + p {
     margin-bottom: 22px;
   }
 
-  /* line 173, ../sass/_standard.scss */
+  /* line 177, ../sass/_standard.scss */
   #contact h4 + p + p {
     margin-top: 22px;
   }
 
-  /* line 177, ../sass/_standard.scss */
+  /* line 181, ../sass/_standard.scss */
   #homePage .homeNav h4 a .subheading {
     font-weight: normal;
     margin: 0 0 0 2px;
     color: yellow;
   }
 
-  /* line 183, ../sass/_standard.scss */
+  /* line 187, ../sass/_standard.scss */
   #homePage .homeNav h5 + img + p {
     padding: 0;
     margin: 22px 0 0 10px;
   }
 
-  /* line 189, ../sass/_standard.scss */
+  /* line 193, ../sass/_standard.scss */
   #homePage ul#border li {
     width: 138px;
     /* 306 width with 4px border on each side*/
@@ -771,78 +777,78 @@ input, textarea {
     padding: 0;
   }
 
-  /* line 197, ../sass/_standard.scss */
+  /* line 201, ../sass/_standard.scss */
   #homePage ul#border li:last-child {
     margin: 44px 0 0 0;
   }
 
-  /* line 201, ../sass/_standard.scss */
+  /* line 205, ../sass/_standard.scss */
   #homePage ul#border li img {
     border: none;
     margin: 0;
     padding: 0;
   }
 
-  /* line 207, ../sass/_standard.scss */
+  /* line 211, ../sass/_standard.scss */
   .hideMobile {
     display: block;
   }
 
-  /* line 211, ../sass/_standard.scss */
+  /* line 215, ../sass/_standard.scss */
   .hideDesktop {
     display: none;
   }
 
-  /* line 217, ../sass/_standard.scss */
+  /* line 221, ../sass/_standard.scss */
   #art h2 + img {
     float: left;
     margin: 0 20px 0 0;
   }
 
-  /* line 222, ../sass/_standard.scss */
+  /* line 226, ../sass/_standard.scss */
   h2, h3 {
     clear: both;
   }
 
-  /* line 225, ../sass/_standard.scss */
+  /* line 229, ../sass/_standard.scss */
   .page h2 {
     font-size: 24px;
     clear: both;
     margin: -2px 0 22px 0;
   }
 
-  /* line 231, ../sass/_standard.scss */
+  /* line 235, ../sass/_standard.scss */
   .gallery ul + h2 {
     margin: 100px 0 22px 0;
     background-color: red;
   }
 
-  /* line 236, ../sass/_standard.scss */
+  /* line 240, ../sass/_standard.scss */
   .gallery h3 {
     margin: 18px 0 0 0;
   }
 
-  /* line 240, ../sass/_standard.scss */
+  /* line 244, ../sass/_standard.scss */
   .gallery ul + h3 {
     margin: 282px 0 0 0;
   }
 
-  /* line 244, ../sass/_standard.scss */
+  /* line 248, ../sass/_standard.scss */
   .gallery h3 + h4 {
     margin: -2px 0 0 0;
   }
 
-  /* line 248, ../sass/_standard.scss */
+  /* line 252, ../sass/_standard.scss */
   .gallery #content ul {
     margin: 34px 0 0 0;
   }
 
-  /* line 252, ../sass/_standard.scss */
+  /* line 256, ../sass/_standard.scss */
   .gallery #content h3 + ul {
     margin: 32px 0 0 0;
   }
 
-  /* line 256, ../sass/_standard.scss */
+  /* line 260, ../sass/_standard.scss */
   .gallery #content ul li, #content ul.gallery li {
     width: 214px;
     /* 306 width with 4px border on each side*/
@@ -850,101 +856,101 @@ input, textarea {
     margin: 0 38px 0 0;
   }
 
-  /* line 262, ../sass/_standard.scss */
+  /* line 266, ../sass/_standard.scss */
   .gallery #content ul li:nth-child(3n+3), #content ul.gallery li:nth-child(3n+3) {
     margin-right: 0;
     margin-bottom: 88px;
   }
 
-  /* line 267, ../sass/_standard.scss */
+  /* line 271, ../sass/_standard.scss */
   #travel ul li:nth-child(3n+3) {
     margin-bottom: 30px;
   }
 
-  /* line 272, ../sass/_standard.scss */
+  /* line 276, ../sass/_standard.scss */
   .page #content ul li img + p {
     margin: -10px 0 0 0;
     line-height: 16px;
   }
 
-  /* line 278, ../sass/_standard.scss */
+  /* line 282, ../sass/_standard.scss */
   #content p:first-child {
     margin: 0 0 44px 0;
   }
 
-  /* line 282, ../sass/_standard.scss */
+  /* line 286, ../sass/_standard.scss */
   #portfolio strong, #resume strong {
     border: 1px solid black;
   }
 
-  /* line 287, ../sass/_standard.scss */
+  /* line 291, ../sass/_standard.scss */
   #portfolio ul + h2 {
     margin: 44px 0 0 0;
   }
 
-  /* line 291, ../sass/_standard.scss */
+  /* line 295, ../sass/_standard.scss */
   #portfolio #content ul li ul.columnBlock li {
     width: 222px;
     float: left;
     margin: 22px 30px 44px 0;
   }
 
-  /* line 297, ../sass/_standard.scss */
+  /* line 301, ../sass/_standard.scss */
   #portfolio #content ul li ul.columnBlock li:nth-child(3n+3) {
     margin-right: 0;
   }
 
-  /* line 301, ../sass/_standard.scss */
+  /* line 305, ../sass/_standard.scss */
   #resume #content h2 + ul li {
     margin: 0 0 0 16px;
   }
 
-  /* line 305, ../sass/_standard.scss */
+  /* line 309, ../sass/_standard.scss */
   .columnBlock + h2 {
     margin: 22px 0 22px 0;
   }
 
-  /* line 308, ../sass/_standard.scss */
+  /* line 312, ../sass/_standard.scss */
   #resume h3 {
     margin: 0 0 0 0;
     line-height: 22px;
   }
 
-  /* line 313, ../sass/_standard.scss */
+  /* line 317, ../sass/_standard.scss */
   #resume h3 + p {
     margin: 0px 0 0 0;
   }
 
-  /* line 317, ../sass/_standard.scss */
+  /* line 321, ../sass/_standard.scss */
   #resume h4 {
     margin: 22px 0 22px 0;
     clear: both;
   }
 
-  /* line 322, ../sass/_standard.scss */
+  /* line 326, ../sass/_standard.scss */
   #resume #content .columnBlock h4 + ul + li {
     background-color: red;
   }
 
-  /* line 327, ../sass/_standard.scss */
+  /* line 331, ../sass/_standard.scss */
   #resume #content ul.columnBlock li {
     width: 306px;
     float: left;
     margin: 0 114px 22px 16px;
   }
 
-  /* line 333, ../sass/_standard.scss */
+  /* line 337, ../sass/_standard.scss */
   #resume #content ul.columnBlock li:nth-child(2n+2) {
     margin-right: 0;
   }
 
-  /* line 338, ../sass/_standard.scss */
+  /* line 342, ../sass/_standard.scss */
   #theLab #content {
     width: 612px;
     margin: 0 0 0 30px;
   }
 
-  /* line 343, ../sass/_standard.scss */
+  /* line 347, ../sass/_standard.scss */
   .page #nav {
     float: left;
     left: 0;
@@ -957,19 +963,19 @@ input, textarea {
   }
 
   /*      background-color:red;       */
-  /* line 356, ../sass/_standard.scss */
+  /* line 360, ../sass/_standard.scss */
   #nav a {
     padding: 0 5px 0 0px;
     text-align: left;
   }
 
-  /* line 362, ../sass/_standard.scss */
+  /* line 366, ../sass/_standard.scss */
   #nav ul li.mainNav, #nav ul li.mainNav a {
     text-align: left;
     /* 	margin: 0 0 22px 0;   figure this out later*/
   }
 
-  /* line 366, ../sass/_standard.scss */
+  /* line 370, ../sass/_standard.scss */
   #nav ul.subNav li, #nav ul.subNav li a {
     margin: 0 0 0 10px;
     color: red;

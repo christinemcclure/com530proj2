@@ -97,6 +97,10 @@ background-color: transparent;
 		margin:0 0 22px 0;
 		padding:0;
 	}
+
+	#homePage #photo h2, #homePage #photo h2 + img, #homePage #photo #photoNav {
+	  padding-left: 15px; /* need padding for left-flush photo elements except border pictures*/
+	}
 	
 	#homePage #library h2 {
 		text-align:right;
