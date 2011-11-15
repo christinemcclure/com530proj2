@@ -18,16 +18,13 @@ background-color: transparent;
 		line-height: 22px;
 		font-size: 14px;	
 	}	
-		.g960 #page {
-			width: 940px; /*Total width works out to 960*/
-			padding: 0px 10px 0px 10px;
-			background-image: url('img/960px-10-60-10-unit.png');
-		}
+
 		/* See http://978.gs/ */
 		.g978 .page {
 			/* width: 978px; Total with works out to 1008*/
-			width: 978px;
-			padding: 0px 15px 0px 15px;
+			width: 90%;
+/*			padding: 0px 15px 0px 15px;  */
+			padding: 0 .10224% 0 .10224%;
 			background-image: url('img/978px-15-54-15-unit.png');
 			margin: 0 auto;
 		}
@@ -72,16 +69,20 @@ background-color: transparent;
 	
 	/*  Use Golden Ratio for photo/lib widths: 1.618  */
 	#homePage #photo {
-		width: 642px; /* 1010 / 1.618  */
+/*		width: 642px;  / 978 = .6564417  */
+		width: 65.64417%;
 		float: right;
 		background-color:rgb(255,0,0); opacity: 0.8;
-		padding: 22px 0 54px 0px; /* pad to the same bottom as library*/
+/*		padding: 22px 0 54px 0px;  pad to the same bottom as library*/
+		padding: 2.24948% 0 5.52147% 0;
+		
 	}
 	#homePage #content {
 		padding:0;
 	}
 	#homePage #library {
-		width: 276px;
+/*		width: 276px; / 978 = .2822085 */
+		width: 28.22085%;
 		background-color:white; opacity: 0.8;
 		float:left;
 		margin:0 30px 0 0;
@@ -138,7 +139,8 @@ background-color: transparent;
 	}
 	
 	#homePage #content {
-		width:978px;
+/*		width:978px;  */
+		width: 100%;
 	}
 	
 	
