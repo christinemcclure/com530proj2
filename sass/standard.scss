@@ -48,8 +48,6 @@ body { /*  .t22 from above  */
 	margin: 22px 0 0 25px;
 }
 
-
-
 p {
   line-height: 22px;
   font-size: 14px;
@@ -57,76 +55,33 @@ p {
 	padding:0;
 }
 
+#homePage #photo, #library {
+  width: 978px;
+	margin: 22px 0 0 0;
+	 background-color:red;opacity:.5;
+}
 
-
-#homePage img{
+#homePage #photo img, #homePage #library img{
 	-webkit-border-radius: 20px;
 	-moz-border-radius: 20px;
 	border-radius: 20px;
+	padding:0;
+	margin:0 0 0 0;
 }
 
-#photo, #library {
-  padding: 12px;
-}
 
-/*  Use Golden Ratio for photo/lib widths: 1.618  */
-#homePage #photo {
-	width: 640px; /* 1010 / 1.618  */
-	float: right;
-  background-color:rgb(255,0,0); opacity: 0.8;
-}
-
-#homePage #library {
-  width: 266px;
-  background-color:white; opacity: 0.8;
-	float:left;
-}
-
-#libNav {
-	float:left; /* Need otherwise h3 get pushed to bottom*/
-	margin: 4px 0 0 0;
-}
-
-#homePage #photo h2, #homePage #library h2 {
-  text-align:left;
-  margin: 0 0 16px 0;
-	padding: 10px 0 4px 0;
-}
-
-#homePage #library h2 {
-	text-align:right;
-}
-
-#homePage #photo h2 + img + p {
-  margin: 0 0 78px 0;
-}
-
-#homePage #library h2 + img + p {
-  margin: 0 0 52px 0;
-}
-
-#homePage .homeNav h3 {
-  line-height: 22px;
-	margin:0 0 24px 0;
-}
-
-#homePage #photo .homeNav .headingblock {
- margin: 0 5px 0 0;
-}
-.page #content {
-	width:810px;
+#homePage #photo h2 {
+  float:left;
+	text-align:left;
 	clear:none;
-	float:left;
-  background-color:rgb(255,0,255); opacity: 0.3;
-	padding: 22px 0 44px 30px;
+	margin: 0 0 0 106px;
 }
 
-#homePage #content {
-	width:978px;
-}
-
-#homePage h4, #homePage h4 a {
-  margin:0;
+#homePage #photo h2 + p {
+  width:474px;
+  float:left;
+  margin: 44px 0 0 -160px;
+	color:yellow;
 }
 
 .hideMobile{
@@ -155,7 +110,7 @@ h2, h3 {
 
 .gallery ul + h2 {
 	margin: 100px 0 22px 0;
- background-color:red;
+
 }
 
 .gallery h3 {

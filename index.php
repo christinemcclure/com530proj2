@@ -9,9 +9,9 @@
    <?php include './includes/header.html' ?>
   <div id="content">
     <div id="photo">
-			<h2>Photography</h2>
       
    		<img class="floatLeft hideMobile" src="/img/rolliflex.gif" alt="Photo of 1960's twin lens Rolliflex camera." />    
+			<h2>Photography</h2>
       <p>I've been fascinated with photography ever since my childhood in the seventies, where I staged a photo shoot using a velour bathrobe as a backdrop, ceramic dog figurines as models, and my trusty little 110 plastic camera.</p>
 		  <img class="hideDesktop" src="/img/boqueteForest.jpg" alt="Macro photo of plant from Boquete, Panama forest." />
 
