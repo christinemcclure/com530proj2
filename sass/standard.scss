@@ -48,7 +48,10 @@ body { /*  .t22 from above  */
 	margin: 22px 0 0 25px;
 }
 
-
+#footer p {
+  margin: 0 84px 0 0;
+	text-align:right;
+}
 
 p {
   line-height: 22px;
@@ -93,7 +96,7 @@ p {
 
 #homePage #photo h2, #homePage #library h2 {
   text-align:left;
-  margin:0;
+  margin:0 0 22px 0;
 	padding:0;
 }
 
@@ -102,21 +105,32 @@ p {
 }
 
 #homePage #photo h2 + img + p {
-  margin: 44px 0 34px 0;
+  margin: 44px 0 0 237px;
 }
 
+#homePage h2 + img  {
+  height: 198px;
+  margin: 0 0 22px 0;
+}
 #homePage #library h2 + img + p {
-  margin: 0 0 52px 0;
+  clear:both;
+  margin: 0 0 44px 0;
 }
 
-#homePage .homeNav h3 {
-  line-height: 22px;
-	margin:0 0 24px 0;
+
+
+#homePage h3 .headingblock{
+ margin: -10px 0 22px 0;
+ padding:0;
+ line-height:22px;
 }
 
-#homePage #photo .homeNav .headingblock {
- margin: 0 5px 0 0;
+
+#homePage h3 .subheading{
+  margin: -10px 0 22px 4px;
 }
+
+
 .page #content {
 	width:810px;
 	clear:none;
@@ -129,8 +143,17 @@ p {
 	width:978px;
 }
 
-#homePage h4, #homePage h4 a {
-  margin:0;
+
+#homePage .homeNav h4 a, #photo h4:first-child {
+	margin: 0 0 22px 10px;
+	line-height:22px;
+	color:green;
+}
+
+#homePage .homeNav h4 a .subheading{
+  font-weight:normal;
+	margin: 0 0 0 2px;
+	color:yellow;
 }
 
 .hideMobile{
