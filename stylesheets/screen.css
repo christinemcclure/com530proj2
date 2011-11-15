@@ -768,86 +768,86 @@ input, textarea {
 
   /* line 199, ../sass/_standard.scss */
   #homePage ul#border li {
-    width: 138px;
-    /* 306 width with 4px border on each side*/
+    /*		width: 138px;  138 / 642 */
+    width: 21.49532710280374%;
     float: left;
     border: none;
-    margin: 44px 30px  0 0;
-    padding: 0;
+    /*		margin: 44px 30px  0 0;  30 / 978 */
+    margin: 44px 03.06748466257669% 0 0;
   }
 
-  /* line 207, ../sass/_standard.scss */
+  /* line 208, ../sass/_standard.scss */
   #homePage ul#border li:last-child {
     margin: 44px 0 0 0;
   }
 
-  /* line 211, ../sass/_standard.scss */
+  /* line 212, ../sass/_standard.scss */
   #homePage ul#border li img {
     border: none;
     margin: 0;
     padding: 0;
   }
 
-  /* line 217, ../sass/_standard.scss */
+  /* line 218, ../sass/_standard.scss */
   .hideMobile {
     display: block;
   }
 
-  /* line 221, ../sass/_standard.scss */
+  /* line 222, ../sass/_standard.scss */
   .hideDesktop {
     display: none;
   }
 
-  /* line 227, ../sass/_standard.scss */
+  /* line 228, ../sass/_standard.scss */
   #art h2 + img {
     float: left;
     margin: 0 20px 0 0;
   }
 
-  /* line 232, ../sass/_standard.scss */
+  /* line 233, ../sass/_standard.scss */
   h2, h3 {
     clear: both;
   }
 
-  /* line 235, ../sass/_standard.scss */
+  /* line 236, ../sass/_standard.scss */
   .page h2 {
     font-size: 24px;
     clear: both;
     margin: -2px 0 22px 0;
   }
 
-  /* line 241, ../sass/_standard.scss */
+  /* line 242, ../sass/_standard.scss */
   .gallery ul + h2 {
     margin: 100px 0 22px 0;
     background-color: red;
   }
 
-  /* line 246, ../sass/_standard.scss */
+  /* line 247, ../sass/_standard.scss */
   .gallery h3 {
     margin: 18px 0 0 0;
   }
 
-  /* line 250, ../sass/_standard.scss */
+  /* line 251, ../sass/_standard.scss */
   .gallery ul + h3 {
     margin: 282px 0 0 0;
   }
 
-  /* line 254, ../sass/_standard.scss */
+  /* line 255, ../sass/_standard.scss */
   .gallery h3 + h4 {
     margin: -2px 0 0 0;
   }
 
-  /* line 258, ../sass/_standard.scss */
+  /* line 259, ../sass/_standard.scss */
   .gallery #content ul {
     margin: 34px 0 0 0;
   }
 
-  /* line 262, ../sass/_standard.scss */
+  /* line 263, ../sass/_standard.scss */
   .gallery #content h3 + ul {
     margin: 32px 0 0 0;
   }
 
-  /* line 266, ../sass/_standard.scss */
+  /* line 267, ../sass/_standard.scss */
   .gallery #content ul li, #content ul.gallery li {
     width: 214px;
     /* 306 width with 4px border on each side*/
@@ -855,101 +855,101 @@ input, textarea {
     margin: 0 38px 0 0;
   }
 
-  /* line 272, ../sass/_standard.scss */
+  /* line 273, ../sass/_standard.scss */
   .gallery #content ul li:nth-child(3n+3), #content ul.gallery li:nth-child(3n+3) {
     margin-right: 0;
     margin-bottom: 88px;
   }
 
-  /* line 277, ../sass/_standard.scss */
+  /* line 278, ../sass/_standard.scss */
   #travel ul li:nth-child(3n+3) {
     margin-bottom: 30px;
   }
 
-  /* line 282, ../sass/_standard.scss */
+  /* line 283, ../sass/_standard.scss */
   .page #content ul li img + p {
     margin: -10px 0 0 0;
     line-height: 16px;
   }
 
-  /* line 288, ../sass/_standard.scss */
+  /* line 289, ../sass/_standard.scss */
   #content p:first-child {
     margin: 0 0 44px 0;
   }
 
-  /* line 292, ../sass/_standard.scss */
+  /* line 293, ../sass/_standard.scss */
   #portfolio strong, #resume strong {
     border: 1px solid black;
   }
 
-  /* line 297, ../sass/_standard.scss */
+  /* line 298, ../sass/_standard.scss */
   #portfolio ul + h2 {
     margin: 44px 0 0 0;
   }
 
-  /* line 301, ../sass/_standard.scss */
+  /* line 302, ../sass/_standard.scss */
   #portfolio #content ul li ul.columnBlock li {
     width: 222px;
     float: left;
     margin: 22px 30px 44px 0;
   }
 
-  /* line 307, ../sass/_standard.scss */
+  /* line 308, ../sass/_standard.scss */
   #portfolio #content ul li ul.columnBlock li:nth-child(3n+3) {
     margin-right: 0;
   }
 
-  /* line 311, ../sass/_standard.scss */
+  /* line 312, ../sass/_standard.scss */
   #resume #content h2 + ul li {
     margin: 0 0 0 16px;
   }
 
-  /* line 315, ../sass/_standard.scss */
+  /* line 316, ../sass/_standard.scss */
   .columnBlock + h2 {
     margin: 22px 0 22px 0;
   }
 
-  /* line 318, ../sass/_standard.scss */
+  /* line 319, ../sass/_standard.scss */
   #resume h3 {
     margin: 0 0 0 0;
     line-height: 22px;
   }
 
-  /* line 323, ../sass/_standard.scss */
+  /* line 324, ../sass/_standard.scss */
   #resume h3 + p {
     margin: 0px 0 0 0;
   }
 
-  /* line 327, ../sass/_standard.scss */
+  /* line 328, ../sass/_standard.scss */
   #resume h4 {
     margin: 22px 0 22px 0;
     clear: both;
   }
 
-  /* line 332, ../sass/_standard.scss */
+  /* line 333, ../sass/_standard.scss */
   #resume #content .columnBlock h4 + ul + li {
     background-color: red;
   }
 
-  /* line 337, ../sass/_standard.scss */
+  /* line 338, ../sass/_standard.scss */
   #resume #content ul.columnBlock li {
     width: 306px;
     float: left;
     margin: 0 114px 22px 16px;
   }
 
-  /* line 343, ../sass/_standard.scss */
+  /* line 344, ../sass/_standard.scss */
   #resume #content ul.columnBlock li:nth-child(2n+2) {
     margin-right: 0;
   }
 
-  /* line 348, ../sass/_standard.scss */
+  /* line 349, ../sass/_standard.scss */
   #theLab #content {
     width: 612px;
     margin: 0 0 0 30px;
   }
 
-  /* line 353, ../sass/_standard.scss */
+  /* line 354, ../sass/_standard.scss */
   .page #nav {
     float: left;
     left: 0;
@@ -962,19 +962,19 @@ input, textarea {
   }
 
   /*      background-color:red;       */
-  /* line 366, ../sass/_standard.scss */
+  /* line 367, ../sass/_standard.scss */
   #nav a {
     padding: 0 5px 0 0px;
     text-align: left;
   }
 
-  /* line 372, ../sass/_standard.scss */
+  /* line 373, ../sass/_standard.scss */
   #nav ul li.mainNav, #nav ul li.mainNav a {
     text-align: left;
     /* 	margin: 0 0 22px 0;   figure this out later*/
   }
 
-  /* line 376, ../sass/_standard.scss */
+  /* line 377, ../sass/_standard.scss */
   #nav ul.subNav li, #nav ul.subNav li a {
     margin: 0 0 0 10px;
     color: red;
