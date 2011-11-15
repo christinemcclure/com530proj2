@@ -1,7 +1,7 @@
 @import "_base.scss";
 
 $base-font-size: 16px;
-$base-line-height: 24px;
+$base-line-height: 22px;
 $relative-font-sizing: false;
 
 $mainFont: 'Spinnaker', 'Century Gothic', 'Tahoma', 'Verdana', sans-serif;
@@ -23,28 +23,48 @@ $headingFont: 'PT Serif', 'Palatino Linotype', 'Georgia', serif;
   $red: #732626;
   $darkGrey: #262626;
 
-/* Parapluie*/
-  $darkBlue: #0C2538;
-  $greyBlue: #2B434F;
-  $greyGreen: #638270;
-  $paleGreen: #BCC98E;
-  $yellow: #EDE059;
+/* Tumble */
+  $darkBlue: #1A2530;
+	$mauve: #4A4457;
+	$brown: #706553; /* original: #665B4B; */
+	$green: #6F8556;
+	$yellow: #BDBF6F;
 
-$background1: $greyGreen;
-$background2: $yellow;
-$fontColor: $darkBlue;
-$resumeStrongBackground: $paleGreen;
-$linkColor: $yellow;
+
+$backgroundLight: $yellow;
+$backgroundMedium: $mauve;
+$backgroundDark: $darkBlue;
+$fontDark: $darkBlue;
+$fontLight: $yellow;
+$fontMedium: $mauve;
+$resumeStrongBackground: $yellow;
+$linkDark: $mauve;
+$linkLight: $green;
 
 html { /* initial grid system: line-height:18 font-size: 14 */
   font-family: $mainFont;
   padding: 15px; 
   font-size: $base-font-size;
-  background-color: $background2;
-  color:$fontColor;
+  background-color: $backgroundDark;
+  color:$fontLight;
+}
+
+
+
+$radius: 20px;
+.page, #header, #library, #photo{
+  @include border-radius($radius);
 }
 
 /* ###############  Start of Mobile CSS ################## */
 @import "_mobile.scss";
+
+
+/* ###############  Start of Narrow CSS (400px) ################## */
+@import "_narrow.scss";
+
+
+/* ###############  Start of Standard CSS (1010px) ################## */
+@import "_standard.scss";
 
 

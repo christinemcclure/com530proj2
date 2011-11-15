@@ -1,16 +1,47 @@
 /* MAIN DIV ELEMENTS */
 
+html, body {
+   background-color: $backgroundDark;
+}
+
+
 .page {
 /*  background-color:$background1; */
   padding: 10px;
 }
 
+#homePage h2, #footer {
+   @include border-radius(10px);
+}
+
+ h4 a, strong, p a, #nav a {
+  color: $yellow;
+	font-weight: normal;
+ }
+h4, h5{
+  color: $green;
+}
+
+h3 {
+  color:$mauve;
+}
+#homePage h3, #homePage h3 a, h1 a {
+  color: $green;
+}
+
+a, p, li {
+  color:$brown;
+}
+
+#header p, #footer p {
+  color: $darkBlue;
+}
 
 #header, #footer, #homePage h2, .navContainer {
   text-align:center;
   padding: 5px 0;
   margin-bottom: 10px;
-/*  background-color:$background2; */
+  background-color:$mauve; 
 }
 
 
@@ -176,6 +207,14 @@ p {
   margin: 10px 0;
 }
 
+.gallery #content ul li  p {
+  margin-bottom: 20px;
+}
+
+.gallery #content h3, .gallery #content h3 strong {
+  margin-top: 20px;
+	color: $mauve;
+}
 .showtitle {
  font-size: $base-font-size - 4px;
 }
@@ -202,10 +241,32 @@ p {
 }
 
 #resume strong {
-/*  background-color: $resumeStrongBackground;
-	@include border-radius(20px); */
-	padding: 0 10px;
+  background-color: $green;
+	@include border-radius(20px); 
+	padding: 0 5px;
+	color: $darkBlue;
 }
+#resume strong a{
+	color: $yellow;
+}
+
+#portfolio #content h2 + ul li {
+  margin-bottom: 20px;
+	color:$green;
+}
+
+#portfolio #content h2 + ul li ul li {
+  margin-top: 20px;
+	color: $brown;
+}
+
+#portfolio #content h2 + ul li ul li strong {
+  color: $green;
+} 
+
+#portfolio #content h2 + ul li ul li a {
+  color: $yellow;
+} 
 
 
 /* NAVIGATION  -- from http://www.visibilityinherit.com/code/center-nav.php 
