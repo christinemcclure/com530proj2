@@ -75,7 +75,7 @@ background-color: transparent;
 		width: 642px; /* 1010 / 1.618  */
 		float: right;
 		background-color:rgb(255,0,0); opacity: 0.8;
-		padding: 22px 0px 52px 0px; /* pad to the same bottom as library*/
+		padding: 22px 0 54px 0px; /* pad to the same bottom as library*/
 	}
 	#homePage #content {
 		padding:0;
@@ -185,12 +185,7 @@ background-color: transparent;
 		margin:22px 0 0 10px;
 	}
 	
-	
-	
-	#homePage ul.border {
-		margin: 0 0 0 0;
-	}
-	
+		
 	#homePage ul#border li {
 		width: 138px; /* 306 width with 4px border on each side*/
 		float:left;

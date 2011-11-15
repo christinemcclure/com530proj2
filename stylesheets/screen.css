@@ -1,4 +1,4 @@
-/* line 17, ../../.gem/ruby/1.8/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 17, ../../../RailsInstaller/Ruby1.8.7/lib/ruby/gems/1.8/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -20,45 +20,45 @@ time, mark, audio, video {
   vertical-align: baseline;
 }
 
-/* line 20, ../../.gem/ruby/1.8/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 20, ../../../RailsInstaller/Ruby1.8.7/lib/ruby/gems/1.8/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 body {
   line-height: 1;
 }
 
-/* line 22, ../../.gem/ruby/1.8/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 22, ../../../RailsInstaller/Ruby1.8.7/lib/ruby/gems/1.8/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 ol, ul {
   list-style: none;
 }
 
-/* line 24, ../../.gem/ruby/1.8/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 24, ../../../RailsInstaller/Ruby1.8.7/lib/ruby/gems/1.8/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
 
-/* line 26, ../../.gem/ruby/1.8/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 26, ../../../RailsInstaller/Ruby1.8.7/lib/ruby/gems/1.8/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 caption, th, td {
   text-align: left;
   font-weight: normal;
   vertical-align: middle;
 }
 
-/* line 28, ../../.gem/ruby/1.8/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 28, ../../../RailsInstaller/Ruby1.8.7/lib/ruby/gems/1.8/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 q, blockquote {
   quotes: none;
 }
-/* line 101, ../../.gem/ruby/1.8/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 101, ../../../RailsInstaller/Ruby1.8.7/lib/ruby/gems/1.8/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 q:before, q:after, blockquote:before, blockquote:after {
   content: "";
   content: none;
 }
 
-/* line 30, ../../.gem/ruby/1.8/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 30, ../../../RailsInstaller/Ruby1.8.7/lib/ruby/gems/1.8/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 a img {
   border: none;
 }
 
-/* line 114, ../../.gem/ruby/1.8/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 114, ../../../RailsInstaller/Ruby1.8.7/lib/ruby/gems/1.8/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
   display: block;
 }
@@ -630,7 +630,7 @@ input, textarea {
     float: right;
     background-color: red;
     opacity: 0.8;
-    padding: 22px 0px 52px 0px;
+    padding: 22px 0 54px 0px;
     /* pad to the same bottom as library*/
   }
 
@@ -761,12 +761,7 @@ input, textarea {
     margin: 22px 0 0 10px;
   }
 
-  /* line 190, ../sass/_standard.scss */
-  #homePage ul.border {
-    margin: 0 0 0 0;
-  }
-
-  /* line 194, ../sass/_standard.scss */
+  /* line 189, ../sass/_standard.scss */
   #homePage ul#border li {
     width: 138px;
     /* 306 width with 4px border on each side*/
@@ -776,78 +771,78 @@ input, textarea {
     padding: 0;
   }
 
-  /* line 202, ../sass/_standard.scss */
+  /* line 197, ../sass/_standard.scss */
   #homePage ul#border li:last-child {
     margin: 44px 0 0 0;
   }
 
-  /* line 206, ../sass/_standard.scss */
+  /* line 201, ../sass/_standard.scss */
   #homePage ul#border li img {
     border: none;
     margin: 0;
     padding: 0;
   }
 
-  /* line 212, ../sass/_standard.scss */
+  /* line 207, ../sass/_standard.scss */
   .hideMobile {
     display: block;
   }
 
-  /* line 216, ../sass/_standard.scss */
+  /* line 211, ../sass/_standard.scss */
   .hideDesktop {
     display: none;
   }
 
-  /* line 222, ../sass/_standard.scss */
+  /* line 217, ../sass/_standard.scss */
   #art h2 + img {
     float: left;
     margin: 0 20px 0 0;
   }
 
-  /* line 227, ../sass/_standard.scss */
+  /* line 222, ../sass/_standard.scss */
   h2, h3 {
     clear: both;
   }
 
-  /* line 230, ../sass/_standard.scss */
+  /* line 225, ../sass/_standard.scss */
   .page h2 {
     font-size: 24px;
     clear: both;
     margin: -2px 0 22px 0;
   }
 
-  /* line 236, ../sass/_standard.scss */
+  /* line 231, ../sass/_standard.scss */
   .gallery ul + h2 {
     margin: 100px 0 22px 0;
     background-color: red;
   }
 
-  /* line 241, ../sass/_standard.scss */
+  /* line 236, ../sass/_standard.scss */
   .gallery h3 {
     margin: 18px 0 0 0;
   }
 
-  /* line 245, ../sass/_standard.scss */
+  /* line 240, ../sass/_standard.scss */
   .gallery ul + h3 {
     margin: 282px 0 0 0;
   }
 
-  /* line 249, ../sass/_standard.scss */
+  /* line 244, ../sass/_standard.scss */
   .gallery h3 + h4 {
     margin: -2px 0 0 0;
   }
 
-  /* line 253, ../sass/_standard.scss */
+  /* line 248, ../sass/_standard.scss */
   .gallery #content ul {
     margin: 34px 0 0 0;
   }
 
-  /* line 257, ../sass/_standard.scss */
+  /* line 252, ../sass/_standard.scss */
   .gallery #content h3 + ul {
     margin: 32px 0 0 0;
   }
 
-  /* line 261, ../sass/_standard.scss */
+  /* line 256, ../sass/_standard.scss */
   .gallery #content ul li, #content ul.gallery li {
     width: 214px;
     /* 306 width with 4px border on each side*/
@@ -855,101 +850,101 @@ input, textarea {
     margin: 0 38px 0 0;
   }
 
-  /* line 267, ../sass/_standard.scss */
+  /* line 262, ../sass/_standard.scss */
   .gallery #content ul li:nth-child(3n+3), #content ul.gallery li:nth-child(3n+3) {
     margin-right: 0;
     margin-bottom: 88px;
   }
 
-  /* line 272, ../sass/_standard.scss */
+  /* line 267, ../sass/_standard.scss */
   #travel ul li:nth-child(3n+3) {
     margin-bottom: 30px;
   }
 
-  /* line 277, ../sass/_standard.scss */
+  /* line 272, ../sass/_standard.scss */
   .page #content ul li img + p {
     margin: -10px 0 0 0;
     line-height: 16px;
   }
 
-  /* line 283, ../sass/_standard.scss */
+  /* line 278, ../sass/_standard.scss */
   #content p:first-child {
     margin: 0 0 44px 0;
   }
 
-  /* line 287, ../sass/_standard.scss */
+  /* line 282, ../sass/_standard.scss */
   #portfolio strong, #resume strong {
     border: 1px solid black;
   }
 
-  /* line 292, ../sass/_standard.scss */
+  /* line 287, ../sass/_standard.scss */
   #portfolio ul + h2 {
     margin: 44px 0 0 0;
   }
 
-  /* line 296, ../sass/_standard.scss */
+  /* line 291, ../sass/_standard.scss */
   #portfolio #content ul li ul.columnBlock li {
     width: 222px;
     float: left;
     margin: 22px 30px 44px 0;
   }
 
-  /* line 302, ../sass/_standard.scss */
+  /* line 297, ../sass/_standard.scss */
   #portfolio #content ul li ul.columnBlock li:nth-child(3n+3) {
     margin-right: 0;
   }
 
-  /* line 306, ../sass/_standard.scss */
+  /* line 301, ../sass/_standard.scss */
   #resume #content h2 + ul li {
     margin: 0 0 0 16px;
   }
 
-  /* line 310, ../sass/_standard.scss */
+  /* line 305, ../sass/_standard.scss */
   .columnBlock + h2 {
     margin: 22px 0 22px 0;
   }
 
-  /* line 313, ../sass/_standard.scss */
+  /* line 308, ../sass/_standard.scss */
   #resume h3 {
     margin: 0 0 0 0;
     line-height: 22px;
   }
 
-  /* line 318, ../sass/_standard.scss */
+  /* line 313, ../sass/_standard.scss */
   #resume h3 + p {
     margin: 0px 0 0 0;
   }
 
-  /* line 322, ../sass/_standard.scss */
+  /* line 317, ../sass/_standard.scss */
   #resume h4 {
     margin: 22px 0 22px 0;
     clear: both;
   }
 
-  /* line 327, ../sass/_standard.scss */
+  /* line 322, ../sass/_standard.scss */
   #resume #content .columnBlock h4 + ul + li {
     background-color: red;
   }
 
-  /* line 332, ../sass/_standard.scss */
+  /* line 327, ../sass/_standard.scss */
   #resume #content ul.columnBlock li {
     width: 306px;
     float: left;
     margin: 0 114px 22px 16px;
   }
 
-  /* line 338, ../sass/_standard.scss */
+  /* line 333, ../sass/_standard.scss */
   #resume #content ul.columnBlock li:nth-child(2n+2) {
     margin-right: 0;
   }
 
-  /* line 343, ../sass/_standard.scss */
+  /* line 338, ../sass/_standard.scss */
   #theLab #content {
     width: 612px;
     margin: 0 0 0 30px;
   }
 
-  /* line 348, ../sass/_standard.scss */
+  /* line 343, ../sass/_standard.scss */
   .page #nav {
     float: left;
     left: 0;
@@ -962,19 +957,19 @@ input, textarea {
   }
 
   /*      background-color:red;       */
-  /* line 361, ../sass/_standard.scss */
+  /* line 356, ../sass/_standard.scss */
   #nav a {
     padding: 0 5px 0 0px;
     text-align: left;
   }
 
-  /* line 367, ../sass/_standard.scss */
+  /* line 362, ../sass/_standard.scss */
   #nav ul li.mainNav, #nav ul li.mainNav a {
     text-align: left;
     /* 	margin: 0 0 22px 0;   figure this out later*/
   }
 
-  /* line 371, ../sass/_standard.scss */
+  /* line 366, ../sass/_standard.scss */
   #nav ul.subNav li, #nav ul.subNav li a {
     margin: 0 0 0 10px;
     color: red;
