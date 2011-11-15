@@ -50,7 +50,7 @@ body {
 /* line 37, ../sass/standard.scss */
 #header h1 {
   display: block;
-  font-size: 72px;
+  font-size: 70px;
   float: left;
   margin: 0 0 0 124px;
 }
@@ -59,13 +59,13 @@ body {
 #header p {
   display: block;
   font-size: 14px;
-  float: left;
-  margin: 22px 0 0 25px;
+  float: right;
+  margin: 22px 70px 0 0;
 }
 
 /* line 51, ../sass/standard.scss */
 #footer p {
-  margin: 0 40px 0 0;
+  margin: 0 70px 0 0;
   text-align: right;
 }
 
@@ -124,7 +124,7 @@ p {
 
 /* line 103, ../sass/standard.scss */
 #homePage #photo h2 + img + p {
-  margin: 44px 0 0 237px;
+  margin: 44px 0 0 252px;
 }
 
 /* line 107, ../sass/standard.scss */

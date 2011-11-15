@@ -36,7 +36,7 @@ body { /*  .t22 from above  */
 
 #header h1 {
   display:block;
-	font-size: 72px;
+	font-size: 70px;
 	float:left;
   margin: 0 0 0 124px;
 }
@@ -44,12 +44,12 @@ body { /*  .t22 from above  */
 #header p {
 	display:block;
   font-size: 14px;
-	float:left;
-	margin: 22px 0 0 25px;
+	float:right;
+	margin: 22px 70px 0 0;
 }
 
 #footer p {
-  margin: 0 40px 0 0;
+  margin: 0 70px 0 0;
 	text-align:right;
 }
 
@@ -101,7 +101,7 @@ p {
 }
 
 #homePage #photo h2 + img + p {
-  margin: 44px 0 0 237px;
+  margin: 44px 0 0 252px;
 }
 
 #homePage h2 + img  {
