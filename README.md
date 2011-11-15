@@ -1,5 +1,20 @@
 project requirements at http://courses.karlstolley.com/530/projects.htm
 
+.page
+width: 978px
+
+.page #content
+width:810px
+
+#homePage #content:
+width: 978px;
+
+#photo
+width:642px
+
+#library
+width:276px;
+
 TO DO 
 
 MOBILE

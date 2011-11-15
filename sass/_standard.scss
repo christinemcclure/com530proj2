@@ -272,12 +272,21 @@ background-color: transparent;
 		margin: 32px 0 0 0;
 	}
 	
+
 	.gallery #content ul li, #content ul.gallery li {
-		width: 214px; /* 306 width with 4px border on each side*/
+/*		width: 214px;   214/810 306 width with 4px border on each side
+   ignoring border = 306/810
+*/
+    width: 37.77777777777778%;
 		float:left;
-		margin: 0 38px 0 0;
+/*		margin: 0 38px 0 0;  38/810  */
+		margin: 0 4.69135802469136% 0 0;
 	}
-	
+
+.page #content ul li img {
+border:none;
+}
+
 	.gallery #content ul li:nth-child(3n+3), , #content ul.gallery li:nth-child(3n+3)  {
 		margin-right:0;
 		margin-bottom:88px;
