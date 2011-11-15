@@ -21,10 +21,10 @@
             <span class="headingblock">Galleries:</span> <span class="subheading headingblock">View past work</span>
           </h3>
           <div id="galleries" class="clear"> 
-          	<h4><a href="/fine-art.php">Fine Art:&nbsp;<span class="subheading"> Images from the Portals exhibition.</span></a></h4>  
-          	<h4><a href="/portraits.php">Portraiture:&nbsp;<span class="subheading"> Headshots and other stagings.</span></a></h4>
-          	<h4><a href="/events.php">Events:&nbsp;<span class="subheading">Candid shots from group events.</span></a></h4>
-						<h4> <a href="/travel.php">Travel:&nbsp;<span class="subheading">Favorite images from my travels.</span></a></h4>  
+          	<h4><a href="/fine-art.php">Fine Art:<span class="subheading"> Images from the Portals exhibition.</span></a></h4>  
+          	<h4><a href="/portraits.php">Portraiture:<span class="subheading"> Headshots and other stagings.</span></a></h4>
+          	<h4><a href="/events.php">Events:<span class="subheading">Candid shots from group events.</span></a></h4>
+						<h4> <a href="/travel.php">Travel:<span class="subheading">Favorite images from my travels.</span></a></h4>  
           </div>
 
           <h3 id="openPricing">
@@ -75,8 +75,13 @@
         </div>
 </div>
 
-	              
-	</div>
+	<ul id="border" class="clear">
+    <li><a href="/fine-art.php"><img src="/img/180minutes.jpg" alt="" /></a></li>
+    <li><a href="/portraits.php"><img src="/img/birthday.jpg" alt="" /></a></li>
+    <li><a href="/events.php"><img src="/img/author.jpg" alt="" /></a></li>
+    <li><a href="/travel.php"><img src="/img/flower.jpg" alt="" /></a></li>  
+  </ul>        
+		</div>
   
   
   <div id="library">

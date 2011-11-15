@@ -72,10 +72,10 @@ p {
 
 /*  Use Golden Ratio for photo/lib widths: 1.618  */
 #homePage #photo {
-	width: 612px; /* 1010 / 1.618  */
+	width: 642px; /* 1010 / 1.618  */
 	float: right;
   background-color:rgb(255,0,0); opacity: 0.8;
-	padding: 22px 15px 22px 15px;
+	padding: 22px 0px 22px 0px;
 }
 #homePage #content {
   padding:0;
@@ -181,6 +181,30 @@ p {
 #homePage .homeNav h5 + img + p {
 	padding:0;
 	margin:22px 0 0 10px;
+}
+
+
+
+#homePage ul.border {
+  margin: 0 0 0 0;
+}
+
+#homePage ul#border li {
+  width: 138px; /* 306 width with 4px border on each side*/
+	float:left;
+	border:none;
+	margin: 44px 30px  0 0;
+	padding:0;
+}
+
+#homePage ul#border li:last-child {
+  margin: 44px 0 0 0;
+}
+
+#homePage ul#border li img {
+  border:none;
+	margin:0;
+	padding:0;
 }
 
 .hideMobile{
