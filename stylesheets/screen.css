@@ -719,7 +719,7 @@ input, textarea {
     background-color: transparent;
     opacity: 0.3;
     /*		padding: 22px 0 44px 30px;   30 / 078 */
-    padding: 22px 0 44px 03.06748466257669%;
+    padding: 22px 0 44px 30px;
   }
 
   /* line 157, ../sass/_standard.scss */
@@ -865,55 +865,56 @@ input, textarea {
     /*		width: 214px;   214/810 306 width with 4px border on each side
        ignoring border = 222/810
     */
-    width: 27.40740740740741%;
+    width: 26.41975308641975%;
+    /*width: 27.40740740740741%;*/
     float: left;
     /*		margin: 0 38px 0 0;  38/810  */
     margin: 0 04.69135802469136% 0 0;
   }
 
-  /* line 285, ../sass/_standard.scss */
+  /* line 286, ../sass/_standard.scss */
   .page #content ul li img {
     border: none;
   }
 
-  /* line 289, ../sass/_standard.scss */
+  /* line 290, ../sass/_standard.scss */
   .gallery #content ul li:nth-child(3n+3), #content ul.gallery li:nth-child(3n+3) {
     margin-right: 0;
     margin-bottom: 88px;
   }
 
-  /* line 294, ../sass/_standard.scss */
+  /* line 295, ../sass/_standard.scss */
   #travel ul li:nth-child(3n+3) {
     margin-bottom: 30px;
   }
 
-  /* line 299, ../sass/_standard.scss */
+  /* line 300, ../sass/_standard.scss */
   .page #content ul li img + p {
     margin: -10px 0 0 0;
     line-height: 16px;
   }
 
-  /* line 304, ../sass/_standard.scss */
+  /* line 305, ../sass/_standard.scss */
   #content p:first-child {
     margin: 0 0 44px 0;
   }
 
-  /* line 308, ../sass/_standard.scss */
+  /* line 309, ../sass/_standard.scss */
   #portfolio strong, #resume strong {
     border: 1px solid black;
   }
 
-  /* line 313, ../sass/_standard.scss */
+  /* line 314, ../sass/_standard.scss */
   #portfolio ul + h2 {
     margin: 44px 0 0 0;
   }
 
-  /* line 317, ../sass/_standard.scss */
+  /* line 318, ../sass/_standard.scss */
   #portfolio li, #portfolio strong, #portfolio p {
     color: black;
   }
 
-  /* line 321, ../sass/_standard.scss */
+  /* line 322, ../sass/_standard.scss */
   #portfolio #content ul li ul.columnBlock li {
     /*		width: 222px;   222/810  */
     width: 27.40740740740741%;
@@ -922,40 +923,40 @@ input, textarea {
     margin: 22px 03.7037037037037% 44px 0px;
   }
 
-  /* line 329, ../sass/_standard.scss */
+  /* line 330, ../sass/_standard.scss */
   #portfolio #content ul li ul.columnBlock li:nth-child(3n+3) {
     margin-right: 0;
   }
 
-  /* line 333, ../sass/_standard.scss */
+  /* line 334, ../sass/_standard.scss */
   #resume #content h2 + ul li {
     /*		margin: 0 0 0 16px;   16 / 810 */
     margin: 0 0 0 01.97530864197531%;
   }
 
-  /* line 338, ../sass/_standard.scss */
+  /* line 339, ../sass/_standard.scss */
   .columnBlock + h2 {
     margin: 22px 0 22px 0;
   }
 
-  /* line 341, ../sass/_standard.scss */
+  /* line 342, ../sass/_standard.scss */
   #resume h3 {
     margin: 0 0 0 0;
     line-height: 22px;
   }
 
-  /* line 346, ../sass/_standard.scss */
+  /* line 347, ../sass/_standard.scss */
   #resume h3 + p {
     margin: 0px 0 0 0;
   }
 
-  /* line 350, ../sass/_standard.scss */
+  /* line 351, ../sass/_standard.scss */
   #resume h4 {
     margin: 22px 0 22px 0;
     clear: both;
   }
 
-  /* line 356, ../sass/_standard.scss */
+  /* line 357, ../sass/_standard.scss */
   #resume #content ul.columnBlock li {
     /*		width:306px;  306 / 810 */
     width: 37.77777777777778%;
@@ -964,18 +965,18 @@ input, textarea {
     margin: 0 14.07407407407407% 22px 01.97530864197531%;
   }
 
-  /* line 364, ../sass/_standard.scss */
+  /* line 365, ../sass/_standard.scss */
   #resume #content ul.columnBlock li:nth-child(2n+2) {
     margin-right: 0;
   }
 
-  /* line 369, ../sass/_standard.scss */
+  /* line 370, ../sass/_standard.scss */
   #theLab #content {
     width: 612px;
     margin: 0 0 0 30px;
   }
 
-  /* line 374, ../sass/_standard.scss */
+  /* line 375, ../sass/_standard.scss */
   .page #nav {
     float: left;
     left: 0;
@@ -989,7 +990,7 @@ input, textarea {
   }
 
   /*      background-color:red;       */
-  /* line 388, ../sass/_standard.scss */
+  /* line 389, ../sass/_standard.scss */
   #nav a {
     width: 57.97101449275362%;
     float: left;
@@ -998,19 +999,19 @@ input, textarea {
     text-align: center;
   }
 
-  /* line 397, ../sass/_standard.scss */
+  /* line 398, ../sass/_standard.scss */
   #nav a {
-    padding: 0 5px 0 0px;
+    padding: 0 px;
     text-align: left;
   }
 
-  /* line 403, ../sass/_standard.scss */
+  /* line 404, ../sass/_standard.scss */
   #nav ul li.mainNav, #nav ul li.mainNav a {
     text-align: left;
     /* 	margin: 0 0 22px 0;   figure this out later*/
   }
 
-  /* line 407, ../sass/_standard.scss */
+  /* line 408, ../sass/_standard.scss */
   #nav ul.subNav li, #nav ul.subNav li a {
     margin: 0 0 0 10px;
     color: red;

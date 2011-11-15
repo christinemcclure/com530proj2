@@ -150,7 +150,7 @@ background-color: transparent;
 		margin: 0 0 22px 0;
 		background-color:transparent; opacity: 0.3;
 /*		padding: 22px 0 44px 30px;   30 / 078 */
-    padding: 22px 0 44px 03.06748466257669%;  
+    padding: 22px 0 44px 30px;  
 	}
 	
 	
@@ -276,14 +276,15 @@ background-color: transparent;
 /*		width: 214px;   214/810 306 width with 4px border on each side
    ignoring border = 222/810
 */
-    width: 27.40740740740741%;
+    width: 26.41975308641975%;  
+/*width: 27.40740740740741%;*/
 		float:left;
 /*		margin: 0 38px 0 0;  38/810  */
 		margin: 0 04.69135802469136% 0 0;
 	}
 
 .page #content ul li img {
-border:none;
+    border:none;
 }
 
 	.gallery #content ul li:nth-child(3n+3), , #content ul.gallery li:nth-child(3n+3)  {
@@ -376,7 +377,7 @@ color:black;
 		left:0;
 		right:0;
 		top:0;
-		width: 138px; 
+		width: 138px;  
 /*    width: 14.11042944785276%; */
 		clear:none;
 		position:relative;
@@ -395,7 +396,7 @@ color:black;
 }
 	
 	#nav a{
-		padding: 0 5px 0 0px;
+		padding: 0 px;
 		text-align:left;
 	}
 	
