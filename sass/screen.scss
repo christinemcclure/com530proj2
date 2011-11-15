@@ -52,7 +52,7 @@ html { /* initial grid system: line-height:18 font-size: 14 */
 
 
 $radius: 20px;
-.page, #header, #library, #photo{
+.page, #header, #library, #photo, #homePage img{
   @include border-radius($radius);
 }
 

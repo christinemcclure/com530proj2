@@ -4,6 +4,10 @@
 	
 	*{margin: 0; padding: 0;}
 	
+html, body {
+background-color: transparent;
+}
+
 	.t22 {
 		line-height: 22px;
 		font-size: 14px;
@@ -71,7 +75,7 @@
 		width: 642px; /* 1010 / 1.618  */
 		float: right;
 		background-color:rgb(255,0,0); opacity: 0.8;
-		padding: 22px 0px 22px 0px;
+		padding: 22px 0px 52px 0px; /* pad to the same bottom as library*/
 	}
 	#homePage #content {
 		padding:0;
