@@ -73,8 +73,8 @@ background-color: transparent;
 		width: 65.64417%;
 		float: right;
 		background-color:rgb(255,0,0); opacity: 0.8;
-/*		padding: 22px 0 54px 0px;  pad to the same bottom as library*/
-		padding: 2.24948% 0 5.52147% 0;
+		padding: 22px 0 54px 0px;  /*pad to the same bottom as library*/
+/*		padding: 2.24948% 0 5.52147% 0; */
 		
 	}
 	#homePage #content {
@@ -87,7 +87,7 @@ background-color: transparent;
 		float:left;
 		margin:0 30px 0 0;
 /*		padding: 22px 15px 22px 15px; */
-		padding: 2.24948% .10224% 2.24948% .10224%;
+		padding: 22px .10224% 22px .10224%;
 	}
 	
 	#homePage #libNav h3 .subheading {
@@ -98,7 +98,7 @@ background-color: transparent;
 	#homePage #photo h2, #homePage #library h2 {
 		text-align:left;
 /*		margin:0 0 22px 0; */
-		margin: 0 0  2.24948% 0;
+		margin: 0 0 22px 0;
 		padding:0;
 	}
 
@@ -114,16 +114,19 @@ background-color: transparent;
 	}
 	
 	#homePage #photo h2 + img + p {
-		margin: 44px 0 0 252px;
+		margin: 44px 0 0 252px; /*take from 642px container, not full page*/
+     margin: /*6.85358255451713% 0 0 39.25233644859813%; */
 	}
 	
 	#homePage h2 + img  {
 		height: 198px;
+/*		margin: 0 0 22px 0; convert from 978 container */
 		margin: 0 0 22px 0;
 	}
 	#homePage #library h2 + img + p {
 		clear:both;
-		margin: 0 0 44px 0;
+/*		margin: 0 0 44px 0; convert from lib container */
+    margin: 0 0 44px 0;
 	}
 	
 	
