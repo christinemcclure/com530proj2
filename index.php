@@ -75,7 +75,7 @@
         </div>
 </div>
 
-	<ul id="border" class="clear">
+	<ul id="border" class="clear hideMobile">
     <li><a href="/fine-art.php"><img src="/img/180minutes.jpg" alt="" /></a></li>
     <li><a href="/portraits.php"><img src="/img/birthday.jpg" alt="" /></a></li>
     <li><a href="/events.php"><img src="/img/author.jpg" alt="" /></a></li>
