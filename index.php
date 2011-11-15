@@ -11,7 +11,7 @@
     <div id="photo">
 			<h2>Photography</h2>
       
-   		<img class="floatLeft hideMobile" src="/img/rolliflex.gif" alt="Photo of 1960's twin lens Rolliflex camera." />    
+   		<img class="floatLeft hideMobile" src="/img/rolliflex.jpg" alt="Photo of 1960's twin lens Rolliflex camera." />    
       <p>I've been fascinated with photography ever since my childhood in the seventies, where I staged a photo shoot using a velour bathrobe as a backdrop, ceramic dog figurines as models, and my trusty little 110 plastic camera.</p>
 		  <img class="hideDesktop" src="/img/boqueteForest.jpg" alt="Macro photo of plant from Boquete, Panama forest." />
 
@@ -74,14 +74,14 @@
             <p>Or, <a href="/contact.php">send me a message.</a></p>                 
         </div>
 </div>
-<img class="hideMobile clear" src="/img/boqueteForest.jpg" alt="Macro photo of plant from Boquete, Panama forest." />
+
 	              
 	</div>
   
   
   <div id="library">
 		<h2>Librarianship</h2>
-<img class="floatRight hideMobile" src="/img/librarian.gif" alt="Photo of librarian action figure." />    
+<img class="floatRight hideMobile" src="/img/librarian.jpg" alt="Photo of librarian action figure." />    
       <p>I'm currently the Digital Services Librarian at a private university in Chicago, where I design and develop websites and make all of our various technologies talk to each other. My goal is to provide a rich online experience for students that doesn't take a library degree to navigate.</p>
 		<div id="libNav" class="homeNav">          
       <h3><a href="/resume.php" id="openResume"><span class="subheading headingblock">Experience/Skills:</span><span class="headingblock">Resume</span></a></h3>

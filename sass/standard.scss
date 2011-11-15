@@ -65,22 +65,26 @@ p {
 	border-radius: 20px;
 }
 
-#photo, #library {
-  padding: 12px;
-}
+
 
 /*  Use Golden Ratio for photo/lib widths: 1.618  */
 #homePage #photo {
-	width: 640px; /* 1010 / 1.618  */
+	width: 612px; /* 1010 / 1.618  */
 	float: right;
   background-color:rgb(255,0,0); opacity: 0.8;
+	padding: 22px 15px 22px 15px;
 }
-
+#homePage #content {
+  padding:0;
+}
 #homePage #library {
-  width: 266px;
+  width: 276px;
   background-color:white; opacity: 0.8;
 	float:left;
+	margin:0 30px 0 0;
+	padding: 22px 15px 22px 15px;
 }
+
 
 #libNav {
 	float:left; /* Need otherwise h3 get pushed to bottom*/
@@ -89,8 +93,8 @@ p {
 
 #homePage #photo h2, #homePage #library h2 {
   text-align:left;
-  margin: 0 0 16px 0;
-	padding: 10px 0 4px 0;
+  margin:0;
+	padding:0;
 }
 
 #homePage #library h2 {
@@ -98,7 +102,7 @@ p {
 }
 
 #homePage #photo h2 + img + p {
-  margin: 0 0 78px 0;
+  margin: 44px 0 34px 0;
 }
 
 #homePage #library h2 + img + p {
