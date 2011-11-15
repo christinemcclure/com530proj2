@@ -147,10 +147,10 @@ background-color: transparent;
     width: 82.82208588957055%;
 		clear:none;
 		float:left;
-		margin-bottom: 22px;
+		margin: 0 0 22px 0;
 		background-color:transparent; opacity: 0.3;
-/*		padding: 22px 0 44px 30px;   30 / 810 */
-/*    padding: 22px 0 44px 03.7037037037037%;   DO I EVEN NEED THIS?*/
+/*		padding: 22px 0 44px 30px;   30 / 078 */
+    padding: 22px 0 44px 03.06748466257669%;  
 	}
 	
 	
@@ -272,15 +272,21 @@ background-color: transparent;
 		margin: 32px 0 0 0;
 	}
 	
+.page #content ul li img {
+	border:none;
+}
 
 	.gallery #content ul li, #content ul.gallery li {
 /*		width: 214px;   214/810 306 width with 4px border on each side
-   ignoring border = 306/810
+   ignoring border = 222/810
 */
-    width: 37.77777777777778%;
+    width: 222px;
 		float:left;
-/*		margin: 0 38px 0 0;  38/810  */
-		margin: 0 4.69135802469136% 0 0;
+/*		margin: 0 38px 0 0;  38/810  ??? This should be a 30px gutter*/
+		margin: 0 03.7037037037037% 0 0;
+		padding:0;
+		margin-left:-2px;
+		border:none;
 	}
 
 .page #content ul li img {
@@ -378,13 +384,23 @@ color:black;
 		left:0;
 		right:0;
 		top:0;
-		width: 138px;
+		width: 138px; 
+/*    width: 14.11042944785276%; */
 		clear:none;
 		position:relative;
 		text-align:left;
 	}
 	
 	/*      background-color:red;       */
+
+#nav a {
+  width: 57.97101449275362%;
+  float: left;
+  text-decoration: none;
+  padding: 0;
+  text-align: center;
+
+}
 	
 	#nav a{
 		padding: 0 5px 0 0px;
