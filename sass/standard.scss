@@ -49,7 +49,7 @@ body { /*  .t22 from above  */
 }
 
 #footer p {
-  margin: 0 84px 0 0;
+  margin: 0 40px 0 0;
 	text-align:right;
 }
 
@@ -89,10 +89,6 @@ p {
 }
 
 
-#libNav {
-	float:left; /* Need otherwise h3 get pushed to bottom*/
-	margin: 4px 0 0 0;
-}
 
 #homePage #photo h2, #homePage #library h2 {
   text-align:left;
@@ -146,14 +142,45 @@ p {
 
 #homePage .homeNav h4 a, #photo h4:first-child {
 	margin: 0 0 22px 10px;
+}
+
+#galleries h4:last-child {
+	margin-bottom: 20px;
+}
+
+#about p:last-child {
+	margin-bottom: 22px;
+}
+
+#homePage .homeNav p {
+  margin-left:10px;
+}
+
+.homeNav p.showtitle, .homeNav p strong {
+  color:yellow;
+	padding:0;
+	padding-top:-2px;
 	line-height:22px;
-	color:green;
+	
+}
+
+.homeNav p.showtitle + p{
+  margin-bottom: 22px;
+}
+
+#contact h4 + p + p {
+  margin-top:22px;
 }
 
 #homePage .homeNav h4 a .subheading{
   font-weight:normal;
 	margin: 0 0 0 2px;
 	color:yellow;
+}
+
+#homePage .homeNav h5 + img + p {
+	padding:0;
+	margin:22px 0 0 10px;
 }
 
 .hideMobile{
