@@ -716,7 +716,7 @@ input, textarea {
     clear: none;
     float: left;
     margin-bottom: 22px;
-    background-color: fuchsia;
+    background-color: transparent;
     opacity: 0.3;
     /*		padding: 22px 0 44px 30px;   30 / 810 */
     /*    padding: 22px 0 44px 03.7037037037037%;   DO I EVEN NEED THIS?*/
@@ -901,68 +901,73 @@ input, textarea {
   }
 
   /* line 310, ../sass/_standard.scss */
-  #portfolio #content ul li ul.columnBlock li {
-    width: 222px;
-    float: left;
-    margin: 22px 30px 44px 0;
+  #portfolio li, #portfolio strong, #portfolio p {
+    color: black;
   }
 
-  /* line 316, ../sass/_standard.scss */
+  /* line 314, ../sass/_standard.scss */
+  #portfolio #content ul li ul.columnBlock li {
+    /*		width: 222px;   222/810  */
+    width: 27.40740740740741%;
+    float: left;
+    /*		margin: 22px 30px 44px 0;  30/810 */
+    margin: 22px 03.7037037037037% 44px 0px;
+  }
+
+  /* line 322, ../sass/_standard.scss */
   #portfolio #content ul li ul.columnBlock li:nth-child(3n+3) {
     margin-right: 0;
   }
 
-  /* line 320, ../sass/_standard.scss */
+  /* line 326, ../sass/_standard.scss */
   #resume #content h2 + ul li {
-    margin: 0 0 0 16px;
+    /*		margin: 0 0 0 16px;   16 / 810 */
+    margin: 0 0 0 01.97530864197531%;
   }
 
-  /* line 324, ../sass/_standard.scss */
+  /* line 331, ../sass/_standard.scss */
   .columnBlock + h2 {
     margin: 22px 0 22px 0;
   }
 
-  /* line 327, ../sass/_standard.scss */
+  /* line 334, ../sass/_standard.scss */
   #resume h3 {
     margin: 0 0 0 0;
     line-height: 22px;
   }
 
-  /* line 332, ../sass/_standard.scss */
+  /* line 339, ../sass/_standard.scss */
   #resume h3 + p {
     margin: 0px 0 0 0;
   }
 
-  /* line 336, ../sass/_standard.scss */
+  /* line 343, ../sass/_standard.scss */
   #resume h4 {
     margin: 22px 0 22px 0;
     clear: both;
   }
 
-  /* line 341, ../sass/_standard.scss */
-  #resume #content .columnBlock h4 + ul + li {
-    background-color: red;
-  }
-
-  /* line 346, ../sass/_standard.scss */
+  /* line 349, ../sass/_standard.scss */
   #resume #content ul.columnBlock li {
-    width: 306px;
+    /*		width:306px;  306 / 810 */
+    width: 37.77777777777778%;
     float: left;
-    margin: 0 114px 22px 16px;
+    /*		margin:0 114px 22px 16px; 114/810  16/810  */
+    margin: 0 14.07407407407407% 22px 01.97530864197531%;
   }
 
-  /* line 352, ../sass/_standard.scss */
+  /* line 357, ../sass/_standard.scss */
   #resume #content ul.columnBlock li:nth-child(2n+2) {
     margin-right: 0;
   }
 
-  /* line 357, ../sass/_standard.scss */
+  /* line 362, ../sass/_standard.scss */
   #theLab #content {
     width: 612px;
     margin: 0 0 0 30px;
   }
 
-  /* line 362, ../sass/_standard.scss */
+  /* line 367, ../sass/_standard.scss */
   .page #nav {
     float: left;
     left: 0;
@@ -975,19 +980,19 @@ input, textarea {
   }
 
   /*      background-color:red;       */
-  /* line 375, ../sass/_standard.scss */
+  /* line 380, ../sass/_standard.scss */
   #nav a {
     padding: 0 5px 0 0px;
     text-align: left;
   }
 
-  /* line 381, ../sass/_standard.scss */
+  /* line 386, ../sass/_standard.scss */
   #nav ul li.mainNav, #nav ul li.mainNav a {
     text-align: left;
     /* 	margin: 0 0 22px 0;   figure this out later*/
   }
 
-  /* line 385, ../sass/_standard.scss */
+  /* line 390, ../sass/_standard.scss */
   #nav ul.subNav li, #nav ul.subNav li a {
     margin: 0 0 0 10px;
     color: red;
