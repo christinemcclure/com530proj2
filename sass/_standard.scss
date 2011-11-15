@@ -18,15 +18,12 @@ background-color: transparent;
 		line-height: 22px;
 		font-size: 14px;	
 	}	
-		.g960 #page {
-			width: 940px; /*Total width works out to 960*/
-			padding: 0px 10px 0px 10px;
-			background-image: url('img/960px-10-60-10-unit.png');
-		}
+
 		/* See http://978.gs/ */
 		.g978 .page {
 			/* width: 978px; Total with works out to 1008*/
-			width: 978px;
+/*			width: 978px; */
+			width: 90%;
 			padding: 0px 15px 0px 15px;
 			background-image: url('img/978px-15-54-15-unit.png');
 			margin: 0 auto;
@@ -72,20 +69,25 @@ background-color: transparent;
 	
 	/*  Use Golden Ratio for photo/lib widths: 1.618  */
 	#homePage #photo {
-		width: 642px; /* 1010 / 1.618  */
+/*		width: 642px;  642 / 978 */
+		width: 65.6441717791411%;
 		float: right;
 		background-color:rgb(255,0,0); opacity: 0.8;
 		padding: 22px 0 54px 0px; /* pad to the same bottom as library*/
 	}
+	
 	#homePage #content {
 		padding:0;
 	}
 	#homePage #library {
-		width: 276px;
+/*		width: 276px;   276 / 978 */
+		width: 28.22085889570552%;
 		background-color:white; opacity: 0.8;
 		float:left;
-		margin:0 30px 0 0;
-		padding: 22px 15px 22px 15px;
+/*		margin:0 30px 0 0;   30 / 978 */
+			margin: 0 3.06748466257669% 0 0 ;
+/*		padding: 22px 15px 22px 15px; only need right/left in percentages  15 / 978 (doesn't ) */
+		padding: 22px 01.53374233128834% 22px 01.53374233128834%;
 	}
 	
 	#homePage #libNav h3 .subheading {
@@ -99,7 +101,8 @@ background-color: transparent;
 	}
 
 	#homePage #photo h2, #homePage #photo h2 + img, #homePage #photo #photoNav {
-	  padding-left: 15px; /* need padding for left-flush photo elements except border pictures*/
+	  /*padding-left: 15px;  15 / 642 need padding for left-flush photo elements except border pictures*/
+		padding-left: 2.33644859813084%;
 	}
 	
 	#homePage #library h2 {
@@ -134,15 +137,18 @@ background-color: transparent;
 	
 	
 	.page #content {
-		width:810px;
+/*		width:810px;  810 / 978*/
+    width: 82.82208588957055%;
 		clear:none;
 		float:left;
 		background-color:rgb(255,0,255); opacity: 0.3;
-		padding: 22px 0 44px 30px;
+/*		padding: 22px 0 44px 30px;   30 / 810 */
+/*    padding: 22px 0 44px 03.7037037037037%;   DO I EVEN NEED THIS?*/
 	}
 	
 	#homePage #content {
-		width:978px;
+/*		width:978px; */
+     width: 100%;
 	}
 	
 	
