@@ -1,5 +1,7 @@
 PROJECT SUMMARY
 
+site: dev.christinemcclure.com (looking for the code? It's currently on the "color1" branch)
+
 I set an expansive project scope for my self for two reasons:
 
 To force myself to expand my skillset and include as much of the new technologies we've learned as possible.
