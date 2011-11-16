@@ -3,15 +3,20 @@
 @media screen and (min-width: 1010px) {
 	
 	*{margin: 0; padding: 0;}
+
+.page, #header, #library, #photo, #homePage img, #homePage #content, .gallery #content, #contactFormPage #content, #nav.hideMobile a:hover{
+  @include border-radius($radius);
+}
+
 	
 html, body {
-background-color: transparent;
+   background-color: $brown;
 }
 
 	.t22 {
 		line-height: 22px;
 		font-size: 14px;
-		background-image: url('img/22px-baseline.png');
+/*		background-image: url('img/22px-baseline.png'); */
 	}
 	
 	body { /*  .t22 from above  */
@@ -25,12 +30,15 @@ background-color: transparent;
 /*			width: 978px; */
 			width: 90%;
 			padding: 0px 15px 0px 15px;
-			background-image: url('img/978px-15-54-15-unit.png');
+/*			background-image: url('img/978px-15-54-15-unit.png'); */
 			margin: 0 auto;
 		}
-	
+
+#header, #footer {
+		background-color:$mauve;
+}	
+
 	#header {
-		background-color:rgb(0,255,255); opacity: 0.4;
 		width: 100%;
 		float:left;
 		margin: 0 0 22px 0;
@@ -43,6 +51,11 @@ background-color: transparent;
 		float:left;
 		margin: 0 0 0 124px;
 	}
+	
+	#header h1 a {
+			color: $darkBlue;
+	}
+	
 	
 	#header p {
 		display:block;
@@ -67,24 +80,30 @@ background-color: transparent;
 		padding:0;
 	}
 	
-	
+#homePage #content #photo h2 + img{
+	padding-left: 0;
+	margin-left: 2.33644859813084%;
+}	
 	
 	/*  Use Golden Ratio for photo/lib widths: 1.618  */
 	#homePage #photo {
 /*		width: 642px;  642 / 978 */
 		width: 65.6441717791411%;
 		float: right;
-		background-color:rgb(255,0,0); opacity: 0.8;
 		padding: 22px 0 44px 0px; /* pad to the same bottom as library*/
+		background-color: $green;
 	}
 	
 	#homePage #content {
 		padding:0;
 	}
+
+
+	
 	#homePage #library {
 /*		width: 276px;   276 / 978 */
 		width: 28.22085889570552%;
-		background-color:white; opacity: 0.8;
+		background-color:$yellow;
 		float:left;
 /*		margin:0 30px 0 0;   30 / 978 */
 			margin: 0 3.06748466257669% 0 0 ;
@@ -113,14 +132,22 @@ background-color: transparent;
 	
 	#homePage #library h2 {
 		text-align:right;
+		background-color: $yellow;
+		color:$mauve;
 	}
+	#homePage p {
+	  color:$darkBlue;
+	}
+#homePage #photo h2 {
+		background-color:$green;
+		color: $mauve;
+}	
 	
 	#homePage #photo h2 + img + p {
 		margin: 44px 0 0 252px;
 	}
 	
-	#homePage h2 + img  {
-		height: 198px;
+	#homePage #library img, #homePage #photo img  {
 		margin: 0 0 22px 0;
 	}
 	#homePage #library h2 + img + p {
@@ -128,7 +155,17 @@ background-color: transparent;
 		margin: 0 0 44px 0;
 	}
 	
-	
+#header p, #footer p {
+	  color:$green;
+	}
+
+#homePage .headingblock {
+  color:$mauve;
+}
+
+#homePage .subheading {
+  color:$darkBlue;
+}
 	
 	#homePage h3 .headingblock{
 	 margin: -10px 0 22px 0;
@@ -148,7 +185,7 @@ background-color: transparent;
 		clear:none;
 		float:left;
 		margin: 0 0 22px 0;
-		background-color:transparent; opacity: 0.3;
+
 /*		padding: 22px 0 44px 30px;   30 / 078 */
     padding: 22px 0 44px 30px;  
 	}
@@ -192,15 +229,38 @@ background-color: transparent;
 		margin-top:22px;
 	}
 	
+	#contactFormPage #content {
+	  background-color: $green;
+	}
+	
+	#contactFormPage p {
+	  color: $darkBlue;
+	}
+	
+	#contactFormPage input, #contactFormPage textarea, #contactFormPage .button {
+	  background-color: $yellow;
+		border: 1px solid $mauve;
+		@include border-radius(10px);
+	}
+	
 	#homePage .homeNav h4 a .subheading{
 		font-weight:normal;
 		margin: 0 0 0 2px;
-		color:yellow;
+		color: $mauve;
 	}
 	
 	#homePage .homeNav h5 + img + p {
 		padding:0;
 		margin:22px 0 0 10px;
+	}
+	
+	#homePage h4, #homePage h5 {
+	  color:$darkBlue;
+	}
+	
+	#homePage h5 strong {
+	  color: $mauve;
+		font-weight: bold;
 	}
 	
 		
@@ -230,13 +290,27 @@ background-color: transparent;
 	.hideDesktop {
 		display:none;
 	}
+  .gallery #content {
+	  background-color:$darkBlue;
+	}
 	
+
 	
-		
+	.gallery #content h3, #gallery #content strong, #art #content h3 strong {
+	  color:$yellow;
+	}
+	
+	.gallery p, .gallery p strong {
+	  color: $green;
+	}
+	
+
+			
 	#art h2 + img {
 		float:left;
 		margin: 0 20px 0 0;
 	}
+	
 	
 	h2, h3 {
 		clear:both;
@@ -249,7 +323,6 @@ background-color: transparent;
 	
 	.gallery ul + h2 {
 		margin: 100px 0 22px 0;
-	 background-color:red;
 	}
 	
 	.gallery h3 {
@@ -306,18 +379,13 @@ background-color: transparent;
 		margin: 0 0 44px 0;
 	}
 	
-	#portfolio strong, #resume strong {
-		border: 1px solid black;
-	}
-	
+
 	
 	#portfolio ul + h2{
 		 margin: 44px 0 0 0;
 	}
 
-#portfolio li, #portfolio strong, #portfolio p {
-color:black;
-}
+
 	
 	#portfolio #content ul li ul.columnBlock li {
 /*		width: 222px;   222/810  */
@@ -330,7 +398,45 @@ color:black;
 	#portfolio #content ul li ul.columnBlock li:nth-child(3n+3) {
 		margin-right:0;
 	}
-	
+
+
+#resume #content, #portfolio #content, #theLab #content {
+  background-color: $yellow;
+	@include border-radius($radius);
+}
+#resume li, #portfolio li, #portfolio #content h2 + ul li ul li, #portfolio #content h2 + ul li, #theLab p {
+  color:$darkBlue;
+}	
+#resume h2, #resume h3, #portfolio h2, #portfolio h3 {
+  color:$mauve;
+}
+
+#portfolio a, #theLab a {
+  color: $darkBlue;
+	font-weight: bold;
+}
+
+#portfolio a, p, li {
+  color: $mauve;
+}
+
+#theLab #content p {
+  margin: 22px 0 0 0;
+}
+#resume strong, #portfolio #content h2 + ul li ul li strong {
+	color: $darkBlue;
+  background-color: #a6a862; 
+	@include border-radius($radius);
+	border: 1px solid $green;
+  padding: 0 2px 0 2px;
+}
+
+#resume strong a {
+  color: $darkBlue;
+	font-weight:bold;
+	outline-color:$darkBlue;
+}
+
 	#resume #content h2 + ul li{
 /*		margin: 0 0 0 16px;   16 / 810 */
      margin: 0 0 0 01.97530864197531%;
@@ -368,9 +474,24 @@ color:black;
 	
 	
 	#theLab #content{
-		width: 612px;
-		margin: 0 0 0 30px;
 	}
+
+
+#nav ul li {
+  $color: $mauve;
+}	
+
+#nav.hideMobile a {
+  color: $yellow;
+paddding-left:20px
+}	
+
+
+#nav.hideMobile a:hover {
+  background-color:$yellow;
+	color: $mauve;
+	font-weight:bold;
+}
 	
 	.page #nav {
 		float:left;
@@ -384,7 +505,7 @@ color:black;
 		text-align:left;
 	}
 	
-	/*      background-color:red;       */
+
 
 #nav a {
   width: 57.97101449275362%;
@@ -407,7 +528,7 @@ color:black;
 	}
 	#nav ul.subNav li, #nav ul.subNav li a {
 		margin: 0 0 0 10px;
-		color:red;
+
 		text-align:left;
 	} 
 	
