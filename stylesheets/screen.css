@@ -1064,7 +1064,7 @@ input, textarea {
   }
 
   /* line 434, ../sass/_standard.scss */
-  #resume strong a {
+  #resume strong a, #portfolio #content a {
     color: #1a2530;
     font-weight: bold;
     outline-color: #1a2530;
