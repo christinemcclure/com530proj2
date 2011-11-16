@@ -431,7 +431,7 @@ html, body {
   padding: 0 2px 0 2px;
 }
 
-#resume strong a, #portfolio #content a {
+#resume strong a, #portfolio #content a, #portfolio #content h2 + ul li ul li a {
   color: $darkBlue;
 	font-weight:bold;
 	outline-color:$darkBlue;
