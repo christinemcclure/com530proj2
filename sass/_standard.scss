@@ -3,37 +3,42 @@
 @media screen and (min-width: 1010px) {
 	
 	*{margin: 0; padding: 0;}
+
+.page, #header, #library, #photo, #homePage img, #homePage #content, .gallery #content, #contactFormPage #content, #nav.hideMobile a:hover{
+  @include border-radius($radius);
+}
+
 	
 html, body {
-background-color: transparent;
+   background-color: $brown;
 }
 
 	.t22 {
 		line-height: 22px;
 		font-size: 14px;
-		background-image: url('img/22px-baseline.png');
+/*		background-image: url('img/22px-baseline.png'); */
 	}
 	
 	body { /*  .t22 from above  */
 		line-height: 22px;
 		font-size: 14px;	
 	}	
-		.g960 #page {
-			width: 940px; /*Total width works out to 960*/
-			padding: 0px 10px 0px 10px;
-			background-image: url('img/960px-10-60-10-unit.png');
-		}
+
 		/* See http://978.gs/ */
 		.g978 .page {
 			/* width: 978px; Total with works out to 1008*/
-			width: 978px;
+/*			width: 978px; */
+			width: 90%;
 			padding: 0px 15px 0px 15px;
-			background-image: url('img/978px-15-54-15-unit.png');
+/*			background-image: url('img/978px-15-54-15-unit.png'); */
 			margin: 0 auto;
 		}
-	
+
+#header, #footer {
+		background-color:$mauve;
+}	
+
 	#header {
-		background-color:rgb(0,255,255); opacity: 0.4;
 		width: 100%;
 		float:left;
 		margin: 0 0 22px 0;
@@ -47,15 +52,24 @@ background-color: transparent;
 		margin: 0 0 0 124px;
 	}
 	
+	#header h1 a {
+			color: $darkBlue;
+	}
+	
+	
 	#header p {
 		display:block;
 		font-size: 14px;
 		float:right;
-		margin: 22px 70px 0 0;
+/*		margin: 22px 70px 0 0;   70 / 978 */
+		margin: 22px 07.15746421267894% 0 0;
 	}
-	
+	#footer{
+	  margin: 0;  
+  }
 	#footer p {
-		margin: 0 70px 0 0;
+/*		margin: 0 70px 0 0;  70 / 978 */
+    margin: 0  07.15746421267894% 0 0;
 		text-align:right;
 	}
 	
@@ -66,26 +80,39 @@ background-color: transparent;
 		padding:0;
 	}
 	
-	
-
-	
+#homePage #content #photo h2 + img{
+	padding-left: 0;
+	margin-left: 2.33644859813084%;
+}	
 	
 	/*  Use Golden Ratio for photo/lib widths: 1.618  */
 	#homePage #photo {
-		width: 642px; /* 1010 / 1.618  */
+/*		width: 642px;  642 / 978 */
+		width: 65.6441717791411%;
 		float: right;
-		background-color:rgb(255,0,0); opacity: 0.8;
-		padding: 22px 0 54px 0px; /* pad to the same bottom as library*/
+		padding: 22px 0 44px 0px; /* pad to the same bottom as library*/
+		background-color: $green;
 	}
+	
 	#homePage #content {
 		padding:0;
 	}
+
+
+	
 	#homePage #library {
-		width: 276px;
-		background-color:white; opacity: 0.8;
+/*		width: 276px;   276 / 978 */
+		width: 28.22085889570552%;
+		background-color:$yellow;
 		float:left;
-		margin:0 30px 0 0;
-		padding: 22px 15px 22px 15px;
+/*		margin:0 30px 0 0;   30 / 978 */
+			margin: 0 3.06748466257669% 0 0 ;
+/*		padding: 22px 15px 22px 15px; only need right/left in percentages  15 / 978 (doesn't ) */
+		padding: 22px 01.53374233128834% 22px 01.53374233128834%;
+	}
+
+  #homePage #libNav {
+	  margin: 66px 0 22px 0;
 	}
 	
 	#homePage #libNav h3 .subheading {
@@ -99,19 +126,28 @@ background-color: transparent;
 	}
 
 	#homePage #photo h2, #homePage #photo h2 + img, #homePage #photo #photoNav {
-	  padding-left: 15px; /* need padding for left-flush photo elements except border pictures*/
+	  /*padding-left: 15px;  15 / 642 need padding for left-flush photo elements except border pictures*/
+		padding-left: 2.33644859813084%;
 	}
 	
 	#homePage #library h2 {
 		text-align:right;
+		background-color: $yellow;
+		color:$mauve;
 	}
+	#homePage p {
+	  color:$darkBlue;
+	}
+#homePage #photo h2 {
+		background-color:$green;
+		color: $mauve;
+}	
 	
 	#homePage #photo h2 + img + p {
 		margin: 44px 0 0 252px;
 	}
 	
-	#homePage h2 + img  {
-		height: 198px;
+	#homePage #library img, #homePage #photo img  {
 		margin: 0 0 22px 0;
 	}
 	#homePage #library h2 + img + p {
@@ -119,7 +155,17 @@ background-color: transparent;
 		margin: 0 0 44px 0;
 	}
 	
-	
+#header p, #footer p {
+	  color:$green;
+	}
+
+#homePage .headingblock {
+  color:$mauve;
+}
+
+#homePage .subheading {
+  color:$darkBlue;
+}
 	
 	#homePage h3 .headingblock{
 	 margin: -10px 0 22px 0;
@@ -134,15 +180,20 @@ background-color: transparent;
 	
 	
 	.page #content {
-		width:810px;
+/*		width:810px;  810 / 978*/
+    width: 82.82208588957055%;
 		clear:none;
 		float:left;
-		background-color:rgb(255,0,255); opacity: 0.3;
-		padding: 22px 0 44px 30px;
+		margin: 0 0 22px 0;
+
+/*		padding: 22px 0 44px 30px;   30 / 078 */
+    padding: 22px 0 44px 30px;  
 	}
 	
+	
 	#homePage #content {
-		width:978px;
+/*		width:978px; */
+     width: 100%;
 	}
 	
 	
@@ -178,10 +229,24 @@ background-color: transparent;
 		margin-top:22px;
 	}
 	
+	#contactFormPage #content {
+	  background-color: $green;
+	}
+	
+	#contactFormPage p {
+	  color: $darkBlue;
+	}
+	
+	#contactFormPage input, #contactFormPage textarea, #contactFormPage .button {
+	  background-color: $yellow;
+		border: 1px solid $mauve;
+		@include border-radius(10px);
+	}
+	
 	#homePage .homeNav h4 a .subheading{
 		font-weight:normal;
 		margin: 0 0 0 2px;
-		color:yellow;
+		color: $mauve;
 	}
 	
 	#homePage .homeNav h5 + img + p {
@@ -189,13 +254,23 @@ background-color: transparent;
 		margin:22px 0 0 10px;
 	}
 	
+	#homePage h4, #homePage h5 {
+	  color:$darkBlue;
+	}
+	
+	#homePage h5 strong {
+	  color: $mauve;
+		font-weight: bold;
+	}
+	
 		
 	#homePage ul#border li {
-		width: 138px; /* 306 width with 4px border on each side*/
+/*		width: 138px;  138 / 642 */
+    width: 21.49532710280374%;
 		float:left;
 		border:none;
-		margin: 44px 30px  0 0;
-		padding:0;
+/*		margin: 44px 30px  0 0;  30 / 642 */
+		margin:44px 4.67289719626168% 0 0;
 	}
 	
 	#homePage ul#border li:last-child {
@@ -215,13 +290,27 @@ background-color: transparent;
 	.hideDesktop {
 		display:none;
 	}
+  .gallery #content {
+	  background-color:$darkBlue;
+	}
 	
+
 	
-		
+	.gallery #content h3, #gallery #content strong, #art #content h3 strong {
+	  color:$yellow;
+	}
+	
+	.gallery p, .gallery p strong {
+	  color: $green;
+	}
+	
+
+			
 	#art h2 + img {
 		float:left;
 		margin: 0 20px 0 0;
 	}
+	
 	
 	h2, h3 {
 		clear:both;
@@ -234,7 +323,6 @@ background-color: transparent;
 	
 	.gallery ul + h2 {
 		margin: 100px 0 22px 0;
-	 background-color:red;
 	}
 	
 	.gallery h3 {
@@ -257,53 +345,101 @@ background-color: transparent;
 		margin: 32px 0 0 0;
 	}
 	
-	.gallery #content ul li, #content ul.gallery li {
-		width: 214px; /* 306 width with 4px border on each side*/
+.gallery #content ul li, #content ul.gallery li {
+/*		width: 214px;   214/810 306 width with 4px border on each side
+   ignoring border = 222/810
+*/
+    width: 26.41975308641975%;  
+/*width: 27.40740740740741%;*/
 		float:left;
-		margin: 0 38px 0 0;
+/*		margin: 0 38px 0 0;  38/810  */
+		margin: 0 04.69135802469136% 0 0;
 	}
-	
+
+.page #content ul li img {
+    border:none;
+}
+
 	.gallery #content ul li:nth-child(3n+3), , #content ul.gallery li:nth-child(3n+3)  {
 		margin-right:0;
 		margin-bottom:88px;
 	}
-	
+
 	#travel ul li:nth-child(3n+3) {
 		margin-bottom: 30px;
 	}
-	
-	
+
+
 	.page #content ul li img + p {
 		margin: -10px 0 0 0;
 		line-height: 16px;
 	}
 	
-	
 	#content p:first-child {
 		margin: 0 0 44px 0;
 	}
 	
-	#portfolio strong, #resume strong {
-		border: 1px solid black;
-	}
-	
+
 	
 	#portfolio ul + h2{
 		 margin: 44px 0 0 0;
 	}
+
+
 	
 	#portfolio #content ul li ul.columnBlock li {
-		width: 222px;
+/*		width: 222px;   222/810  */
+		width: 27.40740740740741%;
 		float:left;
-		margin: 22px 30px 44px 0;
+/*		margin: 22px 30px 44px 0;  30/810 */
+		margin: 22px 03.7037037037037% 44px 0px;
 	}
 	
 	#portfolio #content ul li ul.columnBlock li:nth-child(3n+3) {
 		margin-right:0;
 	}
-	
+
+
+#resume #content, #portfolio #content, #theLab #content {
+  background-color: $yellow;
+	@include border-radius($radius);
+}
+#resume li, #portfolio li, #portfolio #content h2 + ul li ul li, #portfolio #content h2 + ul li, #theLab p {
+  color:$darkBlue;
+}	
+#resume h2, #resume h3, #portfolio h2, #portfolio h3 {
+  color:$mauve;
+}
+
+#portfolio a, #theLab a {
+  color: $darkBlue;
+	font-weight: bold;
+}
+
+#portfolio a, p, li {
+  color: $mauve;
+}
+
+#theLab #content p {
+  margin: 22px 0 0 0;
+}
+#resume strong, #portfolio #content h2 + ul li ul li strong {
+	color: $darkBlue;
+  background-color: #a6a862; 
+	@include border-radius($radius);
+	border: 1px solid $green;
+  padding: 0 2px 0 2px;
+}
+
+#resume strong a, #portfolio #content a, #portfolio #content h2 + ul li ul li a {
+  color: $darkBlue;
+	font-weight:bold;
+	outline-color:$darkBlue;
+}
+
 	#resume #content h2 + ul li{
-		margin: 0 0 0 16px;
+/*		margin: 0 0 0 16px;   16 / 810 */
+     margin: 0 0 0 01.97530864197531%;
 	}
 	
 	.columnBlock + h2 {
@@ -323,15 +459,13 @@ background-color: transparent;
 		clear:both;
 	}
 	
-	#resume #content .columnBlock h4 + ul + li{
-		background-color:red;
-	}
-	
 	
 	#resume #content ul.columnBlock  li {
-		width:306px;
+/*		width:306px;  306 / 810 */
+		width: 37.77777777777778%;
 		float:left;
-		margin:0 114px 22px 16px;
+/*		margin:0 114px 22px 16px; 114/810  16/810  */
+     margin: 0 14.07407407407407% 22px 01.97530864197531%;
 	}
 	
 	#resume #content ul.columnBlock  li:nth-child(2n+2){
@@ -340,25 +474,50 @@ background-color: transparent;
 	
 	
 	#theLab #content{
-		width: 612px;
-		margin: 0 0 0 30px;
 	}
+
+
+#nav ul li {
+  $color: $mauve;
+}	
+
+#nav.hideMobile a {
+  color: $yellow;
+paddding-left:20px
+}	
+
+
+#nav.hideMobile a:hover {
+  background-color:$yellow;
+	color: $mauve;
+	font-weight:bold;
+}
 	
 	.page #nav {
 		float:left;
 		left:0;
 		right:0;
 		top:0;
-		width: 138px;
+		width: 138px;  
+/*    width: 14.11042944785276%; */
 		clear:none;
 		position:relative;
 		text-align:left;
 	}
 	
-	/*      background-color:red;       */
+
+
+#nav a {
+  width: 57.97101449275362%;
+  float: left;
+  text-decoration: none;
+  padding: 0;
+  text-align: center;
+
+}
 	
 	#nav a{
-		padding: 0 5px 0 0px;
+		padding: 0 px;
 		text-align:left;
 	}
 	
@@ -369,7 +528,7 @@ background-color: transparent;
 	}
 	#nav ul.subNav li, #nav ul.subNav li a {
 		margin: 0 0 0 10px;
-		color:red;
+
 		text-align:left;
 	} 
 	
