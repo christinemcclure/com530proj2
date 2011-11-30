@@ -1,4 +1,4 @@
-/* line 17, ../../../RailsInstaller/Ruby1.8.7/lib/ruby/gems/1.8/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 17, ../../.rvm/gems/ruby-1.9.2-p290/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -20,45 +20,45 @@ time, mark, audio, video {
   vertical-align: baseline;
 }
 
-/* line 20, ../../../RailsInstaller/Ruby1.8.7/lib/ruby/gems/1.8/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 20, ../../.rvm/gems/ruby-1.9.2-p290/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 body {
   line-height: 1;
 }
 
-/* line 22, ../../../RailsInstaller/Ruby1.8.7/lib/ruby/gems/1.8/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 22, ../../.rvm/gems/ruby-1.9.2-p290/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 ol, ul {
   list-style: none;
 }
 
-/* line 24, ../../../RailsInstaller/Ruby1.8.7/lib/ruby/gems/1.8/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 24, ../../.rvm/gems/ruby-1.9.2-p290/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
 
-/* line 26, ../../../RailsInstaller/Ruby1.8.7/lib/ruby/gems/1.8/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 26, ../../.rvm/gems/ruby-1.9.2-p290/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 caption, th, td {
   text-align: left;
   font-weight: normal;
   vertical-align: middle;
 }
 
-/* line 28, ../../../RailsInstaller/Ruby1.8.7/lib/ruby/gems/1.8/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 28, ../../.rvm/gems/ruby-1.9.2-p290/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 q, blockquote {
   quotes: none;
 }
-/* line 101, ../../../RailsInstaller/Ruby1.8.7/lib/ruby/gems/1.8/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 101, ../../.rvm/gems/ruby-1.9.2-p290/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 q:before, q:after, blockquote:before, blockquote:after {
   content: "";
   content: none;
 }
 
-/* line 30, ../../../RailsInstaller/Ruby1.8.7/lib/ruby/gems/1.8/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 30, ../../.rvm/gems/ruby-1.9.2-p290/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 a img {
   border: none;
 }
 
-/* line 114, ../../../RailsInstaller/Ruby1.8.7/lib/ruby/gems/1.8/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 114, ../../.rvm/gems/ruby-1.9.2-p290/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
   display: block;
 }
@@ -1049,7 +1049,12 @@ input, textarea {
     margin: 22px 0 0 0;
   }
 
-  /* line 426, ../sass/_standard.scss */
+  /* line 427, ../sass/_standard.scss */
+  #theLab h3 {
+    margin: 44px 0 0 0;
+  }
+
+  /* line 431, ../sass/_standard.scss */
   #resume strong, #portfolio #content h2 + ul li ul li strong {
     color: #1a2530;
     background-color: #a6a862;
@@ -1063,42 +1068,42 @@ input, textarea {
     padding: 0 2px 0 2px;
   }
 
-  /* line 434, ../sass/_standard.scss */
+  /* line 439, ../sass/_standard.scss */
   #resume strong a, #portfolio #content a, #portfolio #content h2 + ul li ul li a {
     color: #1a2530;
     font-weight: bold;
     outline-color: #1a2530;
   }
 
-  /* line 440, ../sass/_standard.scss */
+  /* line 445, ../sass/_standard.scss */
   #resume #content h2 + ul li {
     /*		margin: 0 0 0 16px;   16 / 810 */
     margin: 0 0 0 01.97530864197531%;
   }
 
-  /* line 445, ../sass/_standard.scss */
+  /* line 450, ../sass/_standard.scss */
   .columnBlock + h2 {
     margin: 22px 0 22px 0;
   }
 
-  /* line 448, ../sass/_standard.scss */
+  /* line 453, ../sass/_standard.scss */
   #resume h3 {
     margin: 0 0 0 0;
     line-height: 22px;
   }
 
-  /* line 453, ../sass/_standard.scss */
+  /* line 458, ../sass/_standard.scss */
   #resume h3 + p {
     margin: 0px 0 0 0;
   }
 
-  /* line 457, ../sass/_standard.scss */
+  /* line 462, ../sass/_standard.scss */
   #resume h4 {
     margin: 22px 0 22px 0;
     clear: both;
   }
 
-  /* line 463, ../sass/_standard.scss */
+  /* line 468, ../sass/_standard.scss */
   #resume #content ul.columnBlock li {
     /*		width:306px;  306 / 810 */
     width: 37.77777777777778%;
@@ -1107,25 +1112,25 @@ input, textarea {
     margin: 0 14.07407407407407% 22px 01.97530864197531%;
   }
 
-  /* line 471, ../sass/_standard.scss */
+  /* line 476, ../sass/_standard.scss */
   #resume #content ul.columnBlock li:nth-child(2n+2) {
     margin-right: 0;
   }
 
-  /* line 484, ../sass/_standard.scss */
+  /* line 489, ../sass/_standard.scss */
   #nav.hideMobile a {
     color: #bdbf6f;
     paddding-left: 20px;
   }
 
-  /* line 490, ../sass/_standard.scss */
+  /* line 495, ../sass/_standard.scss */
   #nav.hideMobile a:hover {
     background-color: #bdbf6f;
     color: #4a4457;
     font-weight: bold;
   }
 
-  /* line 496, ../sass/_standard.scss */
+  /* line 501, ../sass/_standard.scss */
   .page #nav {
     float: left;
     left: 0;
@@ -1138,7 +1143,7 @@ input, textarea {
     text-align: left;
   }
 
-  /* line 510, ../sass/_standard.scss */
+  /* line 515, ../sass/_standard.scss */
   #nav a {
     width: 57.97101449275362%;
     float: left;
@@ -1147,19 +1152,19 @@ input, textarea {
     text-align: center;
   }
 
-  /* line 519, ../sass/_standard.scss */
+  /* line 524, ../sass/_standard.scss */
   #nav a {
     padding: 0 px;
     text-align: left;
   }
 
-  /* line 525, ../sass/_standard.scss */
+  /* line 530, ../sass/_standard.scss */
   #nav ul li.mainNav, #nav ul li.mainNav a {
     text-align: left;
     /* 	margin: 0 0 22px 0;   figure this out later*/
   }
 
-  /* line 529, ../sass/_standard.scss */
+  /* line 534, ../sass/_standard.scss */
   #nav ul.subNav li, #nav ul.subNav li a {
     margin: 0 0 0 10px;
     text-align: left;
